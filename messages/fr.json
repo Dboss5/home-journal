@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "services": "Services",
+    "journal": "Journal",
+    "about": "À propos",
+    "quote": "Obtenir un Devis"
+  },
+  "footer": {
+    "tagline": "Le guide de confiance pour chaque coin de votre maison.",
+    "services": "Services",
+    "company": "Entreprise",
+    "about": "À propos",
+    "journal": "Journal",
+    "quote": "Obtenir un Devis",
+    "brands": "Nos Marques",
+    "disclosure": "Homefront Journal est une plateforme de ressources et de recommandations pour propriétaires. Nous pouvons vous mettre en relation avec des prestataires locaux vérifiés, y compris des marques partenaires avec lesquelles nous travaillons étroitement.",
+    "rights": "Tous droits réservés."
+  },
+  "services": {
+    "pool": "Services de Piscine",
+    "hvac": "CVC",
+    "pest": "Lutte Antiparasitaire",
+    "plumbing": "Plomberie",
+    "lighting": "Éclairage des Fêtes",
+    "landscape": "Aménagement Paysager",
+    "hardscape": "Aménagement Minéral"
+  },
+  "home": {
+    "eyebrow": "Bienvenue",
+    "title": "Homefront Journal",
+    "subtitle": "Le guide de confiance pour chaque coin de votre maison. Page d'accueil bientôt disponible.",
+    "cta": "Obtenir un Devis"
+  },
+  "preferences": {
+    "trigger": "Ouvrir les préférences",
+    "title": "Préférences",
+    "subtitle": "Personnalisez",
+    "theme": "Thème",
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Système",
+    "focus": "Mode Concentration",
+    "focusDesc": "Élimine les distractions pour une lecture adaptée au TDAH.",
+    "calm": "Mode Calme",
+    "calmDesc": "Atténue le mouvement et les couleurs pour un confort sensoriel.",
+    "vision": "Mode Vision",
+    "visionDesc": "Texte plus grand, espacement plus large, contours plus marqués.",
+    "dyslexic": "Utiliser une police adaptée à la dyslexie",
+    "textSize": "Taille du texte",
+    "reset": "Réinitialiser",
+    "close": "Fermer les préférences"
+  },
+  "language": {
+    "label": "Langue",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français"
+  },
+  "servicePage": {
+  "eyebrow": "Service",
+  "subtitle": "Des pros locaux vérifiés, des prix transparents, et le savoir-faire pour bien faire du premier coup.",
+  "cta": "Obtenir un Devis",
+  "back": "Tous les Services",
+  "featuresTitle": "Ce qui est inclus",
+  "featuresHeadline": "Tout est couvert — rien de gonflé.",
+  "vettingTitle": "Ce qu'il faut rechercher",
+  "vettingHeadline": "Comment nous vérifions chaque pro de notre réseau.",
+  "costsTitle": "Coûts typiques",
+  "costsHeadline": "Des chiffres réels, sans rétention.",
+  "costsNote": "Les fourchettes reflètent les tarifs typiques du marché. Votre devis réel dépend de la portée, de la région et du timing.",
+  "faqTitle": "Questions fréquentes",
+  "faqHeadline": "Des réponses avant même de demander.",
+  "finalTitle": "Prêt à tout régler ?",
+  "finalSub": "Trouvez un pro local vérifié en moins d'une minute."
+}
+}

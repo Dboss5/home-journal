@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "journal": "Revista",
+    "about": "Nosotros",
+    "quote": "Pedir Cotización"
+  },
+  "footer": {
+    "tagline": "La guía de confianza para cada rincón de tu hogar.",
+    "services": "Servicios",
+    "company": "Compañía",
+    "about": "Nosotros",
+    "journal": "Revista",
+    "quote": "Pedir Cotización",
+    "brands": "Nuestras Marcas",
+    "disclosure": "Homefront Journal es una plataforma de recursos y referencias para propietarios. Podemos conectarte con proveedores locales verificados, incluidas marcas asociadas con las que trabajamos estrechamente.",
+    "rights": "Todos los derechos reservados."
+  },
+  "services": {
+    "pool": "Servicios de Piscina",
+    "hvac": "Climatización",
+    "pest": "Control de Plagas",
+    "plumbing": "Plomería",
+    "lighting": "Iluminación Navideña",
+    "landscape": "Jardinería",
+    "hardscape": "Paisajismo Duro"
+  },
+  "home": {
+    "eyebrow": "Bienvenido",
+    "title": "Homefront Journal",
+    "subtitle": "La guía de confianza para cada rincón de tu hogar. Página principal próximamente.",
+    "cta": "Pedir Cotización"
+  },
+  "preferences": {
+    "trigger": "Abrir preferencias",
+    "title": "Preferencias",
+    "subtitle": "Hazlo tuyo",
+    "theme": "Tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema",
+    "focus": "Modo Enfoque",
+    "focusDesc": "Elimina distracciones para una lectura amigable con TDAH.",
+    "calm": "Modo Calma",
+    "calmDesc": "Suaviza el movimiento y los colores para mayor comodidad sensorial.",
+    "vision": "Modo Visión",
+    "visionDesc": "Texto más grande, mayor espaciado y contornos más marcados.",
+    "dyslexic": "Usar fuente para dislexia",
+    "textSize": "Tamaño del texto",
+    "reset": "Restablecer",
+    "close": "Cerrar preferencias"
+  },
+  "language": {
+    "label": "Idioma",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français"
+  },
+
+  "servicePage": {
+  "eyebrow": "Servicio",
+  "subtitle": "Profesionales locales verificados, precios transparentes y el conocimiento para hacerlo bien la primera vez.",
+  "cta": "Pedir Cotización",
+  "back": "Todos los Servicios",
+  "featuresTitle": "Qué incluye",
+  "featuresHeadline": "Todo cubierto — nada de relleno.",
+  "vettingTitle": "Qué buscar",
+  "vettingHeadline": "Cómo verificamos a cada profesional de nuestra red.",
+  "costsTitle": "Costos típicos",
+  "costsHeadline": "Números reales, sin reservas.",
+  "costsNote": "Los rangos reflejan tarifas típicas del mercado. Tu cotización real depende del alcance, la región y el momento.",
+  "faqTitle": "Preguntas frecuentes",
+  "faqHeadline": "Respuestas antes de preguntar.",
+  "finalTitle": "¿Listo para resolverlo?",
+  "finalSub": "Encuentra un profesional local verificado en menos de un minuto."
+}
+}

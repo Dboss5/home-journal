@@ -1,0 +1,83 @@
+
+
+{
+  "nav": {
+    "services": "Services",
+    "journal": "Journal",
+    "about": "About",
+    "quote": "Get a Quote"
+  },
+  "footer": {
+    "tagline": "The trusted guide to every corner of your home.",
+    "services": "Services",
+    "company": "Company",
+    "about": "About",
+    "journal": "Journal",
+    "quote": "Get a Quote",
+    "brands": "Our Brands",
+    "disclosure": "Homefront Journal is a homeowner resource and referral platform. We may connect you with vetted local providers, including partner brands we work closely with.",
+    "rights": "All rights reserved."
+  },
+  "services": {
+    "pool": "Pool Services",
+    "hvac": "HVAC",
+    "pest": "Pest Control",
+    "plumbing": "Plumbing",
+    "lighting": "Holiday Lighting",
+    "landscape": "Landscape",
+    "hardscape": "Hardscape"
+  },
+  "home": {
+    "eyebrow": "Welcome",
+    "title": "Homefront Journal",
+    "subtitle": "The trusted guide to every corner of your home. Homepage coming next.",
+    "cta": "Get a Quote"
+  },
+  "preferences": {
+    "trigger": "Open preferences",
+    "title": "Preferences",
+    "subtitle": "Make it yours",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "focus": "Focus Mode",
+    "focusDesc": "Strips distractions, tightens the page for ADHD-friendly reading.",
+    "calm": "Calm Mode",
+    "calmDesc": "Mutes motion and softens colour for sensory comfort.",
+    "vision": "Vision Mode",
+    "visionDesc": "Larger type, wider spacing, stronger focus outlines.",
+    "dyslexic": "Use dyslexia-friendly font",
+    "textSize": "Text size",
+    "reset": "Reset to defaults",
+    "close": "Close preferences"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français"
+  },
+
+  "servicePage": {
+  "eyebrow": "Service",
+  "subtitle": "Vetted local pros, transparent pricing, and the know-how to make it right the first time.",
+  "cta": "Get a Quote",
+  "back": "All Services",
+  "featuresTitle": "What's included",
+  "featuresHeadline": "Everything covered — nothing padded.",
+  "vettingTitle": "What to look for",
+  "vettingHeadline": "How we vet every pro on our network.",
+  "costsTitle": "Typical costs",
+  "costsHeadline": "Real numbers, no gatekeeping.",
+  "costsNote": "Ranges reflect typical market rates. Your actual quote depends on scope, region, and timing.",
+  "faqTitle": "Common questions",
+  "faqHeadline": "Answers before you ask.",
+  "finalTitle": "Ready to get it handled?",
+  "finalSub": "Get matched with a vetted local pro in under a minute."
+}
+
+  
+}
+
+
