@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import { Menu, X } from "lucide-react";
@@ -19,14 +20,19 @@ export function Header() {
   return (
     <header className="hf-header">
       <div className="hf-header-inner">
+        {/* ---------- Logo ---------- */}
         <Link href="/" className="hf-logo" aria-label="Homefront Journal — home">
-          <span className="hf-logo-mark">HF</span>
-          <span className="hf-logo-text">
-            <span className="hf-logo-name">Homefront</span>
-            <span className="hf-logo-sub">Journal</span>
-          </span>
+          <Image
+            src="/logo/Homefront Journal.png"
+            alt=""
+            width={160}
+            height={40}
+            priority
+            className="hf-logo-img"
+          />
         </Link>
 
+        {/* ---------- Desktop nav ---------- */}
         <nav className="hf-nav" aria-label="Primary">
           {NAV.map((item) => (
             <Link key={item.href} href={item.href} className="hf-nav-link">
@@ -39,20 +45,25 @@ export function Header() {
           </Link>
         </nav>
 
-        <button
-          className="hf-menu-btn"
-          aria-label={open ? "Close menu" : "Open menu"}
-          aria-expanded={open}
-          onClick={() => setOpen((v) => !v)}
-        >
-          {open ? (
-            <X size={22} strokeWidth={1.7} />
-          ) : (
-            <Menu size={22} strokeWidth={1.7} />
-          )}
-        </button>
+        {/* ---------- Mobile controls (always visible) ---------- */}
+        <div className="hf-mobile-controls">
+          <LanguageSwitcher />
+          <button
+            className="hf-menu-btn"
+            aria-label={open ? "Close menu" : "Open menu"}
+            aria-expanded={open}
+            onClick={() => setOpen((v) => !v)}
+          >
+            {open ? (
+              <X size={22} strokeWidth={1.7} />
+            ) : (
+              <Menu size={22} strokeWidth={1.7} />
+            )}
+          </button>
+        </div>
       </div>
 
+      {/* ---------- Mobile drawer ---------- */}
       {open && (
         <div className="hf-mobile-nav">
           {NAV.map((item) => (
@@ -65,12 +76,9 @@ export function Header() {
               {t(item.key)}
             </Link>
           ))}
-          <div className="hf-mobile-lang">
-            <LanguageSwitcher />
-          </div>
           <Link
             href="/quote"
-            className="btn btn-primary"
+            className="btn btn-primary hf-mobile-cta"
             onClick={() => setOpen(false)}
           >
             {t("quote")}
@@ -98,51 +106,27 @@ export function Header() {
           justify-content: space-between;
           gap: 24px;
         }
+
+        /* ---------- Logo ---------- */
         .hf-logo {
           display: flex;
           align-items: center;
-          gap: 12px;
           color: var(--ink);
           position: relative;
           z-index: 2;
+          flex-shrink: 0;
         }
         .hf-logo:hover {
           color: var(--ink);
         }
-        .hf-logo-mark {
-          width: 40px;
+        .hf-logo-img {
           height: 40px;
-          display: grid;
-          place-items: center;
-          border: 1px solid var(--gold);
-          border-radius: 50%;
-          color: var(--gold);
-          font-family: var(--font-accent);
-          font-weight: 700;
-          font-size: 0.85rem;
-          letter-spacing: 0.05em;
-          flex-shrink: 0;
+          width: auto;
+          display: block;
+          object-fit: contain;
         }
-        .hf-logo-text {
-          display: flex;
-          flex-direction: column;
-          line-height: 1;
-          min-width: 0;
-        }
-        .hf-logo-name {
-          font-family: var(--font-display);
-          font-weight: 700;
-          font-size: 1.15rem;
-          letter-spacing: -0.01em;
-        }
-        .hf-logo-sub {
-          font-family: var(--font-accent);
-          text-transform: uppercase;
-          letter-spacing: 0.28em;
-          font-size: 0.6rem;
-          color: var(--gold);
-          margin-top: 3px;
-        }
+
+        /* ---------- Desktop nav ---------- */
         .hf-nav {
           display: flex;
           align-items: center;
@@ -178,15 +162,25 @@ export function Header() {
           padding: 0.7rem 1.2rem;
           font-size: 0.7rem;
         }
-        .hf-menu-btn {
+
+        /* ---------- Mobile controls ---------- */
+        .hf-mobile-controls {
           display: none;
+          align-items: center;
+          gap: 12px;
+        }
+        .hf-menu-btn {
           background: transparent;
           border: 1px solid var(--border);
           color: var(--ink);
           border-radius: var(--radius-sm);
           padding: 8px;
           cursor: pointer;
+          display: grid;
+          place-items: center;
         }
+
+        /* ---------- Mobile drawer ---------- */
         .hf-mobile-nav {
           display: none;
           flex-direction: column;
@@ -205,19 +199,27 @@ export function Header() {
           padding: 14px 4px;
           border-bottom: 1px solid var(--border);
         }
-        .hf-mobile-lang {
-          padding: 12px 4px;
+        .hf-mobile-cta {
+          margin-top: 16px;
         }
+
+        /* ---------- Breakpoint ---------- */
         @media (max-width: 820px) {
+          .hf-header-inner {
+            padding: 12px 20px;
+            gap: 12px;
+          }
           .hf-nav {
             display: none;
           }
-          .hf-menu-btn {
-            display: grid;
-            place-items: center;
+          .hf-mobile-controls {
+            display: flex;
           }
           .hf-mobile-nav {
             display: flex;
+          }
+          .hf-logo-img {
+            height: 34px;
           }
         }
       `}</style>
