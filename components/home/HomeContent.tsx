@@ -15,9 +15,10 @@ import {
   Star,
   ArrowRight,
 } from "lucide-react";
+import { FeaturedAnimations } from "./FeaturedAnimations";
 
+/* HOME STYLES — unchanged from current file */
 const HOME_STYLES = `
-/* ---------- HERO ---------- */
 .hf-hero {
   position: relative;
   overflow: hidden;
@@ -52,8 +53,6 @@ const HOME_STYLES = `
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/></svg>");
   mix-blend-mode: overlay;
 }
-
-/* ---------- TRUST STRIP ---------- */
 .hf-trust { padding: 24px 0; border-bottom: 1px solid var(--border); }
 .hf-trust-inner { max-width: 1200px; margin: 0 auto; display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; }
 .hf-trust-item {
@@ -61,8 +60,6 @@ const HOME_STYLES = `
   font-family: var(--font-accent); text-transform: uppercase;
   letter-spacing: 0.16em; font-size: 0.72rem; font-weight: 600; color: var(--gold);
 }
-
-/* ---------- SECTION HEADS ---------- */
 .hf-section-head, .hf-section-head-center { text-align: center; margin-bottom: 56px; }
 .hf-section-head-center .accent-label { display: block; }
 .hf-section-title {
@@ -71,8 +68,6 @@ const HOME_STYLES = `
   margin: 12px 0 0;
   color: var(--ink);
 }
-
-/* ---------- SERVICES GRID ---------- */
 .hf-services { padding: 96px 0; }
 .hf-services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
 .hf-service-card {
@@ -94,8 +89,6 @@ const HOME_STYLES = `
 .hf-service-label { font-family: var(--font-display); font-weight: 600; font-size: 1.15rem; color: var(--ink); }
 .hf-service-arrow { margin-top: auto; color: var(--red); transition: transform var(--motion-duration) var(--motion-ease); }
 .hf-service-card:hover .hf-service-arrow { transform: translateX(6px); }
-
-/* ---------- HOW IT WORKS ---------- */
 .hf-how { padding: 96px 24px; background: var(--surface-alt); margin: 0 -24px; }
 .hf-how-grid { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
 .hf-how-step { display: flex; flex-direction: column; gap: 12px; }
@@ -106,8 +99,6 @@ const HOME_STYLES = `
 .hf-how-title { font-family: var(--font-display); font-size: 1.3rem; margin: 0; }
 .hf-how-body { color: var(--ink-muted); line-height: 1.6; }
 @media (max-width: 820px) { .hf-how-grid { grid-template-columns: 1fr; gap: 32px; } }
-
-/* ---------- WHY US ---------- */
 .hf-why { padding: 96px 0; }
 .hf-why-inner {
   max-width: 1200px; margin: 0 auto; display: grid;
@@ -132,8 +123,6 @@ const HOME_STYLES = `
   .hf-why-inner { grid-template-columns: 1fr; gap: 40px; }
   .hf-why-image { aspect-ratio: 16 / 10; }
 }
-
-/* ---------- JOURNAL PREVIEW ---------- */
 .hf-journal { padding: 96px 0; }
 .hf-journal-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
 .hf-journal-card {
@@ -156,8 +145,6 @@ const HOME_STYLES = `
   letter-spacing: 0.14em; font-size: 0.7rem; font-weight: 600; color: var(--red);
 }
 .hf-journal-footer { display: flex; justify-content: center; margin-top: 48px; }
-
-/* ---------- FINAL CTA ---------- */
 .hf-cta {
   background: var(--red); color: #fff;
   padding: 80px 24px; margin: 96px -24px 0; text-align: center;
@@ -177,6 +164,7 @@ export function HomeContent() {
       <TrustStrip />
       <ServicesGrid />
       <HowItWorks />
+      <FeaturedAnimations />
       <WhyUs />
       <JournalPreview />
       <FinalCTA />
