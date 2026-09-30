@@ -8,7 +8,7 @@ import { LottiePlayer } from "@/components/common/LottiePlayer";
 const FEATURED = [
   { key: "pool" as const, href: "/services/pool" },
   { key: "hvac" as const, href: "/services/hvac" },
-  { key: "plumbing" as const, href: "/services/plumbing" },
+  { key: "landscape" as const, href: "/services/landscape" },
 ];
 
 const STYLES = `

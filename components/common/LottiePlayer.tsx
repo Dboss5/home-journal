@@ -1,17 +1,22 @@
 "use client";
 
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import dynamic from "next/dynamic";
 import { usePreferences } from "@/components/providers/PreferencesProvider";
 import { useEffect, useState } from "react";
 
+const LottieInner = dynamic(() => import("./LottieInner"), { ssr: false });
+
+type AnimationName = "hvac" | "pool" | "landscape";
+
 interface LottiePlayerProps {
-  /** Base name — loads {name}-light.lottie or {name}-dark.lottie */
-  name: "hvac" | "pool" | "plumbing";
+  name: AnimationName;
   className?: string;
   ariaLabel?: string;
   forceTheme?: "light" | "dark";
   loop?: boolean;
 }
+
+const animationCache: Record<string, any> = {};
 
 export function LottiePlayer({
   name,
@@ -22,6 +27,7 @@ export function LottiePlayer({
 }: LottiePlayerProps) {
   const { prefs } = usePreferences();
   const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [animationData, setAnimationData] = useState<any>(null);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -52,12 +58,39 @@ export function LottiePlayer({
     }
   }, [prefs.theme, forceTheme]);
 
-  const src = `/lottie/${name}-${theme}.lottie`;
+  useEffect(() => {
+    if (!mounted) return;
+    const key = `${name}-${theme}`;
 
-  // Calm Mode pauses playback — respects sensory sensitivity
+    if (animationCache[key]) {
+      setAnimationData(animationCache[key]);
+      return;
+    }
+
+    let cancelled = false;
+    fetch(`/lottie/${key}.json`)
+      .then((res) => {
+        if (!res.ok) throw new Error(`Failed to fetch ${key}`);
+        return res.json();
+      })
+      .then((data) => {
+        if (cancelled) return;
+        animationCache[key] = data;
+        setAnimationData(data);
+      })
+      .catch((err) => {
+        console.warn(`[LottiePlayer] ${err.message}`);
+        if (!cancelled) setAnimationData(null);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [name, theme, mounted]);
+
   const shouldPlay = !prefs.calm;
 
-  if (!mounted) {
+  if (!mounted || !animationData) {
     return <div className={className} aria-hidden />;
   }
 
@@ -67,11 +100,10 @@ export function LottiePlayer({
       role="img"
       aria-label={ariaLabel || `${name} animation`}
     >
-      <DotLottieReact
-        src={src}
+      <LottieInner
+        animationData={animationData}
         loop={loop && shouldPlay}
         autoplay={shouldPlay}
-        style={{ width: "100%", height: "100%" }}
       />
     </div>
   );
