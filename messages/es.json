@@ -57,7 +57,41 @@
     "fr": "Français"
   },
 
-  "servicePage": {
+  "home": {
+  "eyebrow": "Bienvenido",
+  "title": "Homefront Journal",
+  "subtitle": "La guía de confianza para cada rincón de tu hogar. Página principal próximamente.",
+  "cta": "Pedir Cotización",
+  "heroTitle": "La guía de confianza para cada rincón de tu hogar.",
+  "heroSub": "Piscina, climatización, plagas, plomería, iluminación, jardinería, paisajismo — y una red selecta de profesionales locales que sí se presentan.",
+  "heroCta2": "Explorar Servicios",
+  "trustVetted": "Pros Verificados",
+  "trustLocal": "Red Local",
+  "trustRated": "Calificación 5 Estrellas",
+  "servicesEyebrow": "Qué cubrimos",
+  "servicesTitle": "Cada rincón de tu propiedad.",
+  "howEyebrow": "Cómo funciona",
+  "howTitle": "Simple como uno, dos, tres.",
+  "howStep1Title": "Cuéntanos qué necesitas",
+  "howStep1Body": "Elige tu servicio y código postal. Toma 30 segundos.",
+  "howStep2Title": "Encuentra un profesional",
+  "howStep2Body": "Te conectamos con un profesional local verificado en quien confiaríamos en nuestra propia casa.",
+  "howStep3Title": "Reserva y relájate",
+  "howStep3Body": "Confirma el trabajo y vuelve a disfrutar tu hogar.",
+  "whyEyebrow": "Por qué Homefront",
+  "whyTitle": "Nosotros mantenemos el estándar — tú no tienes que hacerlo.",
+  "whyBody1": "Homefront Journal fue creado por personas que realmente trabajan en servicios para el hogar. Sabemos cómo se ve un buen trabajo, y sabemos cuánto cuesta cuando contratas a la persona equivocada. Así que construimos un recurso que corta el ruido.",
+  "whyBody2": "Cada profesional que recomendamos ha sido verificado. Cada artículo que publicamos está escrito para ayudarte a tomar mejores decisiones — no para venderte algo que no necesitas.",
+  "whyCta": "Conoce más sobre nosotros",
+  "journalEyebrow": "Del Journal",
+  "journalTitle": "Lee antes de contratar.",
+  "journalRead": "Leer artículo",
+  "journalBrowse": "Ver todos los artículos",
+  "finalTitle": "¿Listo para resolverlo?",
+  "finalSub": "Encuentra un profesional local verificado en menos de un minuto."
+},
+
+"servicePage": {
   "eyebrow": "Servicio",
   "subtitle": "Profesionales locales verificados, precios transparentes y el conocimiento para hacerlo bien la primera vez.",
   "cta": "Pedir Cotización",
@@ -73,5 +107,29 @@
   "faqHeadline": "Respuestas antes de preguntar.",
   "finalTitle": "¿Listo para resolverlo?",
   "finalSub": "Encuentra un profesional local verificado en menos de un minuto."
+},
+
+"servicesIndex": {
+  "eyebrow": "Servicios",
+  "title": "Cada rincón de tu propiedad, resuelto.",
+  "subtitle": "Siete categorías. Profesionales locales verificados. Precios transparentes. Elige lo que necesitas — nosotros hacemos el resto.",
+  "trustVetted": "Pros Verificados",
+  "trustLocal": "Red Local",
+  "trustRated": "Calificación 5 Estrellas",
+  "cardCta": "Explorar servicio",
+  "midTitle": "¿No sabes por dónde empezar?",
+  "midSub": "Cuéntanos qué está pasando. Te dirigimos al servicio correcto — sin presión, sin compromiso.",
+  "cta": "Pedir Cotización",
+  "finalTitle": "¿Listo para resolverlo?",
+  "finalSub": "Encuentra un profesional local verificado en menos de un minuto.",
+  "descriptions": {
+    "pool": "Servicio semanal, reparaciones y cuidado estacional para agua cristalina todo el año.",
+    "hvac": "Afinación, reparaciones y reemplazo de sistemas — mantén tu hogar cómodo en cada estación.",
+    "pest": "Tratamientos perimetrales, exclusión de roedores, control de termitas y remoción de vida silvestre.",
+    "plumbing": "Fugas, calentadores de agua, drenajes y retuberización — bien hecho la primera vez.",
+    "lighting": "Iluminación navideña completa: diseño, instalación, mantenimiento y retiro.",
+    "landscape": "Cuidado del césped, poda de árboles, mantillo, riego y limpiezas estacionales.",
+    "hardscape": "Patios de adoquín, muros de contención, entradas y espacios exteriores."
+  }
 }
 }

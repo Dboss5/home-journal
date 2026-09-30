@@ -56,6 +56,7 @@
     "es": "Español",
     "fr": "Français"
   },
+
   "servicePage": {
   "eyebrow": "Service",
   "subtitle": "Des pros locaux vérifiés, des prix transparents, et le savoir-faire pour bien faire du premier coup.",
@@ -72,5 +73,29 @@
   "faqHeadline": "Des réponses avant même de demander.",
   "finalTitle": "Prêt à tout régler ?",
   "finalSub": "Trouvez un pro local vérifié en moins d'une minute."
+},
+
+  "servicesIndex": {
+  "eyebrow": "Services",
+  "title": "Chaque coin de votre propriété, pris en charge.",
+  "subtitle": "Sept catégories. Des pros locaux vérifiés. Des prix transparents. Choisissez ce dont vous avez besoin — nous nous occupons du reste.",
+  "trustVetted": "Pros Vérifiés",
+  "trustLocal": "Réseau Local",
+  "trustRated": "Noté 5 Étoiles",
+  "cardCta": "Explorer le service",
+  "midTitle": "Vous ne savez pas par où commencer ?",
+  "midSub": "Dites-nous ce qui se passe. Nous vous orientons vers le bon service — sans pression, sans obligation.",
+  "cta": "Obtenir un Devis",
+  "finalTitle": "Prêt à tout régler ?",
+  "finalSub": "Trouvez un pro local vérifié en moins d'une minute.",
+  "descriptions": {
+    "pool": "Entretien hebdomadaire, réparations et soins saisonniers pour une eau cristalline toute l'année.",
+    "hvac": "Réglages, réparations et remplacement de système — gardez votre maison confortable en toute saison.",
+    "pest": "Traitements périmétriques, exclusion des rongeurs, traitement anti-termites et retrait de la faune.",
+    "plumbing": "Fuites, chauffe-eau, drains et remplacement de tuyauterie — bien fait du premier coup.",
+    "lighting": "Éclairage de fêtes complet : design, installation, entretien et démontage.",
+    "landscape": "Entretien de pelouse, taille d'arbres, paillage, irrigation et nettoyages saisonniers.",
+    "hardscape": "Terrasses en pavés, murs de soutènement, allées et espaces extérieurs."
+  }
 }
 }

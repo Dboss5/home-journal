@@ -58,8 +58,43 @@
     "es": "Español",
     "fr": "Français"
   },
+  "home": {
+  "eyebrow": "Welcome",
+  "title": "Homefront Journal",
+  "subtitle": "The trusted guide to every corner of your home. Homepage coming next.",
+  "cta": "Get a Quote",
+  "heroTitle": "The trusted guide to every corner of your home.",
+  "heroSub": "Pool, HVAC, pest, plumbing, lighting, landscape, hardscape — plus a hand-picked network of local pros who actually show up.",
+  "heroCta2": "Explore Services",
+  "trustVetted": "Vetted Pros",
+  "trustLocal": "Local Network",
+  "trustRated": "5-Star Rated",
+  "servicesEyebrow": "What we cover",
+  "servicesTitle": "Every corner of your property.",
+  "howEyebrow": "How it works",
+  "howTitle": "Simple as one, two, three.",
+  "howStep1Title": "Tell us what you need",
+  "howStep1Body": "Pick your service and zip code. Takes 30 seconds.",
+  "howStep2Title": "Get matched with a pro",
+  "howStep2Body": "We route you to a vetted local pro we'd trust in our own home.",
+  "howStep3Title": "Book and relax",
+  "howStep3Body": "Confirm the job, and get back to enjoying your home.",
+  "whyEyebrow": "Why Homefront",
+  "whyTitle": "We hold the standard — so you don't have to.",
+  "whyBody1": "Homefront Journal was built by people who actually work in home services. We know what a good job looks like, and we know what it costs when you hire the wrong person. So we built a resource that cuts through the noise.",
+  "whyBody2": "Every pro we recommend has been vetted. Every article we publish is written to help you make smarter decisions — not to sell you something you don't need.",
+  "whyCta": "Learn more about us",
+  "journalEyebrow": "From the Journal",
+  "journalTitle": "Read before you hire.",
+  "journalRead": "Read article",
+  "journalBrowse": "Browse all articles",
+  "finalTitle": "Ready to get it handled?",
+  "finalSub": "Get matched with a vetted local pro in under a minute."
+},
 
-  "servicePage": {
+
+
+"servicePage": {
   "eyebrow": "Service",
   "subtitle": "Vetted local pros, transparent pricing, and the know-how to make it right the first time.",
   "cta": "Get a Quote",
@@ -75,6 +110,30 @@
   "faqHeadline": "Answers before you ask.",
   "finalTitle": "Ready to get it handled?",
   "finalSub": "Get matched with a vetted local pro in under a minute."
+},
+
+"servicesIndex": {
+  "eyebrow": "Services",
+  "title": "Every corner of your property, handled.",
+  "subtitle": "Seven categories. Vetted local pros. Transparent pricing. Pick what you need — we'll handle the rest.",
+  "trustVetted": "Vetted Pros",
+  "trustLocal": "Local Network",
+  "trustRated": "5-Star Rated",
+  "cardCta": "Explore service",
+  "midTitle": "Not sure where to start?",
+  "midSub": "Tell us what's going on. We'll point you to the right service — no pressure, no obligation.",
+  "cta": "Get a Quote",
+  "finalTitle": "Ready to get it handled?",
+  "finalSub": "Get matched with a vetted local pro in under a minute.",
+  "descriptions": {
+    "pool": "Weekly service, repairs, and seasonal care for crystal-clear water year-round.",
+    "hvac": "Tune-ups, repairs, and system replacement — keep your home comfortable in every season.",
+    "pest": "Perimeter treatments, rodent exclusion, termite bonding, and wildlife removal.",
+    "plumbing": "Leaks, water heaters, drains, and repiping — done right the first time.",
+    "lighting": "Full-service holiday lighting: design, install, maintain, and takedown.",
+    "landscape": "Lawn care, tree trimming, mulching, irrigation, and seasonal cleanups.",
+    "hardscape": "Paver patios, retaining walls, driveways, and outdoor living spaces."
+  }
 }
 
   
