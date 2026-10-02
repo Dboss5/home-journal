@@ -134,5 +134,23 @@
     "landscape": "Cuidado del césped, poda de árboles, mantillo, riego y limpiezas estacionales.",
     "hardscape": "Patios de adoquín, muros de contención, entradas y espacios exteriores."
   }
+},
+
+"blogIndex": {
+  "eyebrow": "El Journal",
+  "title": "Lee antes de contratar.",
+  "subtitle": "Guías en lenguaje claro sobre servicios para el hogar — qué buscar, cuánto cuesta y qué evitar.",
+  "read": "Leer artículo",
+  "empty": "Aún no hay artículos. Vuelve pronto."
+},
+"blogPost": {
+  "trustTitle": "Escrito por personas que hacen el trabajo.",
+  "trustBody": "Homefront Journal es producido por operadores y editores con años en servicios para el hogar. Cada guía está escrita para ayudarte a tomar una mejor decisión — no para venderte algo.",
+  "relatedTitle": "Sigue leyendo",
+  "ctaTitle": "¿Listo para resolverlo?",
+  "ctaSub": "Encuentra un profesional local verificado en menos de un minuto.",
+  "ctaButton": "Pedir Cotización"
 }
+
+
 }

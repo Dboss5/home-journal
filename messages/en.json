@@ -137,6 +137,22 @@
     "landscape": "Lawn care, tree trimming, mulching, irrigation, and seasonal cleanups.",
     "hardscape": "Paver patios, retaining walls, driveways, and outdoor living spaces."
   }
+},
+
+"blogIndex": {
+  "eyebrow": "The Journal",
+  "title": "Read before you hire.",
+  "subtitle": "Plain-English guides on home services — what to look for, what it costs, and what to avoid.",
+  "read": "Read article",
+  "empty": "No articles yet. Check back soon."
+},
+"blogPost": {
+  "trustTitle": "Written by people who do the work.",
+  "trustBody": "Homefront Journal is produced by operators and editors who've spent years in home services. Every guide is written to help you make a smarter decision — not to sell you something.",
+  "relatedTitle": "Keep reading",
+  "ctaTitle": "Ready to get it handled?",
+  "ctaSub": "Get matched with a vetted local pro in under a minute.",
+  "ctaButton": "Get a Quote"
 }
 
   

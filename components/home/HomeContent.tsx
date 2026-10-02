@@ -624,20 +624,22 @@ function WhyUs() {
 /* ---------- JOURNAL PREVIEW ---------- */
 function JournalPreview() {
   const t = useTranslations("home");
+  const tIndex = useTranslations("blogIndex");
   const posts = [
     {
+      slug: "how-often-service-pool",
       title: "How often should you actually service your pool?",
       category: "Pool",
-      excerpt:
-        "Most homeowners do it wrong. Here's what the pros know about keeping water clear without wasting money.",
+      excerpt: "Most homeowners do it wrong. Here's what the pros know about keeping water clear without wasting money.",
     },
     {
+      slug: "signs-ac-about-to-fail",
       title: "Signs your AC is about to fail (and what to do)",
       category: "HVAC",
-      excerpt:
-        "Catch it early and you'll save thousands. Here are the warning signs that matter.",
+      excerpt: "Catch it early and you'll save thousands. Here are the warning signs that matter.",
     },
     {
+      slug: "real-cost-holiday-lighting",
       title: "The real cost of holiday light installation",
       category: "Lighting",
       excerpt: "DIY vs pro, and why the numbers might surprise you.",
@@ -651,11 +653,11 @@ function JournalPreview() {
       </div>
       <div className="hf-journal-grid">
         {posts.map((p) => (
-          <article key={p.title} className="hf-journal-card">
+          <article key={p.slug} className="hf-journal-card">
             <span className="hf-journal-cat">{p.category}</span>
             <h3 className="hf-journal-title">{p.title}</h3>
             <p className="hf-journal-excerpt">{p.excerpt}</p>
-            <Link href="/blog" className="hf-journal-link">
+            <Link href={`/blog/${p.slug}`} className="hf-journal-link">
               {t("journalRead")}
               <ArrowRight size={14} strokeWidth={2} />
             </Link>

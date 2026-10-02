@@ -100,5 +100,21 @@
     "landscape": "Entretien de pelouse, taille d'arbres, paillage, irrigation et nettoyages saisonniers.",
     "hardscape": "Terrasses en pavés, murs de soutènement, allées et espaces extérieurs."
   }
+},
+
+"blogIndex": {
+  "eyebrow": "Le Journal",
+  "title": "Lisez avant d'embaucher.",
+  "subtitle": "Des guides en langage clair sur les services à domicile — quoi rechercher, combien ça coûte, et quoi éviter.",
+  "read": "Lire l'article",
+  "empty": "Pas encore d'articles. Revenez bientôt."
+},
+"blogPost": {
+  "trustTitle": "Écrit par des gens qui font le travail.",
+  "trustBody": "Homefront Journal est produit par des opérateurs et des éditeurs avec des années dans les services à domicile. Chaque guide est écrit pour vous aider à prendre une meilleure décision — pas pour vous vendre quelque chose.",
+  "relatedTitle": "Continuez la lecture",
+  "ctaTitle": "Prêt à tout régler ?",
+  "ctaSub": "Trouvez un pro local vérifié en moins d'une minute.",
+  "ctaButton": "Obtenir un Devis"
 }
 }
