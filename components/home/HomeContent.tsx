@@ -18,9 +18,6 @@ import {
 } from "lucide-react";
 import { FeaturedAnimations } from "./FeaturedAnimations";
 
-/* ============================================================
-   HOME STYLES
-   ============================================================ */
 const HOME_STYLES = `
 /* ---------- HERO ---------- */
 .hf-hero {
@@ -31,8 +28,6 @@ const HOME_STYLES = `
   border-bottom: 1px solid color-mix(in oklab, var(--gold) 40%, transparent);
   isolation: isolate;
 }
-
-/* Slideshow background */
 .hf-hero-bg {
   position: absolute;
   inset: 0;
@@ -52,8 +47,6 @@ const HOME_STYLES = `
 .hf-hero-slide.is-active {
   opacity: 1;
 }
-
-/* Tinted veil keeps text legible over any image */
 .hf-hero-veil {
   position: absolute;
   inset: 0;
@@ -75,8 +68,6 @@ const HOME_STYLES = `
       color-mix(in oklab, var(--bg) 96%, transparent) 100%
     );
 }
-
-/* Hero content */
 .hf-hero-inner {
   max-width: 900px;
   margin: 0 auto;
@@ -107,8 +98,6 @@ const HOME_STYLES = `
   margin-top: 40px;
   flex-wrap: wrap;
 }
-
-/* Grain overlay */
 .hf-hero-grain {
   position: absolute;
   inset: 0;
@@ -118,8 +107,6 @@ const HOME_STYLES = `
   mix-blend-mode: overlay;
   z-index: 1;
 }
-
-/* Special-needs modes */
 [data-calm="true"] .hf-hero-slide,
 [data-focus="true"] .hf-hero-slide {
   transition: none !important;
@@ -435,10 +422,6 @@ const HOME_STYLES = `
 }
 `;
 
-/* ============================================================
-   HERO SLIDESHOW IMAGES
-   Drop 3 images into /public/images/hero/ and name them here.
-   ============================================================ */
 const HERO_IMAGES = [
   "/images/hero/hero-1.avif",
   "/images/hero/hero-2.avif",
@@ -447,9 +430,6 @@ const HERO_IMAGES = [
 
 const HERO_INTERVAL_MS = 7000;
 
-/* ============================================================
-   ROOT
-   ============================================================ */
 export function HomeContent() {
   return (
     <>
@@ -624,19 +604,20 @@ function WhyUs() {
 /* ---------- JOURNAL PREVIEW ---------- */
 function JournalPreview() {
   const t = useTranslations("home");
-  const tIndex = useTranslations("blogIndex");
   const posts = [
     {
       slug: "how-often-service-pool",
       title: "How often should you actually service your pool?",
       category: "Pool",
-      excerpt: "Most homeowners do it wrong. Here's what the pros know about keeping water clear without wasting money.",
+      excerpt:
+        "Most homeowners do it wrong. Here's what the pros know about keeping water clear without wasting money.",
     },
     {
       slug: "signs-ac-about-to-fail",
       title: "Signs your AC is about to fail (and what to do)",
       category: "HVAC",
-      excerpt: "Catch it early and you'll save thousands. Here are the warning signs that matter.",
+      excerpt:
+        "Catch it early and you'll save thousands. Here are the warning signs that matter.",
     },
     {
       slug: "real-cost-holiday-lighting",

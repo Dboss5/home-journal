@@ -142,7 +142,7 @@ export function ServiceContent({ service }: { service: ServiceData }) {
         <div className="hf-svc-cta-inner">
           <h2 className="hf-svc-cta-title">{tsvc("finalTitle")}</h2>
           <p className="hf-svc-cta-sub">{tsvc("finalSub")}</p>
-          <Link href="/quote" className="btn hf-svc-cta-btn">
+          <Link href={`/quote?service=${service.key}`} className="btn btn-primary">
             {tsvc("cta")}
             <ArrowRight size={16} strokeWidth={2} />
           </Link>
