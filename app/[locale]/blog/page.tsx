@@ -12,6 +12,11 @@ export default async function BlogPage({
 
   const posts = getAllPosts(locale);
 
+  console.log("=== BLOG INDEX ===");
+  console.log("locale:", locale);
+  console.log("slugs:", posts.map((p) => p.slug));
+  console.log("coverImages:", posts.map((p) => p.coverImage));
+
   return (
     <BlogIndexContent
       posts={posts.map((p) => ({
@@ -21,6 +26,7 @@ export default async function BlogPage({
         date: p.date,
         excerpt: p.excerpt,
         readingTime: p.readingTime,
+        coverImage: p.coverImage,
       }))}
     />
   );

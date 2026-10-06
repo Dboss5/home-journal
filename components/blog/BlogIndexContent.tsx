@@ -11,6 +11,7 @@ interface PostSummary {
   date: string;
   excerpt: string;
   readingTime: string;
+  coverImage?: string;
 }
 
 const STYLES = `
@@ -58,15 +59,33 @@ const STYLES = `
   aspect-ratio: 16 / 9;
   overflow: hidden;
   background: var(--surface-alt);
+  position: relative;
 }
 .hf-blog-card-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 600ms var(--motion-ease);
+  display: block;
 }
 .hf-blog-card:hover .hf-blog-card-img img {
   transform: scale(1.05);
+}
+.hf-blog-card-img-placeholder {
+  width: 100%;
+  height: 100%;
+  background:
+    radial-gradient(
+      circle at 30% 30%,
+      color-mix(in oklab, var(--red) 25%, transparent),
+      transparent 60%
+    ),
+    radial-gradient(
+      circle at 70% 70%,
+      color-mix(in oklab, var(--gold) 20%, transparent),
+      transparent 60%
+    ),
+    var(--surface-alt);
 }
 .hf-blog-card-body {
   padding: 24px 26px 26px;
@@ -155,8 +174,16 @@ export function BlogIndexContent({ posts }: { posts: PostSummary[] }) {
               className="hf-blog-card"
             >
               <div className="hf-blog-card-img">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={`/api/og?title=${encodeURIComponent(post.title)}`} alt={post.title} />
+                {post.coverImage ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={post.coverImage}
+                    alt={post.title}
+                    loading="lazy"
+                  />
+                ) : (
+                  <div className="hf-blog-card-img-placeholder" aria-hidden />
+                )}
               </div>
               <div className="hf-blog-card-body">
                 <div className="hf-blog-card-meta">

@@ -15,8 +15,10 @@ import {
   Users,
   Star,
   ArrowRight,
+  MapPin,
 } from "lucide-react";
 import { FeaturedAnimations } from "./FeaturedAnimations";
+import { CITIES } from "@/lib/locations";
 
 const HOME_STYLES = `
 /* ---------- HERO ---------- */
@@ -158,6 +160,13 @@ const HOME_STYLES = `
   margin: 12px 0 0;
   color: var(--ink);
 }
+.hf-section-sub {
+  color: var(--ink-muted);
+  font-size: 1.02rem;
+  line-height: 1.6;
+  max-width: 60ch;
+  margin: 14px auto 0;
+}
 
 /* ---------- SERVICES ---------- */
 .hf-services {
@@ -220,11 +229,89 @@ const HOME_STYLES = `
   transform: translateX(6px);
 }
 
+/* ---------- CITIES ---------- */
+.hf-cities {
+  padding: 96px 0;
+  background: var(--surface-alt);
+  margin: 0 -24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.hf-cities-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+.hf-city-card {
+  padding: 24px 22px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: all var(--motion-duration) var(--motion-ease);
+  position: relative;
+  overflow: hidden;
+}
+.hf-city-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background: var(--gold);
+  transition: width var(--motion-duration) var(--motion-ease);
+}
+.hf-city-card:hover {
+  border-color: var(--gold);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+.hf-city-card:hover::before {
+  width: 100%;
+}
+.hf-city-card-icon {
+  color: var(--gold);
+  display: inline-flex;
+}
+.hf-city-card-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: var(--ink);
+}
+.hf-city-card-meta {
+  font-family: var(--font-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.62rem;
+  font-weight: 600;
+  color: var(--ink-muted);
+}
+.hf-city-card-link {
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--red);
+  transition: gap var(--motion-duration) var(--motion-ease);
+}
+.hf-city-card:hover .hf-city-card-link {
+  gap: 12px;
+}
+
 /* ---------- HOW IT WORKS ---------- */
 .hf-how {
   padding: 96px 24px;
-  background: var(--surface-alt);
-  margin: 0 -24px;
 }
 .hf-how-grid {
   max-width: 1100px;
@@ -393,7 +480,7 @@ const HOME_STYLES = `
   background: var(--red);
   color: #fff;
   padding: 80px 24px;
-  margin: 96px -24px 0;
+  margin: 0 -24px;
   text-align: center;
 }
 .hf-cta-inner {
@@ -437,6 +524,7 @@ export function HomeContent() {
       <Hero />
       <TrustStrip />
       <ServicesGrid />
+      <CitiesGrid />
       <HowItWorks />
       <FeaturedAnimations />
       <WhyUs />
@@ -545,6 +633,51 @@ function ServicesGrid() {
             </span>
           </Link>
         ))}
+      </div>
+    </section>
+  );
+}
+
+/* ---------- CITIES GRID ---------- */
+function CitiesGrid() {
+  const tSvc = useTranslations("services");
+  const t = useTranslations("home");
+
+  return (
+    <section className="hf-cities">
+      <div className="hf-section-head">
+        <p className="accent-label">{t("citiesEyebrow")}</p>
+        <h2 className="hf-section-title">{t("citiesTitle")}</h2>
+        <p className="hf-section-sub">{t("citiesSub")}</p>
+      </div>
+      <div className="hf-cities-grid">
+        {CITIES.map((city) => (
+          <Link
+            key={city.slug}
+            href={`/services/pool/${city.slug}`}
+            className="hf-city-card"
+          >
+            <span className="hf-city-card-icon">
+              <MapPin size={22} strokeWidth={1.6} />
+            </span>
+            <span className="hf-city-card-name">
+              {city.name}, {city.state}
+            </span>
+            <span className="hf-city-card-meta">
+              {city.population} residents
+            </span>
+            <span className="hf-city-card-link">
+              {tSvc("pool")}
+              <ArrowRight size={14} strokeWidth={2} />
+            </span>
+          </Link>
+        ))}
+      </div>
+      <div className="hf-journal-footer">
+        <Link href="/services" className="btn btn-ghost">
+          {t("citiesBrowseAll")}
+          <ArrowRight size={16} strokeWidth={2} />
+        </Link>
       </div>
     </section>
   );

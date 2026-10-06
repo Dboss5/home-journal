@@ -58,6 +58,10 @@
     "journalTitle": "Read before you hire.",
     "journalRead": "Read article",
     "journalBrowse": "Browse all articles",
+"citiesEyebrow": "Where we serve",
+"citiesTitle": "Find a vetted pro in your city.",
+"citiesSub": "Real DFW cities, real local pricing, real vetted providers. Pick yours.",
+"citiesBrowseAll": "Browse all services",
     "finalTitle": "Ready to get it handled?",
     "finalSub": "Get matched with a vetted local pro in under a minute."
   },
@@ -217,5 +221,33 @@
   "successTitle": "Got it — you're all set.",
   "successBody": "A vetted local pro will reach out within a few hours. Check your email and phone for the intro.",
   "errorGeneric": "Something went wrong. Please try again or call us directly."
+},
+
+"provider": {
+  "vettedLabel": "Vetted DFW provider",
+  "visitSite": "Visit site",
+  "inlinePrefix": "If you'd rather skip the search,"
+},
+
+"serviceCity": {
+  "visitSite": "Visit site",
+  "ctaButton": "Get a Quote",
+  "knowTitle": "What to know about {service} in {city}",
+  "populationLabel": "Population",
+  "pricingLabel": "Local pricing",
+  "lookForTitle": "What to look for in a {service} pro",
+  "checklistLicense": "Licensed and insured in Texas — ask for proof before work begins.",
+  "checklistEstimate": "Written estimate up front, with parts and labor itemized.",
+  "checklistReferences": "Local references in {city} or nearby — not just Google reviews.",
+  "checklistWarranty": "Warranty on both parts and labor, in writing.",
+  "checklistNoPressure": "No pressure tactics — a good pro gives you options and lets you decide.",
+  "providerEyebrow": "Vetted {city} provider",
+  "providerPoolBlurb": "CPO-certified pool technicians serving {city} and the wider DFW metroplex.",
+  "providerSupremacyBlurb": "Licensed, insured {service} specialists serving {city} and the wider DFW metroplex.",
+  "faqTitle": "Common questions about {service} in {city}",
+  "otherServicesTitle": "Other services in {city}",
+  "otherCitiesTitle": "{service} in other DFW cities",
+  "finalTitle": "Ready to get {service} handled in {city}?",
+  "finalSub": "Get matched with a vetted local pro in under a minute."
 }
 }

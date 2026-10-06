@@ -58,6 +58,10 @@
     "journalTitle": "Lisez avant d'embaucher.",
     "journalRead": "Lire l'article",
     "journalBrowse": "Parcourir tous les articles",
+"citiesEyebrow": "Où nous servons",
+"citiesTitle": "Trouvez un pro vérifié dans votre ville.",
+"citiesSub": "De vraies villes DFW, de vrais prix locaux, de vrais prestataires vérifiés. Choisissez la vôtre.",
+"citiesBrowseAll": "Parcourir tous les services",
     "finalTitle": "Prêt à tout régler ?",
     "finalSub": "Trouvez un pro local vérifié en moins d'une minute."
   },
@@ -215,5 +219,33 @@
   "successTitle": "C'est noté — tout est prêt.",
   "successBody": "Un pro local vérifié vous contactera dans quelques heures. Surveillez votre email et votre téléphone.",
   "errorGeneric": "Une erreur est survenue. Réessayez ou appelez-nous directement."
+},
+
+"provider": {
+  "vettedLabel": "Prestataire vérifié à DFW",
+  "visitSite": "Visiter le site",
+  "inlinePrefix": "Si vous préférez sauter la recherche,"
+},
+
+"serviceCity": {
+  "visitSite": "Visiter le site",
+  "ctaButton": "Obtenir un Devis",
+  "knowTitle": "Ce qu'il faut savoir sur {service} à {city}",
+  "populationLabel": "Population",
+  "pricingLabel": "Prix local",
+  "lookForTitle": "Ce qu'il faut rechercher chez un pro {service}",
+  "checklistLicense": "Licencié et assuré au Texas — demandez une preuve avant le début des travaux.",
+  "checklistEstimate": "Devis écrit à l'avance, avec pièces et main-d'œuvre détaillées.",
+  "checklistReferences": "Références locales à {city} ou à proximité — pas seulement des avis Google.",
+  "checklistWarranty": "Garantie sur les pièces et la main-d'œuvre, par écrit.",
+  "checklistNoPressure": "Pas de tactiques de pression — un bon pro vous donne des options et vous laisse décider.",
+  "providerEyebrow": "Prestataire vérifié à {city}",
+  "providerPoolBlurb": "Techniciens de piscine certifiés CPO desservant {city} et la métropole du DFW.",
+  "providerSupremacyBlurb": "Spécialistes {service} licenciés et assurés desservant {city} et la métropole du DFW.",
+  "faqTitle": "Questions fréquentes sur {service} à {city}",
+  "otherServicesTitle": "Autres services à {city}",
+  "otherCitiesTitle": "{service} dans d'autres villes du DFW",
+  "finalTitle": "Prêt à faire régler {service} à {city} ?",
+  "finalSub": "Trouvez un pro local vérifié en moins d'une minute."
 }
 }

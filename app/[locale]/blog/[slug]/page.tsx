@@ -1,8 +1,17 @@
 import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 import { getAllSlugs, getPostBySlug, getRelatedPosts } from "@/lib/blog";
 import { BlogPostContent } from "@/components/blog/BlogPostContent";
+import {
+  PriceTable,
+  CostGrid,
+  Callout,
+  MdxCta,
+} from "@/components/mdx/MdxComponents";
+import { ProviderLink } from "@/components/mdx/ProviderLink";
+import { ProviderCta } from "@/components/mdx/ProviderCta";
 
 export function generateStaticParams() {
   const locales = ["en", "es", "fr"];
@@ -28,6 +37,25 @@ export default async function BlogPostPage({
 
   const related = getRelatedPosts(slug, locale, 3);
 
+  const mdxContent = (
+    <MDXRemote
+      source={post.content}
+      components={{
+        PriceTable,
+        CostGrid,
+        Callout,
+        MdxCta,
+        ProviderLink,
+        ProviderCta,
+      }}
+      options={{
+        mdxOptions: {
+          remarkPlugins: [remarkGfm],
+        },
+      }}
+    />
+  );
+
   return (
     <BlogPostContent
       post={{
@@ -39,7 +67,7 @@ export default async function BlogPostPage({
         coverImage: post.coverImage,
         readingTime: post.readingTime,
       }}
-      mdxContent={<MDXRemote source={post.content} />}
+      mdxContent={mdxContent}
       related={related.map((r) => ({
         slug: r.slug,
         title: r.title,
