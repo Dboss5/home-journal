@@ -568,7 +568,7 @@ function Hero() {
             {t("cta")}
             <ArrowRight size={16} strokeWidth={2} />
           </Link>
-          <Link href="/services" className="btn btn-ghost">
+          <Link href="/blog" className="btn btn-ghost">
             {t("heroCta2")}
           </Link>
         </div>
@@ -738,26 +738,9 @@ function WhyUs() {
 function JournalPreview() {
   const t = useTranslations("home");
   const posts = [
-    {
-      slug: "how-often-service-pool",
-      title: "How often should you actually service your pool?",
-      category: "Pool",
-      excerpt:
-        "Most homeowners do it wrong. Here's what the pros know about keeping water clear without wasting money.",
-    },
-    {
-      slug: "signs-ac-about-to-fail",
-      title: "Signs your AC is about to fail (and what to do)",
-      category: "HVAC",
-      excerpt:
-        "Catch it early and you'll save thousands. Here are the warning signs that matter.",
-    },
-    {
-      slug: "real-cost-holiday-lighting",
-      title: "The real cost of holiday light installation",
-      category: "Lighting",
-      excerpt: "DIY vs pro, and why the numbers might surprise you.",
-    },
+    { slug: "pool-service-cost-dfw", title: "What does your pool-service quote leave out?", category: "Pool · Before you approve", excerpt: "Compare the visit schedule, chemical policy, filter cleaning, and repair approvals before comparing monthly fees." },
+    { slug: "hvac-repair-cost-dfw", title: "An HVAC repair quote deserves a diagnosis.", category: "HVAC · Before you approve", excerpt: "Ask what failed, what the repair includes, and how the replacement option compares on the same scope." },
+    { slug: "plumbing-cost-dfw", title: "The plumbing repair is only part of the bill.", category: "Plumbing · Before you approve", excerpt: "Separate diagnosis, access, repair, and restoration so a small-looking estimate does not hide a larger job." },
   ];
   return (
     <section className="hf-journal">
