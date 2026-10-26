@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { getPartnerForService, buildPartnerUrl } from "@/lib/partners";
 import { ArrowUpRight, ShieldCheck } from "lucide-react";
 
@@ -89,6 +90,7 @@ interface Props {
 }
 
 export function ProviderCta({ service, campaign }: Props) {
+  const t = useTranslations("provider");
   const partner = getPartnerForService(service);
   if (!partner) return null;
 
@@ -105,9 +107,9 @@ export function ProviderCta({ service, campaign }: Props) {
         <ShieldCheck size={20} strokeWidth={1.8} />
       </span>
       <div className="hf-provider-cta-body">
-        <p className="hf-provider-cta-eyebrow">Vetted DFW provider</p>
+        <p className="hf-provider-cta-eyebrow">{t("vettedLabel")}</p>
         <h4 className="hf-provider-cta-title">{partner.name}</h4>
-        <p className="hf-provider-cta-desc">{partner.shortBlurb}</p>
+        <p className="hf-provider-cta-desc">{t("brandDescription")}</p>
       </div>
       <a
         href={url}
@@ -115,7 +117,7 @@ export function ProviderCta({ service, campaign }: Props) {
         rel="noopener"
         className="hf-provider-cta-link"
       >
-        Visit site
+        {t("visitSite")}
         <ArrowUpRight size={14} strokeWidth={2} />
       </a>
     </div>

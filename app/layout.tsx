@@ -1,3 +1,4 @@
+import { getLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { playfair, lora, cinzel, atkinson } from "@/lib/fonts";
 import "./globals.css";
@@ -11,11 +12,12 @@ export const metadata: Metadata = {
     "The trusted guide to every corner of your home. Pool, HVAC, pest, plumbing, lighting, landscape, and hardscape expertise — plus a hand-picked network of local pros.",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const locale = await getLocale();
   const script = `
     (function(){
       try {
@@ -39,6 +41,7 @@ export default function RootLayout({
 
   return (
     <html
+      lang={locale}
       suppressHydrationWarning
       className={`${playfair.variable} ${lora.variable} ${cinzel.variable} ${atkinson.variable}`}
     >

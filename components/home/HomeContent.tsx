@@ -789,9 +789,9 @@ function WhyUs() {
 function JournalPreview() {
   const t = useTranslations("home");
   const posts = [
-    { slug: "pool-service-cost-dfw", title: "What does your pool-service quote leave out?", category: "Pool · Before you approve", excerpt: "Compare the visit schedule, chemical policy, filter cleaning, and repair approvals before comparing monthly fees." },
-    { slug: "hvac-repair-cost-dfw", title: "An HVAC repair quote deserves a diagnosis.", category: "HVAC · Before you approve", excerpt: "Ask what failed, what the repair includes, and how the replacement option compares on the same scope." },
-    { slug: "plumbing-cost-dfw", title: "The plumbing repair is only part of the bill.", category: "Plumbing · Before you approve", excerpt: "Separate diagnosis, access, repair, and restoration so a small-looking estimate does not hide a larger job." },
+    { slug: "pool-service-cost-dfw", title: t("poolCardTitle"), category: t("poolCardCategory") },
+    { slug: "hvac-repair-cost-dfw", title: t("hvacCardTitle"), category: t("hvacCardCategory") },
+    { slug: "plumbing-cost-dfw", title: t("plumbingCardTitle"), category: t("plumbingCardCategory") },
   ];
   return (
     <section className="hf-journal">

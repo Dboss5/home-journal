@@ -2,7 +2,6 @@
 
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
-import { useParams } from "next/navigation";
 import { Globe } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 import { routing } from "@/i18n/routing";
@@ -12,7 +11,8 @@ export function LanguageSwitcher() {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
-  const params = useParams();
+
+  useEffect(() => { document.documentElement.lang = locale; }, [locale]);
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -26,8 +26,7 @@ export function LanguageSwitcher() {
   }, [open]);
 
   const switchTo = (next: string) => {
-    // @ts-expect-error — next-intl accepts dynamic params object
-    router.replace({ pathname, params }, { locale: next });
+    router.replace(`${pathname}${window.location.search}${window.location.hash}`, { locale: next });
     setOpen(false);
   };
 

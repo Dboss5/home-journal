@@ -1,6 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { getService, SERVICES } from "@/lib/services";
+import { getServiceGuide } from "@/lib/serviceGuidesLocalized";
 import { ServiceContent } from "@/components/services/ServiceContent";
 
 export function generateStaticParams() {
@@ -18,5 +19,5 @@ export default async function ServicePage({
   const service = getService(slug);
   if (!service) notFound();
 
-  return <ServiceContent service={service} />;
+  return <ServiceContent service={service} guide={getServiceGuide(service.key, locale)} />;
 }

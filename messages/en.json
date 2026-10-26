@@ -63,7 +63,13 @@
     "citiesSub": "Pool care, close to home.",
     "citiesBrowseAll": "Browse all services",
     "finalTitle": "Know what you need help with?",
-    "finalSub": "Your next project starts here."
+    "finalSub": "Your next project starts here.",
+    "poolCardTitle": "What does your pool-service quote leave out?",
+    "poolCardCategory": "Pool · Before you approve",
+    "hvacCardTitle": "An HVAC repair quote deserves a diagnosis.",
+    "hvacCardCategory": "HVAC · Before you approve",
+    "plumbingCardTitle": "The plumbing repair is only part of the bill.",
+    "plumbingCardCategory": "Plumbing · Before you approve"
   },
   "preferences": {
     "trigger": "Open preferences",
@@ -218,12 +224,20 @@
     "privacy": "We'll only share your info with the matched pro.",
     "successTitle": "Got it — you're all set.",
     "successBody": "Your request has been submitted. The provider will contact you using the details you supplied to discuss scope and availability.",
-    "errorGeneric": "Something went wrong. Please try again or call us directly."
+    "errorGeneric": "Something went wrong. Please try again or call us directly.",
+    "invalidName": "Enter a name between 2 and 120 characters.",
+    "invalidEmail": "Enter a valid email address.",
+    "invalidPhone": "Enter a valid phone number (10–20 characters).",
+    "invalidZip": "Enter a 5-digit ZIP code.",
+    "invalidService": "Select a service.",
+    "invalidDescription": "Keep your message under 2000 characters.",
+    "websiteLabel": "Website"
   },
   "provider": {
-    "vettedLabel": "Vetted DFW provider",
+    "vettedLabel": "Our DFW service brand",
     "visitSite": "Visit site",
-    "inlinePrefix": "If you'd rather skip the search,"
+    "inlinePrefix": "If you'd rather skip the search,",
+    "brandDescription": "One of our service brands serving Dallas–Fort Worth. Confirm scope and availability directly."
   },
   "serviceCity": {
     "visitSite": "Visit site",
@@ -245,5 +259,48 @@
     "otherCitiesTitle": "{service} in other DFW cities",
     "finalTitle": "Ready to get {service} handled in {city}?",
     "finalSub": "Get matched with a vetted local pro in under a minute."
+  },
+  "serviceGuide": {
+    "breadcrumb": "Homefront / Services",
+    "discuss": "Discuss your project",
+    "explore": "Explore the service",
+    "location": "Dallas–Fort Worth homeowner guide",
+    "artLabel": "The Homefront Field Guide",
+    "navLabel": "{name} page sections",
+    "jumpStart": "Find your starting point",
+    "jumpScope": "Explore the work",
+    "jumpQuote": "Compare quotes",
+    "jumpPrepare": "Plan your visit",
+    "jumpQuestions": "Questions",
+    "startLabel": "01 / Your starting point",
+    "startTitle": "What brings you here?",
+    "scopeLabel": "02 / Understand the work",
+    "scopeTitle": "Look beyond the service name.",
+    "scopeNote": "Use these scopes as a conversation starter. The provider’s written proposal determines what is included.",
+    "quoteLabel": "03 / Before you approve",
+    "quoteTitle": "A useful quote explains the whole job.",
+    "factorsTitle": "What changes the total?",
+    "priceNote": "Prices need a dated, property-specific estimate. This guide does not claim a verified current DFW price survey.",
+    "sheetLabel": "Take this to the conversation",
+    "sheetTitle": "Three questions worth asking.",
+    "readGuide": "Read the detailed guide",
+    "prepareLabel": "04 / Make the visit useful",
+    "prepareTitle": "A little preparation goes a long way.",
+    "faqLabel": "05 / Clear answers",
+    "faqTitle": "Before you book.",
+    "faqNote": "Start here, then discuss the details of your property with the provider.",
+    "providerLabel": "Provider relationship",
+    "providerEyebrow": "Know who receives your request",
+    "providerTitle": "Our connection to {provider}.",
+    "providerBody": "{provider} is one of our service brands. Requests for {name} may be referred to that team. Confirm availability, scope, credentials, and the estimate directly before booking.",
+    "brands": "Meet our brands",
+    "citiesLabel": "Around the metroplex",
+    "citiesTitle": "Explore {name} near you.",
+    "sourceLabel": "Further reading",
+    "updated": "Editorial guide updated October 26, 2026. Scope and availability vary by property and provider.",
+    "finalLabel": "Your next step",
+    "finalTitle": "Tell us about your property.",
+    "finalBody": "Start with the problem or project. Review the plan before you commit.",
+    "finalCta": "Request a conversation"
   }
 }
