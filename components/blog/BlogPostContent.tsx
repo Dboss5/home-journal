@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { ArrowRight, Clock, ShieldCheck } from "lucide-react";
 
@@ -265,7 +265,8 @@ export function BlogPostContent({
 }) {
   const t = useTranslations("blogPost");
 
-  const formattedDate = new Date(post.date).toLocaleDateString("en-US", {
+  const locale = useLocale();
+  const formattedDate = new Date(post.date).toLocaleDateString(locale, {
     year: "numeric",
     month: "long",
     day: "numeric",

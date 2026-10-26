@@ -71,7 +71,7 @@ export function getPostBySlug(
       excerpt: data.excerpt ?? "",
       coverImage: data.coverImage,
       content,
-      readingTime: `${Math.max(1, Math.ceil(rt.minutes))} min read`,
+      readingTime: `${Math.max(1, Math.ceil(rt.minutes))} ${{en: "min read", es: "min de lectura", fr: "min de lecture"}[locale] ?? "min read"}`,
     };
   }
 

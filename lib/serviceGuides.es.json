@@ -1,0 +1,471 @@
+{
+  "pool": {
+    "kicker": "El agua clara empieza con un plan claro.",
+    "intro": "Compare el mantenimiento periódico, la recuperación puntual y las reparaciones según su alcance. Una tarifa mensual solo resulta útil si sabe qué incluye cada visita.",
+    "scenarios": [
+      {
+        "title": "Mantenga la constancia",
+        "body": "Compare frecuencia de visitas, limpieza, análisis del agua e informes. Acuerde qué ocurre si el tiempo o el acceso impiden una visita."
+      },
+      {
+        "title": "Recupere la piscina",
+        "body": "Solicite una evaluación y un plan de visitas de seguimiento antes de pasar al mantenimiento periódico."
+      },
+      {
+        "title": "Entienda los fallos del equipo",
+        "body": "Describa ruidos, falta de circulación o cambios de funcionamiento. Pida un diagnóstico antes de aprobar repuestos."
+      }
+    ],
+    "scope": [
+      {
+        "title": "Análisis y tratamiento del agua",
+        "body": "Confirme qué resultados se registran, qué productos se incluyen y qué debe vigilar entre visitas. El servicio no sustituye las comprobaciones regulares del agua."
+      },
+      {
+        "title": "Limpieza y circulación",
+        "body": "Pregunte si incluye cepillado, recogida de residuos, aspirado, cestas y revisión del equipo. La limpieza del filtro puede cobrarse aparte."
+      },
+      {
+        "title": "Equipos y reparaciones",
+        "body": "Distinga la inspección de la reparación. Una sustitución debe identificar modelo, instalación, controles y garantía."
+      }
+    ],
+    "drivers": [
+      "Tamaño de la piscina, spas y acceso",
+      "Residuos y estado inicial del agua",
+      "Productos incluidos y mantenimiento del filtro",
+      "Repuestos, visitas adicionales y límites de autorización"
+    ],
+    "prepare": [
+      "Comparta fotos de la piscina y de las etiquetas del equipo si son accesibles.",
+      "Explique el problema y los tratamientos o reparaciones recientes.",
+      "Confirme el acceso y mantenga a las mascotas en un lugar seguro."
+    ],
+    "questions": [
+      "¿Cuántas visitas incluye y qué ocurre si se omite una?",
+      "¿Qué productos y tareas quedan fuera de la tarifa?",
+      "¿Solicitarán autorización antes de realizar trabajos adicionales?"
+    ],
+    "faqs": [
+      {
+        "q": "¿Debo estar en casa?",
+        "a": "Acuerde el acceso, las mascotas y la entrega del informe con el proveedor."
+      },
+      {
+        "q": "¿El servicio semanal cubre todas las comprobaciones del agua?",
+        "a": "No. Pregunte qué debe vigilar entre visitas. Los CDC recomiendan comprobar regularmente el desinfectante y el pH; siga las instrucciones del producto y del proveedor para su propiedad."
+      },
+      {
+        "q": "¿Se puede añadir una reparación a una visita habitual?",
+        "a": "Confirme si el diagnóstico y la reparación se cobran aparte y necesitan autorización. El plan debe aclararlo."
+      }
+    ],
+    "source": {
+      "label": "CDC: Tratamiento y análisis del agua de piscinas domésticas",
+      "url": "https://www.cdc.gov/healthy-swimming/about/home-pool-and-hot-tub-water-treatment-and-testing.html"
+    },
+    "article": "pool-service-cost-dfw"
+  },
+  "hvac": {
+    "kicker": "El confort empieza con el diagnóstico.",
+    "intro": "El mantenimiento, la reparación y la sustitución resuelven necesidades distintas. Empiece por los síntomas y compare el trabajo propuesto para su hogar.",
+    "scenarios": [
+      {
+        "title": "Cambios de confort",
+        "body": "Anote las habitaciones afectadas, cuándo ocurre el problema y los mensajes del termostato para orientar la investigación."
+      },
+      {
+        "title": "Planifique el mantenimiento",
+        "body": "Compare la lista de revisión, el número de visitas, los informes y las exclusiones, además del descuento."
+      },
+      {
+        "title": "Valore la sustitución",
+        "body": "Solicite una evaluación de la vivienda y una propuesta escrita. El dimensionamiento y la instalación importan tanto como el precio del equipo."
+      }
+    ],
+    "scope": [
+      {
+        "title": "Inspección y diagnóstico",
+        "body": "Pregunte qué se comprobó, qué falló y cómo explica el problema. Un síntoma no identifica por sí solo la pieza que debe cambiarse."
+      },
+      {
+        "title": "Reparación y comprobación",
+        "body": "Solicite un total con piezas, mano de obra y comprobaciones posteriores. Aclare la garantía y si se descuenta el diagnóstico."
+      },
+      {
+        "title": "Planificación de la sustitución",
+        "body": "Compare modelos, cálculo de capacidad, conductos, drenaje, controles, retirada y pruebas finales."
+      }
+    ],
+    "drivers": [
+      "Fallo diagnosticado y cobertura de garantía",
+      "Acceso y estado de la instalación existente",
+      "Equipo elegido y alcance de instalación",
+      "Recargos fuera de horario y trabajos adicionales"
+    ],
+    "prepare": [
+      "Anote los síntomas y cuándo comenzaron.",
+      "Tenga disponibles el historial de mantenimiento y la garantía.",
+      "Facilite acceso seguro al termostato y a los equipos."
+    ],
+    "questions": [
+      "¿Qué pruebas respaldan este diagnóstico?",
+      "¿Qué incluye reparar frente a sustituir?",
+      "¿Qué pruebas confirmarán que el trabajo está terminado?"
+    ],
+    "faqs": [
+      {
+        "q": "¿Debo sustituir un sistema solo por su edad?",
+        "a": "Considere también las reparaciones anteriores, el estado, la garantía y el confort. Compare la reparación real con una propuesta completa de sustitución, sin depender de un porcentaje fijo."
+      },
+      {
+        "q": "¿Basta la superficie para dimensionar el equipo?",
+        "a": "Solicite una evaluación y un cálculo de carga. ENERGY STAR recomienda considerar aislamiento, ventanas y conductos, además del tamaño."
+      },
+      {
+        "q": "¿La limpieza de conductos forma parte de la puesta a punto?",
+        "a": "No lo dé por hecho. Solicite la lista de tareas y la justificación de cualquier trabajo adicional en conductos."
+      }
+    ],
+    "source": {
+      "label": "ENERGY STAR: Cómo contratar servicios de climatización",
+      "url": "https://www.energystar.gov/saveathome/heating-cooling/10-tips-hiring"
+    },
+    "article": "hvac-repair-cost-dfw"
+  },
+  "pest": {
+    "kicker": "Encuentre el origen. Prepare un plan.",
+    "intro": "Identifique la plaga, su actividad y las condiciones que la favorecen. Un plan general puede excluir roedores, termitas, chinches o fauna silvestre.",
+    "scenarios": [
+      {
+        "title": "Actividad recurrente",
+        "body": "Describa dónde y con qué frecuencia aparecen las plagas. Consulte si conviene inspección, prevención y seguimiento en lugar de una sola aplicación."
+      },
+      {
+        "title": "Una infestación concreta",
+        "body": "Pregunte qué plaga se ha identificado, qué áreas necesitan atención y qué preparación y seguimiento requiere el tratamiento."
+      },
+      {
+        "title": "Posibles puntos de entrada",
+        "body": "Ante ruidos o entradas repetidas, consulte una inspección y un plan de exclusión. Sellado, seguimiento y limpieza pueden cobrarse por separado."
+      }
+    ],
+    "scope": [
+      {
+        "title": "Inspección e identificación",
+        "body": "Comparta fotos y pregunte qué evidencia respalda la identificación. El plan debe responder a la plaga presente."
+      },
+      {
+        "title": "Prevención y tratamiento",
+        "body": "Revise alimento, agua, refugio y accesos, además de los productos. La EPA recomienda prevención y corregir el origen del problema."
+      },
+      {
+        "title": "Seguimiento",
+        "body": "Acuerde cómo evaluar los resultados, cuándo revisar, qué visitas de retorno se incluyen y qué ocurre si persiste la actividad."
+      }
+    ],
+    "drivers": [
+      "Plaga identificada y áreas afectadas",
+      "Alcance de inspección, tratamiento y exclusión",
+      "Visitas de seguimiento y condiciones del contrato",
+      "Preparación, limpieza y reparaciones estructurales"
+    ],
+    "prepare": [
+      "Anote dónde y cuándo observa actividad.",
+      "Informe de niños, mascotas y áreas sensibles.",
+      "Solicite instrucciones escritas de preparación y reingreso para el tratamiento concreto."
+    ],
+    "questions": [
+      "¿Qué plagas y zonas cubre este contrato?",
+      "¿Qué productos o métodos se proponen y por qué?",
+      "¿Qué seguimiento incluye si continúa la actividad?"
+    ],
+    "faqs": [
+      {
+        "q": "¿Es seguro para niños y mascotas?",
+        "a": "No se base en una promesa general. Solicite nombre del producto, precauciones de la etiqueta e instrucciones de preparación y reingreso. Siga las indicaciones específicas."
+      },
+      {
+        "q": "¿Debo salir de casa?",
+        "a": "Depende del método y del producto. Obtenga instrucciones escritas previamente; no suponga un número fijo de horas."
+      },
+      {
+        "q": "¿El plan general incluye termitas o roedores?",
+        "a": "Pregúntelo expresamente. Inspección especializada, tratamiento, exclusión y reparaciones pueden tener alcances distintos."
+      }
+    ],
+    "source": {
+      "label": "EPA: Qué hacer y qué evitar en el control de plagas",
+      "url": "https://www.epa.gov/safepestcontrol/dos-and-donts-pest-control"
+    },
+    "article": null
+  },
+  "plumbing": {
+    "kicker": "Entienda la reparación completa.",
+    "intro": "El presupuesto puede incluir diagnóstico, acceso, reparación y restauración, o solo algunas etapas. Aclare estos límites antes de comparar totales.",
+    "scenarios": [
+      {
+        "title": "Un problema en un accesorio",
+        "body": "Describa el accesorio, cuándo falla y reparaciones anteriores. Aclare quién suministra los productos de sustitución."
+      },
+      {
+        "title": "Un problema oculto",
+        "body": "Ante consumo inexplicable o fugas ocultas, pregunte qué investigación se propone y qué necesita autorización adicional."
+      },
+      {
+        "title": "Una mejora importante",
+        "body": "Para calentadores, alcantarillado o cambio de tuberías, compare la instalación completa, el acceso y la restauración."
+      }
+    ],
+    "scope": [
+      {
+        "title": "Diagnóstico y acceso",
+        "body": "Determine qué puede averiguar la visita y si incluye abrir paredes, suelo o terreno."
+      },
+      {
+        "title": "Reparación y sustitución",
+        "body": "Pida ubicación, materiales o modelo, mano de obra y pruebas finales. Distinga mejoras opcionales de la reparación inmediata."
+      },
+      {
+        "title": "Limpieza y restauración",
+        "body": "Aclare la retirada de residuos y quién repara paredes, suelos, pintura o jardín. Documente las exclusiones antes de empezar."
+      }
+    ],
+    "drivers": [
+      "Problema identificado y accesibilidad",
+      "Piezas, accesorios y equipos elegidos",
+      "Acceso y restauración excluida",
+      "Horario, hallazgos adicionales y autorización"
+    ],
+    "prepare": [
+      "Describa síntomas y accesorios afectados.",
+      "Comparta modelos relevantes e historial de reparaciones.",
+      "Pregunte qué acceso hace falta y qué objetos debe retirar."
+    ],
+    "questions": [
+      "¿Se descuenta la visita del precio de reparación?",
+      "¿Incluye acceso y restauración?",
+      "¿Cómo se autorizan los extras y se tramita la garantía?"
+    ],
+    "faqs": [
+      {
+        "q": "¿Una factura alta demuestra una fuga bajo la losa?",
+        "a": "No. Hace falta investigar. Las comprobaciones de consumo y contador descritas por la EPA no localizan la fuga ni determinan la reparación."
+      },
+      {
+        "q": "¿Incluye permisos?",
+        "a": "Pida al proveedor que confirme los requisitos de su dirección y trabajo y quién tramita solicitudes e inspecciones. No suponga que están incluidos."
+      },
+      {
+        "q": "¿Desatascar elimina la causa para siempre?",
+        "a": "Eliminar el atasco y reparar la causa son trabajos distintos. Solicite los hallazgos, la investigación propuesta y las condiciones de retorno."
+      }
+    ],
+    "source": {
+      "label": "EPA WaterSense: Mantenimiento del hogar",
+      "url": "https://www.epa.gov/watersense/home-maintenance"
+    },
+    "article": "plumbing-cost-dfw"
+  },
+  "lighting": {
+    "kicker": "Planifique la iluminación y lo que viene después.",
+    "intro": "Compare diseño, propiedad del equipo, mantenimiento, retirada y almacenamiento como un único paquete de temporada.",
+    "scenarios": [
+      {
+        "title": "Un contorno de tejado sencillo",
+        "body": "Envíe una foto e indique las zonas deseadas. Confirme color, estilo y extensión antes de instalar."
+      },
+      {
+        "title": "Árboles y exteriores",
+        "body": "Identifique elementos y accesos. Pregunte cómo se instalará y retirará sin daños evitables."
+      },
+      {
+        "title": "Un paquete completo",
+        "body": "Compare asistencia durante la temporada, fallos, cambios, retirada y reutilización al año siguiente."
+      }
+    ],
+    "scope": [
+      {
+        "title": "Diseño y equipos",
+        "body": "Solicite una imagen marcada o una descripción escrita. Confirme si las luces son alquiladas, compradas o aportadas por usted."
+      },
+      {
+        "title": "Instalación y uso",
+        "body": "Consulte fijaciones, equipos para exterior, alimentación, temporizadores e instrucciones de funcionamiento."
+      },
+      {
+        "title": "Mantenimiento y retirada",
+        "body": "Aclare atención a fallos, plazos de retirada, almacenamiento y cargos adicionales."
+      }
+    ],
+    "drivers": [
+      "Zonas y elementos del diseño aprobado",
+      "Altura, acceso y fijaciones",
+      "Compra o alquiler del equipo",
+      "Mantenimiento, retirada y almacenamiento"
+    ],
+    "prepare": [
+      "Prepare fotos exteriores y una breve idea del diseño.",
+      "Identifique adornos existentes y tomas de corriente accesibles.",
+      "Consulte calendario y posibles autorizaciones de la propiedad o asociación de vecinos."
+    ],
+    "questions": [
+      "¿Las luces son mías y se pueden reutilizar?",
+      "¿Qué ocurre si deja de funcionar parte del montaje?",
+      "¿Incluye retirada y almacenamiento?"
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo usar mis luces?",
+        "a": "Pida que se evalúen compatibilidad y estado. Confirme si el equipo aportado por usted cambia las condiciones de mantenimiento."
+      },
+      {
+        "q": "¿Cuándo debo reservar?",
+        "a": "Comunique pronto las fechas deseadas y confirme disponibilidad. Instalación y retirada dependen de agenda y condiciones."
+      },
+      {
+        "q": "¿Qué equipos pueden usarse fuera?",
+        "a": "La CPSC aconseja luces con pruebas de seguridad y revisar su estado. Confirme que el equipo es adecuado para su ubicación y siga sus instrucciones."
+      }
+    ],
+    "source": {
+      "label": "CPSC: Seguridad de la decoración festiva",
+      "url": "https://www.cpsc.gov/s3fs-public/611.pdf"
+    },
+    "article": "real-cost-holiday-lighting"
+  },
+  "landscape": {
+    "kicker": "Un jardín adaptado a su propiedad.",
+    "intro": "Cortar césped, renovar parterres, cuidar plantas y reparar riego son trabajos distintos. Empiece por el uso del espacio y sus objetivos.",
+    "scenarios": [
+      {
+        "title": "Mantenga el jardín",
+        "body": "Compare frecuencia, corte, bordes, residuos y ajustes estacionales. “Mantenimiento” no define todas las tareas."
+      },
+      {
+        "title": "Renueve las plantaciones",
+        "body": "Explique objetivos, luz, plantas existentes y nivel de cuidado deseado. Consulte preparación y seguimiento."
+      },
+      {
+        "title": "Investigue problemas persistentes",
+        "body": "Fotografíe zonas sin césped, escorrentía o fallos de riego. Solicite evaluación antes de añadir productos o sustituir plantas."
+      }
+    ],
+    "scope": [
+      {
+        "title": "Mantenimiento habitual",
+        "body": "Acuerde zonas, tareas, frecuencia, política meteorológica y retirada de recortes y residuos."
+      },
+      {
+        "title": "Parterres y plantación",
+        "body": "Solicite nombres, cantidades y tamaños de plantas, preparación, acolchado y cuidados de establecimiento. Aclare las condiciones de reposición."
+      },
+      {
+        "title": "Riego y suelo",
+        "body": "Separe inspección y reparación. Texas A&M AgriLife explica que el análisis del suelo orienta los nutrientes necesarios, en vez de aplicar una pauta universal."
+      }
+    ],
+    "drivers": [
+      "Superficie y frecuencia de visitas",
+      "Estado inicial y preparación",
+      "Tamaño, cantidad y materiales de plantación",
+      "Residuos y responsabilidades de seguimiento"
+    ],
+    "prepare": [
+      "Anote qué quiere conservar, cambiar o dejar de mantener.",
+      "Fotografíe problemas y anote luz y riego.",
+      "Consulte acceso, mascotas, controles del riego y expectativas de cuidado."
+    ],
+    "questions": [
+      "¿Qué tareas incluye cada visita?",
+      "¿Qué preparación hace falta para plantar?",
+      "¿Quién se ocupa del establecimiento y la reposición?"
+    ],
+    "faqs": [
+      {
+        "q": "¿Todos los céspedes necesitan el mismo abonado?",
+        "a": "No. Identifique el césped y las condiciones, y considere un análisis del suelo antes de decidir nutrientes y calendario."
+      },
+      {
+        "q": "¿El mantenimiento incluye reparar el riego?",
+        "a": "Pregúntelo expresamente. Inspección, ajustes, reparación e instalación pueden ser trabajos separados."
+      },
+      {
+        "q": "¿Las plantas tienen garantía?",
+        "a": "Solicite las condiciones escritas, exclusiones y sus obligaciones de riego y cuidado. No suponga una cobertura idéntica para todas."
+      }
+    ],
+    "source": {
+      "label": "Texas A&M AgriLife: Análisis del suelo",
+      "url": "https://agrilifeextension.tamu.edu/assets/environment-natural-resources/soil/soil-testing/"
+    },
+    "article": null
+  },
+  "hardscape": {
+    "kicker": "Planifique lo que hay bajo el acabado.",
+    "intro": "El presupuesto de una terraza o camino debe explicar preparación y drenaje con el mismo detalle que los materiales visibles. Compare la obra completa.",
+    "scenarios": [
+      {
+        "title": "Una terraza o camino",
+        "body": "Defina uso, medidas, acceso y conexión con espacios existentes. Compare acabados y trabajo subyacente incluido."
+      },
+      {
+        "title": "Problemas de drenaje",
+        "body": "Muestre dónde se acumula o circula el agua tras la lluvia. Aclare cómo lo resuelve el diseño antes de elegir materiales."
+      },
+      {
+        "title": "Un proyecto exterior mayor",
+        "body": "Para muros, cocinas o varios oficios, establezca responsabilidades de diseño y secuencia antes de programar la obra."
+      }
+    ],
+    "scope": [
+      {
+        "title": "Diseño y preparación",
+        "body": "Confirme dimensiones, excavación, retirada, base y transiciones con superficies existentes en la propuesta escrita."
+      },
+      {
+        "title": "Materiales y drenaje",
+        "body": "Identifique producto, acabado, patrón, bordes y gestión del agua. Pregunte qué supuestos requieren comprobarse en el lugar."
+      },
+      {
+        "title": "Entrega y cuidado",
+        "body": "Acuerde limpieza, restauración de accesos, entrega, mantenimiento y garantía. Aclare trabajos de otros oficios."
+      }
+    ],
+    "drivers": [
+      "Dimensiones, acceso, excavación y residuos",
+      "Estado de la base y necesidades de drenaje",
+      "Materiales, acabado, patrón y bordes",
+      "Diseño, autorizaciones, coordinación y restauración"
+    ],
+    "prepare": [
+      "Reúna medidas, fotos y ejemplos del uso deseado.",
+      "Señale problemas de drenaje y ubicaciones conocidas de servicios o riego.",
+      "Aclare quién confirma autorizaciones y localización de servicios antes de excavar."
+    ],
+    "questions": [
+      "¿Qué trabajo de base y drenaje incluye?",
+      "¿Qué decisiones o condiciones pueden cambiar el total?",
+      "¿Quién gestiona autorizaciones, oficios, limpieza y restauración?"
+    ],
+    "faqs": [
+      {
+        "q": "¿Basta comparar el precio por pie cuadrado?",
+        "a": "Compare igual superficie y alcance. Excavación, base, bordes, acceso, drenaje y residuos pueden cambiar mucho el total."
+      },
+      {
+        "q": "¿Se necesita autorización para un muro o terraza?",
+        "a": "Confirme con la autoridad local y la asociación de vecinos cuando corresponda. Depende de la propiedad y del proyecto; obtenga respuesta antes de construir."
+      },
+      {
+        "q": "¿Cuánto durará?",
+        "a": "Solicite secuencia, restricciones de acceso y contingencias meteorológicas específicas. Entregas, inspecciones y otros oficios pueden alterar el plazo."
+      }
+    ],
+    "source": {
+      "label": "Texas A&M AgriLife: Gestión del agua en el paisaje",
+      "url": "https://agrilifeextension.tamu.edu/assets/plants-crops/lawn-garden/irrigation-lawns-gardens/"
+    },
+    "article": null
+  }
+}

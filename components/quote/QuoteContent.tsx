@@ -212,7 +212,7 @@ export function QuoteContent() {
     if (result.success) {
       setSubmitted(true);
     } else {
-      setServerError(result.error ?? t("errorGeneric"));
+      setServerError(t("errorGeneric"));
     }
   };
 
@@ -266,7 +266,7 @@ export function QuoteContent() {
                 {...register("name")}
               />
               {errors.name && (
-                <p className="hf-field-error">{errors.name.message}</p>
+                <p className="hf-field-error">{t("invalidName")}</p>
               )}
             </div>
 
@@ -280,7 +280,7 @@ export function QuoteContent() {
                 {...register("phone")}
               />
               {errors.phone && (
-                <p className="hf-field-error">{errors.phone.message}</p>
+                <p className="hf-field-error">{t("invalidPhone")}</p>
               )}
             </div>
           </div>
@@ -296,7 +296,7 @@ export function QuoteContent() {
                 {...register("email")}
               />
               {errors.email && (
-                <p className="hf-field-error">{errors.email.message}</p>
+                <p className="hf-field-error">{t("invalidEmail")}</p>
               )}
             </div>
 
@@ -312,7 +312,7 @@ export function QuoteContent() {
                 {...register("zip")}
               />
               {errors.zip && (
-                <p className="hf-field-error">{errors.zip.message}</p>
+                <p className="hf-field-error">{t("invalidZip")}</p>
               )}
             </div>
           </div>
@@ -327,7 +327,7 @@ export function QuoteContent() {
               ))}
             </select>
             {errors.service && (
-              <p className="hf-field-error">{errors.service.message}</p>
+              <p className="hf-field-error">{t("invalidService")}</p>
             )}
           </div>
 
@@ -342,7 +342,7 @@ export function QuoteContent() {
 
           {/* Honeypot — hidden from humans, catches bots */}
           <div className="hf-honeypot" aria-hidden="true">
-            <label htmlFor="website">Website</label>
+            <label htmlFor="website">{t("websiteLabel")}</label>
             <input
               id="website"
               type="text"
