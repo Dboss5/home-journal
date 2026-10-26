@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import Image from "next/image";
+import { HomeIllustration } from "./HomeIllustrations";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import {
@@ -16,6 +17,9 @@ import {
   Star,
   ArrowRight,
   MapPin,
+  ClipboardList,
+  Handshake,
+  CheckCircle2,
 } from "lucide-react";
 import { FeaturedAnimations } from "./FeaturedAnimations";
 import { CITIES } from "@/lib/locations";
@@ -507,15 +511,76 @@ const HOME_STYLES = `
   background: var(--gold);
   color: #1A1614;
 }
+
+/* Visual edition: preserve the original editorial palette and section order. */
+.hf-hero { min-height: 680px; display: flex; align-items: center; padding: 90px 6%; }
+.hf-hero-photo { object-fit: cover; object-position: center; }
+.hf-hero-veil { background: linear-gradient(90deg,rgba(20,35,31,.88) 0%,rgba(20,35,31,.67) 38%,rgba(20,35,31,.12) 72%); }
+.hf-hero-inner { text-align: left; width: 100%; max-width: 1200px; }
+.hf-hero .accent-label { color: #EDD6A5; }
+.hf-hero-title { color: #FFF8EA; max-width: 10ch; font-size: clamp(3.2rem,6.5vw,5.8rem); }
+.hf-hero-sub { color: #EDE7D9; max-width: 34ch; margin: 0; font-size: 1.05rem; }
+.hf-hero-ctas { justify-content: flex-start; margin-top: 28px; }
+.hf-hero .btn-ghost { color: #FFF8EA; border-color: #D4BB89; background: rgba(20,35,31,.3); }
+.hf-hero-grain { opacity: .12; }
+.hf-section-head,.hf-section-head-center { margin-bottom: 36px; }
+.hf-services,.hf-why,.hf-journal { padding: 72px 0; }
+.hf-services-grid { grid-template-columns: repeat(4,minmax(0,1fr)); gap: 18px; }
+.hf-service-card { padding: 0 0 20px; gap: 14px; }
+.hf-service-card > .hf-illustration { width: 100%; height: auto; border-radius: 0; transition: transform .4s ease; }
+.hf-service-card:hover > .hf-illustration { transform: scale(1.025); }
+.hf-service-label { padding: 0 20px; }
+.hf-service-icon { position: absolute; top: 14px; left: 14px; background: var(--surface); padding: 9px; border-radius: 50%; box-shadow: var(--shadow-sm); }
+.hf-service-arrow { display: none; }
+.hf-service-card:first-child { grid-column: span 2; grid-row: span 2; }
+.hf-service-card:first-child > .hf-illustration { flex: 1; object-fit: cover; }
+.hf-service-card:first-child .hf-service-label { font-size: 1.8rem; }
+.hf-cities { padding-top: 64px; padding-bottom: 64px; }
+.hf-cities-grid { grid-template-columns: repeat(4,minmax(0,1fr)); gap: 12px; }
+.hf-city-card { padding: 20px; gap: 8px; }
+.hf-city-card-icon { position: absolute; right: 16px; top: 16px; opacity: .45; }
+.hf-city-card-name { padding-right: 20px; }
+.hf-city-card-meta { font-size: .6rem; }
+.hf-city-card-link { font-size: .6rem; }
+.hf-how { padding: 64px 0; }
+.hf-how-step { align-items: center; text-align: center; }
+.hf-how-visual { width: 150px; height: 150px; border: 1px solid var(--gold); border-radius: 50%; display: grid; place-items: center; color: var(--red); position: relative; margin-bottom: 14px; background: radial-gradient(circle,var(--surface-alt),var(--surface)); }
+.hf-how-num { position: absolute; bottom: -9px; right: 0; font-size: 1.4rem; background: var(--surface); border: 1px solid var(--gold); border-radius: 50%; width: 42px; height: 42px; display: grid; place-items: center; }
+.hf-how-body { max-width: 28ch; margin: 0; font-size: .95rem; }
+.hf-why-image { aspect-ratio: 4/3; display: grid; place-items: center; background: #E3CFA8; transform: rotate(-2deg); box-shadow: 12px 12px 0 color-mix(in oklab,var(--gold) 17%,transparent); }
+.hf-why-image .hf-illustration { width: 100%; height: 100%; object-fit: cover; }
+.hf-journal-card { padding: 0 0 24px; overflow: hidden; gap: 16px; }
+.hf-journal-image { width: 100%; aspect-ratio: 16/10; position: relative; overflow: hidden; }
+.hf-journal-image img { object-fit: cover; transition: transform .4s ease; }
+.hf-journal-card:hover img { transform: scale(1.04); }
+.hf-journal-cat,.hf-journal-title,.hf-journal-link { margin-left: 24px; margin-right: 24px; }
+.hf-journal-cat { margin-top: 6px; }
+.hf-cta { background: radial-gradient(ellipse at 10% 100%,#A65D48,transparent 60%),var(--red); }
+@media(max-width:820px) {
+ .hf-hero { min-height: 620px; padding: 72px 24px; }
+ .hf-hero-photo { object-position: 62% center; }
+ .hf-hero-veil { background: linear-gradient(90deg,rgba(20,35,31,.88),rgba(20,35,31,.38)); }
+ .hf-hero-title { font-size: clamp(3rem,10vw,4.5rem); }
+ .hf-services-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+ .hf-service-card:first-child { grid-column: span 2; grid-row: auto; }
+ .hf-service-card:first-child > .hf-illustration { max-height: 280px; }
+ .hf-cities-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+ .hf-why-image { margin: 10px; }
+}
+@media(max-width:420px) {
+ .hf-city-card { padding: 15px; }
+ .hf-city-card-name { font-size: 1rem; }
+ .hf-service-label { padding: 0 14px; font-size: 1rem; }
+ .hf-hero-sub { max-width: 28ch; }
+}
+@media(prefers-reduced-motion:reduce) {
+ .hf-service-card > .hf-illustration,.hf-journal-image img { transition: none; }
+}
+[data-calm="true"] .hf-service-card:hover > .hf-illustration,
+[data-calm="true"] .hf-journal-card:hover img,
+[data-focus="true"] .hf-service-card:hover > .hf-illustration,
+[data-focus="true"] .hf-journal-card:hover img { transform: none; }
 `;
-
-const HERO_IMAGES = [
-  "/images/hero/hero-1.avif",
-  "/images/hero/hero-2.avif",
-  "/images/hero/hero-3.avif",
-] as const;
-
-const HERO_INTERVAL_MS = 7000;
 
 export function HomeContent() {
   return (
@@ -537,25 +602,10 @@ export function HomeContent() {
 /* ---------- HERO ---------- */
 function Hero() {
   const t = useTranslations("home");
-  const [current, setCurrent] = useState(0);
-
-  useEffect(() => {
-    const id = setInterval(() => {
-      setCurrent((i) => (i + 1) % HERO_IMAGES.length);
-    }, HERO_INTERVAL_MS);
-    return () => clearInterval(id);
-  }, []);
-
   return (
     <section className="hf-hero">
       <div className="hf-hero-bg" aria-hidden>
-        {HERO_IMAGES.map((src, i) => (
-          <div
-            key={src}
-            className={`hf-hero-slide ${i === current ? "is-active" : ""}`}
-            style={{ backgroundImage: `url(${src})` }}
-          />
-        ))}
+        <Image src="/images/hero/homefront-backyard.webp" alt="" fill priority sizes="100vw" className="hf-hero-photo" />
         <div className="hf-hero-veil" />
       </div>
 
@@ -624,6 +674,7 @@ function ServicesGrid() {
       <div className="hf-services-grid">
         {SERVICES.map(({ key, href, icon: Icon }) => (
           <Link key={key} href={href} className="hf-service-card">
+            <HomeIllustration kind={key} />
             <span className="hf-service-icon">
               <Icon size={26} strokeWidth={1.5} />
             </span>
@@ -664,7 +715,7 @@ function CitiesGrid() {
               {city.name}, {city.state}
             </span>
             <span className="hf-city-card-meta">
-              {city.population} residents
+              DFW · Texas
             </span>
             <span className="hf-city-card-link">
               {tSvc("pool")}
@@ -687,9 +738,9 @@ function CitiesGrid() {
 function HowItWorks() {
   const t = useTranslations("home");
   const steps = [
-    { n: "01", titleKey: "howStep1Title" as const, bodyKey: "howStep1Body" as const },
-    { n: "02", titleKey: "howStep2Title" as const, bodyKey: "howStep2Body" as const },
-    { n: "03", titleKey: "howStep3Title" as const, bodyKey: "howStep3Body" as const },
+    { icon: ClipboardList, n: "01", titleKey: "howStep1Title" as const, bodyKey: "howStep1Body" as const },
+    { icon: Handshake, n: "02", titleKey: "howStep2Title" as const, bodyKey: "howStep2Body" as const },
+    { icon: CheckCircle2, n: "03", titleKey: "howStep3Title" as const, bodyKey: "howStep3Body" as const },
   ];
   return (
     <section className="hf-how">
@@ -700,7 +751,7 @@ function HowItWorks() {
       <div className="hf-how-grid">
         {steps.map((s) => (
           <div key={s.n} className="hf-how-step">
-            <span className="hf-how-num">{s.n}</span>
+            <div className="hf-how-visual"><s.icon size={54} strokeWidth={1.2} aria-hidden="true" /><span className="hf-how-num">{s.n}</span></div>
             <h3 className="hf-how-title">{t(s.titleKey)}</h3>
             <p className="hf-how-body">{t(s.bodyKey)}</p>
           </div>
@@ -717,13 +768,13 @@ function WhyUs() {
     <section className="hf-why">
       <div className="hf-why-inner">
         <div className="hf-why-image" aria-hidden>
-          <div className="hf-why-image-inner" />
+          <HomeIllustration />
         </div>
         <div className="hf-why-copy">
           <p className="accent-label">{t("whyEyebrow")}</p>
           <h2 className="hf-section-title">{t("whyTitle")}</h2>
           <p className="hf-why-body">{t("whyBody1")}</p>
-          <p className="hf-why-body">{t("whyBody2")}</p>
+
           <Link href="/about" className="btn btn-ghost hf-why-cta">
             {t("whyCta")}
             <ArrowRight size={16} strokeWidth={2} />
@@ -751,9 +802,10 @@ function JournalPreview() {
       <div className="hf-journal-grid">
         {posts.map((p) => (
           <article key={p.slug} className="hf-journal-card">
+            <Link href={`/blog/${p.slug}`} className="hf-journal-image" aria-label={p.title}><Image src={`/images/blog/${p.slug}.jpg`} alt="" fill sizes="(max-width: 820px) 100vw, 33vw" /></Link>
             <span className="hf-journal-cat">{p.category}</span>
             <h3 className="hf-journal-title">{p.title}</h3>
-            <p className="hf-journal-excerpt">{p.excerpt}</p>
+
             <Link href={`/blog/${p.slug}`} className="hf-journal-link">
               {t("journalRead")}
               <ArrowRight size={14} strokeWidth={2} />
