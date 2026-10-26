@@ -24,7 +24,7 @@ export const quoteSchema = z.object({
     .string()
     .regex(/^\d{5}$/, "Please enter a 5-digit ZIP code"),
   service: z.enum(SERVICE_OPTIONS, {
-    errorMap: () => ({ message: "Please select a service" }),
+    error: "Please select a service",
   }),
   description: z
     .string()
