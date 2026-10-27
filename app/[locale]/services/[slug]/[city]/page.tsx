@@ -1,5 +1,6 @@
+import { getCityUi } from "@/lib/cityProfiles";
+import { getPostBySlug } from "@/lib/blog";
 import { getServiceExpansion } from "@/lib/serviceExpansion";
-import { SERVICE_IMAGES } from "@/lib/serviceImages";
 import { serviceMetadata } from "@/lib/serviceSeo";
 import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
@@ -47,8 +48,9 @@ export async function generateMetadata({
   const content = getServiceExpansion(key, locale);
   const label = content.seoTitle.split(' Dallas')[0].replace(/ (in|en|à)$/, '');
   const title = `${label} ${{en: 'in', es: 'en', fr: 'à'}[locale] ?? 'in'} ${city.name}, TX`;
-  const description = `${title}. ${content.description}`;
-  return serviceMetadata(locale, `/services/${slug}/${citySlug}`, title, description, SERVICE_IMAGES[key]);
+  const ui = getCityUi(locale);
+  const description = ui.meta.replace('{service}', label.toLowerCase()).replace('{city}', city.name);
+  return serviceMetadata(locale, `/services/${slug}/${citySlug}`, title, description, `/images/cities/${citySlug}.webp`);
 }
 
 export default async function ServiceCityPage({
@@ -64,6 +66,11 @@ export default async function ServiceCityPage({
 
   if (!service || !city) notFound();
 
+  const key = slug === 'pest-control' ? 'pest' : slug === 'holiday-lighting' ? 'lighting' : slug;
+  const content = getServiceExpansion(key, locale);
+  const reading = content.articles.map(article => getPostBySlug(article, locale))
+    .filter((post): post is NonNullable<typeof post> => post !== null)
+    .map(post => ({slug: post.slug, title: post.title, excerpt: post.excerpt}));
   // Resolve on the server — pass plain strings to the client
   const siblingUrl = resolveSiblingUrl(service, city.slug);
 
@@ -80,6 +87,7 @@ export default async function ServiceCityPage({
       city={city}
       locale={locale}
       siblingUrl={siblingUrl}
+      reading={reading}
     />
   );
 }

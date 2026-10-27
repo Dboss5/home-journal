@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import {
@@ -20,13 +19,15 @@ import {
 import {
   CITIES,
   CITY_SERVICES,
-  getCityText,
   type City,
   type ServiceKey,
 } from "@/lib/locations";
+import { getServiceGuide } from "@/lib/serviceGuidesLocalized";
+import { getCityUi, getCityProfile } from "@/lib/cityProfiles";
+import { CityHeroVisual, CityLocalContext, CityVisitPlan, CityReading, CityMap } from "./CityGuideSections";
+import "./CityGuide.css";
 import { getCityFaqs } from "@/lib/cityFaqs";
 import { getServiceExpansion, getServiceUi } from "@/lib/serviceExpansion";
-import { SERVICE_IMAGES } from "@/lib/serviceImages";
 import { CityStructuredData } from "./CityStructuredData";
 
 const ICONS: Record<string, LucideIcon> = {
@@ -219,18 +220,21 @@ export function ServiceCityContent({
   city,
   locale,
   siblingUrl,
+  reading,
 }: {
   service: ServiceShape;
   city: City;
   locale: string;
   siblingUrl: string;
+  reading: {slug: string; title: string; excerpt: string}[];
 }) {
   const tSvc = useTranslations("services");
   const t = useTranslations("serviceCity");
 
   const Icon = ICONS[service.icon] ?? Waves;
   const serviceLabel = tSvc(service.labelKey as any);
-  const cityText = getCityText(city, locale);
+  const localUi = getCityUi(locale);
+  const profile = getCityProfile(city.slug, locale);
 
   const providerName = service.key === "pool" ? "Poolburg" : "Supremacy Service";
   const providerBlurb =
@@ -243,6 +247,7 @@ export function ServiceCityContent({
 
   const expansionKey = service.key === "pest-control" ? "pest" : service.key === "holiday-lighting" ? "lighting" : service.key;
   const expansion = getServiceExpansion(expansionKey, locale);
+  const guide = getServiceGuide(expansionKey, locale);
   const ui = getServiceUi(locale);
   const localName = `${serviceLabel} ${{en: "in", es: "en", fr: "à"}[locale] ?? "in"} ${city.name}`;
   const otherCities = CITIES.filter((c) => c.slug !== city.slug);
@@ -267,51 +272,36 @@ export function ServiceCityContent({
         lat={city.lat}
         lng={city.lng}
         locale={locale}
+        faqItems={faqs}
+        image={`/images/cities/${city.slug}.webp`}
       />
 
-      {/* HERO */}
+      <nav className="hf-city-breadcrumb" aria-label={localUi.breadcrumb}>
+        <Link href="/">{localUi.home}</Link><span>/</span><Link href="/services">{localUi.services}</Link><span>/</span><Link href={`/services/${service.key}`}>{serviceLabel}</Link><span>/</span><span>{city.name}</span>
+      </nav>
       <section className="hf-city-hero">
         <div className="hf-city-hero-inner">
-          <span className="hf-city-hero-icon">
-            <Icon size={40} strokeWidth={1.4} />
-          </span>
-          <p className="accent-label">
-            {city.name}, {city.state}
-          </p>
-          <h1 className="hf-city-hero-title">
-            {localName}
-          </h1>
-          <p className="hf-city-hero-sub">{expansion.overview}</p>
-          <figure className="hf-city-photo">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={SERVICE_IMAGES[expansionKey]} alt={expansion.imageAlt} width={1400} height={850} fetchPriority="high" />
-            <figcaption>{localName}</figcaption>
-          </figure>
+          <div className="hf-city-hero-copy"><span className="hf-city-hero-icon"><Icon size={36} strokeWidth={1.4} aria-hidden="true" /></span>
+          <p className="accent-label">{city.name}, {city.state}</p><h1 className="hf-city-hero-title">{localName}</h1>
+          <p className="hf-city-hero-sub">{profile.serviceNotes[expansionKey]}</p>
+          <Link href={`/quote?service=${expansionKey}&city=${city.slug}`} className="btn btn-primary">{t("ctaButton")}</Link>
+          </div>
+          <CityHeroVisual city={city} locale={locale} serviceKey={expansionKey} serviceLabel={serviceLabel} serviceAlt={expansion.imageAlt} />
         </div>
       </section>
+      <nav className="hf-city-jump" aria-label={localName}>
+        <a href="#local-context">{localUi.local}</a><a href="#city-service-options">{localUi.scope}</a><a href="#compare-work">{localUi.quote}</a><a href="#plan-visit">{localUi.visit}</a><a href="#city-questions">{localUi.questions}</a><a href="#city-map">{localUi.map}</a>
+      </nav>
+      <CityLocalContext city={city} locale={locale} serviceKey={expansionKey} />
 
-      <section className="hf-city-section">
+      <section id="city-service-options" className="hf-city-section">
         <h2>{ui.areaTitle.replace('{city}', city.name)}</h2>
         <div className="hf-city-service-options">{expansion.solutions.map(item => <article key={item.title}><h3>{item.title}</h3><p>{item.body}</p></article>)}</div>
         <Link href={`/services/${service.key}`} className="hf-city-main-guide">{expansion.solutionsTitle}</Link>
       </section>
 
-      {/* LOCAL CONTEXT */}
-      <section className="hf-city-section">
-        <h2>{t("knowTitle", { service: serviceLabel.toLowerCase(), city: city.name })}</h2>
-        <p>{cityText.localIssue}</p>
-
-        <div className="hf-city-citybox">
-          <div className="hf-city-citybox-item">
-            <p className="hf-city-citybox-label">{t("populationLabel")}</p>
-            <p className="hf-city-citybox-value">{city.population}</p>
-          </div>
-          <div className="hf-city-citybox-item">
-            <p className="hf-city-citybox-label">{t("pricingLabel")}</p>
-            <p className="hf-city-citybox-value">{cityText.pricingNote}</p>
-          </div>
-        </div>
-      </section>
+      <CityVisitPlan city={city} locale={locale} serviceKey={expansionKey} guide={guide} />
+      <CityReading locale={locale} reading={reading} />
 
       {/* WHAT TO LOOK FOR + PROVIDER */}
       <section className="hf-city-section hf-city-section-alt">
@@ -361,7 +351,7 @@ export function ServiceCityContent({
 
       {/* FAQ */}
       {faqs.length > 0 && (
-        <section className="hf-city-faq">
+        <section id="city-questions" className="hf-city-faq">
           <h2>
             {t("faqTitle", { service: serviceLabel.toLowerCase(), city: city.name })}
           </h2>
@@ -372,6 +362,8 @@ export function ServiceCityContent({
           </div>
         </section>
       )}
+
+      <CityMap city={city} locale={locale} />
 
       {/* CROSS-LINKS */}
       <section className="hf-city-crosslinks">
@@ -410,7 +402,7 @@ export function ServiceCityContent({
           </h2>
           <p className="hf-city-cta-sub">{t("finalSub")}</p>
           <Link
-            href={`/quote?service=${service.key}&city=${city.slug}`}
+            href={`/quote?service=${expansionKey}&city=${city.slug}`}
             className="hf-city-cta-btn btn"
           >
             {t("ctaButton")}
@@ -424,18 +416,8 @@ export function ServiceCityContent({
 
 /* ---------- FAQ ITEM ---------- */
 function FaqItem({ faq }: { faq: { q: string; a: string } }) {
-  const [open, setOpen] = useState(false);
-  return (
-    <div className={`hf-city-faq-item ${open ? "is-open" : ""}`}>
-      <button
-        className="hf-city-faq-trigger"
-        aria-expanded={open}
-        onClick={() => setOpen((v) => !v)}
-      >
-        <span>{faq.q}</span>
-        <ChevronDown size={18} strokeWidth={2} className="hf-city-faq-icon" />
-      </button>
-      {open && <div className="hf-city-faq-answer">{faq.a}</div>}
-    </div>
-  );
+  return <details className="hf-city-faq-item">
+    <summary className="hf-city-faq-trigger"><span>{faq.q}</span><ChevronDown size={18} strokeWidth={2} className="hf-city-faq-icon" aria-hidden="true" /></summary>
+    <div className="hf-city-faq-answer">{faq.a}</div>
+  </details>;
 }
