@@ -13,6 +13,7 @@ export interface BlogPost {
   coverImage?: string;
   content: string;
   readingTime: string;
+  showRelated?: boolean;
 }
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "blog");
@@ -71,6 +72,7 @@ export function getPostBySlug(
       excerpt: data.excerpt ?? "",
       coverImage: data.coverImage,
       content,
+      showRelated: data.showRelated !== false,
       readingTime: `${Math.max(1, Math.ceil(rt.minutes))} ${{en: "min read", es: "min de lectura", fr: "min de lecture"}[locale] ?? "min read"}`,
     };
   }
