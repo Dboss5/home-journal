@@ -35,7 +35,7 @@ export default async function BlogPostPage({
   const post = getPostBySlug(slug, locale);
   if (!post) notFound();
 
-  const related = getRelatedPosts(slug, locale, 3);
+  const related = post.showRelated === false ? [] : getRelatedPosts(slug, locale, 3);
 
   const mdxContent = (
     <MDXRemote
