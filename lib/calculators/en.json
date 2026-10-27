@@ -1,0 +1,132 @@
+{
+  "ui": {
+    "label": "Home planning tools",
+    "title": "A little math. A clearer plan.",
+    "description": "Free home-service calculators for pool volume, AC energy, water leaks, holiday lights, mulch and pavers. Change the examples to match your home.",
+    "open": "Open calculator",
+    "all": "All calculators",
+    "inputs": "Your measurements",
+    "results": "Your estimate",
+    "reset": "Reset example",
+    "example": "Example inputs are prefilled. Replace them with your measurements and utility rates. All money values are USD.",
+    "invalid": "Enter a number within every displayed range. Counts and days must be whole numbers. Pool deep-end depth must be at least the shallow-end depth.",
+    "range": "Allowed range",
+    "method": "How the calculation works",
+    "before": "Before you use the result",
+    "faq": "Common questions",
+    "guide": "Explore the service guide",
+    "quote": "Discuss your project",
+    "related": "More planning tools",
+    "source": "Reference",
+    "privacy": "Calculations happen in your browser. No sign-up required.",
+    "live": "Updates as you type",
+    "estimate": "Planning estimate",
+    "provider": "For service, contact",
+    "home": "Home",
+    "units": "US customary inputs • USD rates",
+    "noscript": "Enable JavaScript to edit inputs and update the estimate."
+  },
+  "fields": {
+    "length": "Length",
+    "width": "Width",
+    "shallow": "Shallow-end depth",
+    "deep": "Deep-end depth",
+    "watts": "Running power",
+    "hours": "Operating hours per day",
+    "days": "Number of days",
+    "rate": "Electricity rate",
+    "collected": "Water collected",
+    "seconds": "Collection time",
+    "waterRate": "Water rate",
+    "strings": "Number of light strings",
+    "area": "Bed area",
+    "depth": "Added mulch depth",
+    "bag": "Volume per bag",
+    "paverLength": "Paver length",
+    "paverWidth": "Paver width",
+    "waste": "Cutting and breakage allowance"
+  },
+  "calculators": {
+    "pool-volume": {
+      "title": "Pool volume calculator",
+      "description": "How many gallons are in your pool? Estimate rectangular pool volume in US gallons and liters from four measurements.",
+      "instructions": "Measure the inside length and width at the waterline. Enter the water depth at each end, not the wall height.",
+      "formula": "Length × width × (shallow depth + deep depth) ÷ 2 × 7.48051948 = US gallons. One cubic foot = 28.316846592 liters.",
+      "caveat": "Assumes a rectangular footprint and a floor sloping evenly between two depths. Steps, benches, curves and diving wells change the actual volume. This is not a chemical dosing calculator.",
+      "resultLabels": [
+        "US gallons",
+        "Liters"
+      ],
+      "question": "Can I use this for a round or irregular pool?",
+      "answer": "No. Use the builder’s volume records or ask a pool professional to measure it. The rectangular formula can substantially overstate the volume of a freeform pool."
+    },
+    "ac-running-cost": {
+      "title": "AC running cost calculator",
+      "description": "How much does your AC cost to run? Estimate electricity use and cost from running watts, actual operating hours and your own rate.",
+      "instructions": "Use measured running watts or manufacturer input-power data. Enter hours the equipment actually runs, not just hours the thermostat is switched on.",
+      "formula": "Watts × operating hours per day × days ÷ 1,000 = kWh. Multiply kWh by your USD per kWh rate for the estimated energy charge.",
+      "caveat": "Assumes constant power while running. Cycling, variable speeds, weather and separate blower loads affect real use. Excludes fixed charges and taxes. It does not size an AC system or predict savings from replacement.",
+      "resultLabels": [
+        "Energy cost (USD)",
+        "Energy use (kWh)"
+      ],
+      "question": "Can I enter the AC tonnage instead of watts?",
+      "answer": "No. Tonnage describes cooling output, not electrical input. Use measured power or documented input watts and your actual utility rate."
+    },
+    "water-leak-waste": {
+      "title": "Water leak waste calculator",
+      "description": "How much water is that leak wasting? Estimate gallons lost and the water-only cost using a timed collection and your water rate.",
+      "instructions": "Where safely accessible, collect the dripping water in a marked container and time the collection. Enter US fluid ounces, seconds and your usage charge per 1,000 US gallons.",
+      "formula": "Collected US fluid ounces ÷ 128 ÷ collection seconds × 86,400 × days = US gallons lost. Gallons ÷ 1,000 × water rate = estimated cost.",
+      "caveat": "Assumes the measured leak continues at the same rate, 24 hours a day. Excludes sewer charges, fixed fees and tiered pricing. Do not disturb electrical equipment or collect water from unsafe or concealed leaks.",
+      "resultLabels": [
+        "US gallons lost",
+        "Water-only cost (USD)"
+      ],
+      "question": "Why not just count the drops?",
+      "answer": "Drop sizes vary. Timed collection measures the volume directly. For concealed or intermittent leaks, use water-meter checks or ask a plumber to investigate."
+    },
+    "holiday-light-cost": {
+      "title": "Holiday light electricity calculator",
+      "description": "What will your holiday lights cost to run? Estimate display energy and electricity cost using the wattage printed on each light string.",
+      "instructions": "Enter the number of matching strings and the watts per complete string. For mixed products, calculate each group separately and add the energy costs.",
+      "formula": "Strings × watts per string × hours per day × days ÷ 1,000 = kWh. Multiply kWh by your USD per kWh rate.",
+      "caveat": "Estimates electricity only, not installation, rental or removal. Read actual product labels; example wattage is not a product rating. This tool does not assess outlet capacity, circuit loading or safe connection limits.",
+      "resultLabels": [
+        "Energy cost (USD)",
+        "Energy use (kWh)"
+      ],
+      "question": "Can this tell me how many strings to connect?",
+      "answer": "No. Follow the manufacturer’s connection limits and use equipment rated for its location. Ask a qualified installer about power distribution for your display.",
+      "fieldOverrides": {
+        "watts": "Power per complete light string"
+      }
+    },
+    "mulch-quantity": {
+      "title": "Mulch quantity calculator",
+      "description": "How much mulch do you need? Convert your garden-bed area and added depth into cubic yards and a rounded-up bag count.",
+      "instructions": "Measure the bed area, subtract spaces that will not receive mulch and enter only the extra depth you intend to add. Check the volume printed on the bag.",
+      "formula": "Area in square feet × depth in inches ÷ 324 = cubic yards. Area × depth ÷ 12 ÷ cubic feet per bag = bags, rounded up.",
+      "caveat": "Assumes even coverage on a level bed. No extra allowance for settling, slopes or delivery minimums. Existing mulch counts toward total depth; keep mulch away from stems and tree trunks.",
+      "resultLabels": [
+        "Cubic yards",
+        "Whole bags"
+      ],
+      "question": "What if my bed has curves?",
+      "answer": "Divide it into simple shapes, calculate their areas and add them. Subtract paving and planting spaces that will remain uncovered, then enter the net area."
+    },
+    "patio-pavers": {
+      "title": "Patio paver calculator",
+      "description": "How many pavers do you need? Estimate a rectangular patio’s area and whole paver count with your chosen cutting allowance.",
+      "instructions": "Measure the planned patio footprint and use the manufacturer’s nominal coverage dimensions for one paver. Set an allowance appropriate to your pattern and discuss it with the supplier.",
+      "formula": "Patio length × width = square feet. Area ÷ (paver length × width ÷ 144) × (1 + allowance ÷ 100) = pavers, rounded up.",
+      "caveat": "Assumes one rectangular paver size. Excludes base, bedding, joint sand, edging and labor. The example allowance is editable, not a universal recommendation. Mixed-size patterns and pallet coverage require supplier calculations.",
+      "resultLabels": [
+        "Whole pavers",
+        "Patio area (ft²)"
+      ],
+      "question": "Should I use the measured stone size or coverage size?",
+      "answer": "Use the manufacturer’s nominal installed coverage dimensions, including the intended joint allowance when specified. Small differences across many units change the order quantity."
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "ui": {
+    "label": "Herramientas para el hogar",
+    "title": "Un poco de cálculo. Un plan más claro.",
+    "description": "Calculadoras gratuitas de volumen de piscina, energía del aire acondicionado, fugas, luces festivas, mantillo y adoquines. Adapte los ejemplos a su hogar.",
+    "open": "Abrir calculadora",
+    "all": "Todas las calculadoras",
+    "inputs": "Sus medidas",
+    "results": "Su estimación",
+    "reset": "Restablecer ejemplo",
+    "example": "Los campos contienen un ejemplo. Sustitúyalos por sus medidas y tarifas. Todos los importes están en USD.",
+    "invalid": "Introduzca números dentro de los rangos indicados. Las cantidades y los días deben ser enteros. La profundidad mayor de la piscina debe ser igual o superior a la menor.",
+    "range": "Rango permitido",
+    "method": "Cómo se calcula",
+    "before": "Antes de utilizar el resultado",
+    "faq": "Preguntas frecuentes",
+    "guide": "Consultar la guía del servicio",
+    "quote": "Consultar sobre su proyecto",
+    "related": "Más herramientas",
+    "source": "Referencia",
+    "privacy": "Los cálculos se realizan en su navegador. Sin registro.",
+    "live": "Se actualiza al escribir",
+    "estimate": "Estimación para planificar",
+    "provider": "Para contratar el servicio, contacte con",
+    "home": "Inicio",
+    "units": "Unidades estadounidenses • tarifas en USD",
+    "noscript": "Active JavaScript para modificar los datos y actualizar la estimación."
+  },
+  "fields": {
+    "length": "Largo",
+    "width": "Ancho",
+    "shallow": "Profundidad mínima",
+    "deep": "Profundidad máxima",
+    "watts": "Potencia en funcionamiento",
+    "hours": "Horas de funcionamiento al día",
+    "days": "Número de días",
+    "rate": "Tarifa eléctrica",
+    "collected": "Agua recogida",
+    "seconds": "Tiempo de recogida",
+    "waterRate": "Tarifa del agua",
+    "strings": "Número de tiras de luces",
+    "area": "Superficie del parterre",
+    "depth": "Espesor de mantillo añadido",
+    "bag": "Volumen por bolsa",
+    "paverLength": "Largo del adoquín",
+    "paverWidth": "Ancho del adoquín",
+    "waste": "Margen para cortes y roturas"
+  },
+  "calculators": {
+    "pool-volume": {
+      "title": "Calculadora de volumen de piscina",
+      "description": "¿Cuánta agua contiene su piscina? Estime el volumen rectangular en galones estadounidenses y litros con cuatro medidas.",
+      "instructions": "Mida el largo y ancho interiores en la línea del agua. Introduzca la profundidad del agua en cada extremo, no la altura de la pared.",
+      "formula": "Largo × ancho × (profundidad mínima + máxima) ÷ 2 × 7,48051948 = galones estadounidenses. Un pie cúbico equivale a 28,316846592 litros.",
+      "caveat": "Supone una piscina rectangular con pendiente uniforme entre dos profundidades. Escalones, bancos, curvas y fosos alteran el volumen real. No calcula dosis de productos químicos.",
+      "resultLabels": [
+        "Galones estadounidenses",
+        "Litros"
+      ],
+      "question": "¿Sirve para una piscina circular o irregular?",
+      "answer": "No. Consulte los datos del constructor o pida a un profesional que la mida. La fórmula rectangular puede sobrestimar mucho el volumen de una piscina de forma libre."
+    },
+    "ac-running-cost": {
+      "title": "Calculadora del coste del aire acondicionado",
+      "description": "¿Cuánto cuesta utilizar el aire acondicionado? Estime el consumo y coste eléctrico con la potencia, las horas reales y su tarifa.",
+      "instructions": "Use la potencia medida o los datos de consumo del fabricante. Indique las horas de funcionamiento real, no las horas que el termostato permanece encendido.",
+      "formula": "Vatios × horas diarias × días ÷ 1.000 = kWh. Multiplique los kWh por su tarifa en USD/kWh para estimar el cargo de energía.",
+      "caveat": "Supone una potencia constante durante el funcionamiento. Los ciclos, velocidades variables, clima y ventiladores adicionales cambian el consumo. Excluye cargos fijos e impuestos. No dimensiona equipos ni predice ahorros por sustitución.",
+      "resultLabels": [
+        "Coste energético (USD)",
+        "Consumo (kWh)"
+      ],
+      "question": "¿Puedo introducir las toneladas del equipo en lugar de vatios?",
+      "answer": "No. Las toneladas expresan capacidad de refrigeración, no consumo eléctrico. Use potencia medida o documentada y su tarifa real."
+    },
+    "water-leak-waste": {
+      "title": "Calculadora del desperdicio por fugas",
+      "description": "¿Cuánta agua pierde esa fuga? Estime los galones desperdiciados y el coste del agua con una recogida cronometrada y su tarifa.",
+      "instructions": "Si el acceso es seguro, recoja el goteo en un recipiente graduado y mida el tiempo. Introduzca onzas líquidas estadounidenses, segundos y la tarifa por 1.000 galones estadounidenses.",
+      "formula": "Onzas líquidas recogidas ÷ 128 ÷ segundos de recogida × 86.400 × días = galones estadounidenses perdidos. Galones ÷ 1.000 × tarifa = coste estimado.",
+      "caveat": "Supone una fuga constante durante las 24 horas del día. Excluye alcantarillado, cargos fijos y tarifas por tramos. No manipule equipos eléctricos ni recoja agua de fugas ocultas o peligrosas.",
+      "resultLabels": [
+        "Galones estadounidenses perdidos",
+        "Coste solo del agua (USD)"
+      ],
+      "question": "¿Por qué no contar simplemente las gotas?",
+      "answer": "El tamaño de las gotas varía. La recogida cronometrada mide el volumen directamente. Para fugas ocultas o intermitentes, compruebe el contador o consulte a un fontanero."
+    },
+    "holiday-light-cost": {
+      "title": "Calculadora de electricidad de luces festivas",
+      "description": "¿Cuánto cuesta encender las luces festivas? Estime el consumo y coste con la potencia indicada en cada tira de luces.",
+      "instructions": "Indique cuántas tiras iguales utiliza y los vatios de una tira completa. Para productos diferentes, calcule cada grupo por separado y sume sus costes.",
+      "formula": "Tiras × vatios por tira × horas al día × días ÷ 1.000 = kWh. Multiplique los kWh por su tarifa en USD/kWh.",
+      "caveat": "Calcula solo electricidad, no instalación, alquiler ni retirada. Lea las etiquetas reales; la potencia de ejemplo no certifica ningún producto. No evalúa capacidad de enchufes, carga del circuito ni límites de conexión.",
+      "resultLabels": [
+        "Coste energético (USD)",
+        "Consumo (kWh)"
+      ],
+      "question": "¿Indica cuántas tiras puedo conectar entre sí?",
+      "answer": "No. Respete los límites del fabricante y utilice equipos aptos para su ubicación. Consulte a un instalador cualificado sobre la alimentación eléctrica de su decoración.",
+      "fieldOverrides": {
+        "watts": "Potencia por tira completa"
+      }
+    },
+    "mulch-quantity": {
+      "title": "Calculadora de cantidad de mantillo",
+      "description": "¿Cuánto mantillo necesita? Convierta la superficie y el espesor añadido en yardas cúbicas y bolsas redondeadas hacia arriba.",
+      "instructions": "Mida la superficie, reste las zonas sin cobertura e indique solo el espesor adicional. Compruebe el volumen impreso en la bolsa.",
+      "formula": "Superficie en pies cuadrados × espesor en pulgadas ÷ 324 = yardas cúbicas. Superficie × espesor ÷ 12 ÷ pies cúbicos por bolsa = bolsas, redondeadas hacia arriba.",
+      "caveat": "Supone cobertura uniforme en un parterre nivelado. No añade margen por asentamiento, pendientes o mínimos de entrega. El mantillo existente cuenta para el espesor total; deje espacio alrededor de tallos y troncos.",
+      "resultLabels": [
+        "Yardas cúbicas",
+        "Bolsas completas"
+      ],
+      "question": "¿Y si el parterre tiene curvas?",
+      "answer": "Divídalo en formas sencillas, calcule sus superficies y súmelas. Reste pavimentos y zonas de plantación que queden sin cubrir e introduzca la superficie neta."
+    },
+    "patio-pavers": {
+      "title": "Calculadora de adoquines para patio",
+      "description": "¿Cuántos adoquines necesita? Estime la superficie de un patio rectangular y las piezas completas con su margen para cortes.",
+      "instructions": "Mida el patio previsto y use las dimensiones nominales de cobertura de un adoquín indicadas por el fabricante. Ajuste el margen al patrón y consúltelo con el proveedor.",
+      "formula": "Largo × ancho del patio = pies cuadrados. Superficie ÷ (largo × ancho del adoquín ÷ 144) × (1 + margen ÷ 100) = adoquines, redondeados hacia arriba.",
+      "caveat": "Supone un único tamaño rectangular. Excluye base, lecho, arena de juntas, bordes y mano de obra. El margen de ejemplo es editable, no una recomendación universal. Los patrones mixtos y palés requieren cálculos del proveedor.",
+      "resultLabels": [
+        "Adoquines completos",
+        "Superficie del patio (ft²)"
+      ],
+      "question": "¿Uso las medidas reales o las de cobertura?",
+      "answer": "Use las dimensiones nominales de cobertura instalada del fabricante, con la junta prevista cuando se indique. Pequeñas diferencias en muchas piezas cambian el pedido."
+    }
+  }
+}
