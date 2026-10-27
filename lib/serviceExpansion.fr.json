@@ -1,0 +1,248 @@
+{
+  "pool": {
+    "seoTitle": "Services de piscine à Dallas–Fort Worth",
+    "description": "Comparez nettoyage, analyses, réparations et entretien de piscine en DFW. Préparez les questions avant de réserver.",
+    "heading": "De l’eau aux équipements, un entretien cohérent.",
+    "overview": "Nettoyage régulier et réparation demandent des plans différents. Décrivez eau, fonctionnement et changements récents pour obtenir une proposition adaptée.",
+    "solutionsTitle": "Nettoyage, récupération et équipements.",
+    "solutions": [
+      {
+        "title": "Nettoyage régulier",
+        "body": "Convenez du brossage, de l’aspiration, des paniers et du rapport. Définissez les contrôles entre passages et l’autorisation des suppléments."
+      },
+      {
+        "title": "Eau trouble et récupération",
+        "body": "Transmettez analyses, produits ajoutés et changements de circulation. Demandez comment la cause et les progrès seront vérifiés avant le retour à l’entretien régulier."
+      },
+      {
+        "title": "Pompes, filtres et commandes",
+        "body": "Fournissez références et codes. Séparez diagnostic, pièces, installation et tests plutôt que comparer le prix d’une pièce seule."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Une piscine au sel demande-t-elle un entretien ?",
+        "a": "Oui. Prévoyez analyses, nettoyage et contrôle du système au sel selon sa notice. Précisez tâches et pièces hors forfait."
+      },
+      {
+        "q": "Que transmettre avant la visite ?",
+        "a": "Photos générales, étiquettes accessibles, analyses et changements observés. Expliquez accès et réparations récentes pour rendre la visite utile."
+      }
+    ],
+    "imageAlt": "Piscine et zone technique voisine",
+    "articles": [
+      "why-is-my-pool-cloudy",
+      "pool-maintenance-visit-checklist-dfw"
+    ]
+  },
+  "hvac": {
+    "seoTitle": "Climatisation et chauffage à Dallas–Fort Worth",
+    "description": "Explorez réparation de climatisation, chauffage, pompes à chaleur et remplacement en DFW. Comparez diagnostic et installation.",
+    "heading": "Un chemin plus clair vers le confort.",
+    "overview": "Décrivez pièces concernées, réglages et moment du problème. Une proposition utile relie symptômes et investigation avant entretien, réparation ou remplacement.",
+    "solutionsTitle": "Froid, chaleur et circulation de l’air.",
+    "solutions": [
+      {
+        "title": "Réparation de climatisation",
+        "body": "Décrivez air chaud, faible débit, cycles ou codes. Demandez les tests soutenant le diagnostic et la vérification après réparation."
+      },
+      {
+        "title": "Chauffage et pompes à chaleur",
+        "body": "Identifiez si possible le système et les soucis de démarrage ou température. Distinguez contrôle préventif et diagnostic d’un défaut existant."
+      },
+      {
+        "title": "Remplacement et installation",
+        "body": "Demandez évaluation du logement, sélection, conduits, commandes, dépose et mise en service. Comparez toute l’installation, pas seulement les marques."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Un faible débit impose-t-il un appareil neuf ?",
+        "a": "Pas nécessairement. Débit et températures inégales exigent une recherche. Faites expliquer les constats avant entretien, conduits, réparation ou remplacement."
+      },
+      {
+        "q": "Que préciser pour un remplacement ?",
+        "a": "Modèles, pose, commandes, dépose, tests, exclusions et garanties applicables. Définissez autorisations locales et vérification du résultat."
+      }
+    ],
+    "imageAlt": "Technicien inspectant une unité extérieure de climatisation",
+    "articles": [
+      "why-is-my-ac-blowing-warm-air",
+      "furnace-service-visit-checklist-dfw"
+    ]
+  },
+  "pest": {
+    "seoTitle": "Lutte contre les nuisibles à Dallas–Fort Worth",
+    "description": "Préparez inspection, cafards, exclusion des rongeurs et prévention en DFW. Comprenez préparation, traitement et suivi.",
+    "heading": "Comprendre l’activité avant de choisir le traitement.",
+    "overview": "Précisez observations, lieux et retour après traitement. Identification et inspection doivent guider le plan plutôt qu’un calendrier identique pour tous les logements.",
+    "solutionsTitle": "Inspection, contrôle ciblé et prévention.",
+    "solutions": [
+      {
+        "title": "Activité intérieure",
+        "body": "Relevez cuisine, salle de bains et zones techniques. Précisez identification, préparation et lieux traités avant déplacement d’objets ou nouveaux produits."
+      },
+      {
+        "title": "Rongeurs et points d’entrée",
+        "body": "Demandez preuves, trajets probables et séquence d’exclusion. Séparez contrôle, fermeture, nettoyage et remise en état."
+      },
+      {
+        "title": "Prévention extérieure",
+        "body": "Discutez périmètre, abris, humidité et accès. Confirmez couverture régulière et signalement entre visites."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Et si les nuisibles reviennent ?",
+        "a": "Notez lieu et date et contactez le prestataire avant un autre produit. Demandez si cela correspond au suivi prévu et si une inspection ou adaptation est nécessaire."
+      },
+      {
+        "q": "Comment préparer enfants et animaux ?",
+        "a": "Obtenez les consignes écrites de préparation et de retour pour le traitement. Consultez nourriture, jouets, animaux et restrictions sans supposer des exigences identiques."
+      }
+    ],
+    "imageAlt": "Technicien antiparasitaire inspectant et traitant des avant-toits",
+    "articles": [
+      "why-do-roaches-keep-coming-back",
+      "rodent-exclusion-inspection-dfw"
+    ]
+  },
+  "plumbing": {
+    "seoTitle": "Plomberie à Dallas–Fort Worth",
+    "description": "Explorez fuites, toilettes, évacuations et chauffe-eau en DFW. Distinguez diagnostic, accès, réparation et remise en état.",
+    "heading": "Trouver le défaut et comprendre la réparation.",
+    "overview": "Goutte, évacuation lente et consommation inexpliquée demandent des recherches différentes. Notez appareils concernés et moment pour définir la prochaine étape.",
+    "solutionsTitle": "Du sanitaire à la conduite d’alimentation.",
+    "solutions": [
+      {
+        "title": "Fuites et conduites",
+        "body": "Transmettez consommation, humidité et chronologie. Demandez confirmation de l’origine avant ouverture, excavation ou remplacement."
+      },
+      {
+        "title": "Toilettes et évacuations",
+        "body": "Précisez si un ou plusieurs appareils sont touchés. Écoulement continu et bouchons récurrents demandent recherche et réparation explicites."
+      },
+      {
+        "title": "Chauffe-eau et améliorations",
+        "body": "Fournissez modèle et besoins. Comparez accès, raccordements, dépose, tests et modifications nécessaires par écrit."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "La détection inclut-elle le mur ?",
+        "a": "Pas automatiquement. Séparez localisation, accès, tuyaux, tests et finitions. Définissez autres métiers et coordination."
+      },
+      {
+        "q": "Réparer ou remplacer un appareil ?",
+        "a": "Demandez la panne, les réparations compatibles et le contenu des alternatives. État, accès et pièces comptent ; un symptôme ne prouve pas le besoin de remplacement."
+      }
+    ],
+    "imageAlt": "Plombier intervenant sur un réservoir de toilettes ouvert",
+    "articles": [
+      "why-does-my-toilet-keep-running",
+      "hidden-household-water-leak-checklist-dfw"
+    ]
+  },
+  "lighting": {
+    "seoTitle": "Éclairage des fêtes à Dallas–Fort Worth",
+    "description": "Préparez toiture, arbres et décors de Noël en DFW. Comparez conception, alimentation, suivi, dépose et stockage.",
+    "heading": "Un beau décor commence par un plan réfléchi.",
+    "overview": "Apportez inspirations et photos, puis convenez du dessin, de l’accès et de l’alimentation avant la pose. Prévoyez suivi et dépose dès le départ.",
+    "solutionsTitle": "Toitures, arbres et entrées accueillantes.",
+    "solutions": [
+      {
+        "title": "Toiture et architecture",
+        "body": "Choisissez zones, rendu et points de vue. Confirmez produits, fixation et accès avant de comparer les devis."
+      },
+      {
+        "title": "Arbres, chemins et entrées",
+        "body": "Précisez éléments à valoriser et passages à dégager. Demandez le plan des câbles, commandes et connexions extérieures."
+      },
+      {
+        "title": "Suivi et dépose",
+        "body": "Confirmez propriété, signalement des pannes, entretien inclus, dates et stockage. La fin de saison mérite autant de clarté que la pose."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Peut-on compléter mon décor existant ?",
+        "a": "Faites vérifier compatibilité, caractéristiques et alimentation. Une couleur proche ne prouve pas la compatibilité des guirlandes, commandes ou fixations."
+      },
+      {
+        "q": "La dépose est-elle comprise ?",
+        "a": "Cela dépend de l’accord. Demandez période, stockage et responsabilité des produits et clips par écrit, avec les éventuels coûts avant accord."
+      }
+    ],
+    "imageAlt": "Maison avec éclairage de fêtes coloré en toiture et au jardin",
+    "articles": [
+      "christmas-lighting-power-plan-dfw",
+      "real-cost-holiday-lighting"
+    ]
+  },
+  "landscape": {
+    "seoTitle": "Aménagement paysager à Dallas–Fort Worth",
+    "description": "Préparez pelouse, plantations, irrigation et travaux saisonniers en DFW. Comparez besoins du site et responsabilités d’entretien.",
+    "heading": "Un extérieur adapté à votre mode de vie.",
+    "overview": "Distinguez entretien courant et rénovation. Discutez lumière, eau, accès et temps d’entretien avant de choisir travaux et matériaux.",
+    "solutionsTitle": "Pelouse, plantations et détails du jardin.",
+    "solutions": [
+      {
+        "title": "Entretien régulier",
+        "body": "Listez pelouse, massifs et arbustes avec tâches attendues. Confirmez déchets, accès, rapports et exclusions."
+      },
+      {
+        "title": "Plantations et rénovation",
+        "body": "Expliquez rendu souhaité et conditions. Consultez adaptation, taille adulte, espacement, sol et entretien d’établissement."
+      },
+      {
+        "title": "Irrigation et bilan saisonnier",
+        "body": "Notez arrosage inégal, ruissellement ou sécheresse. Demandez une évaluation avant réglages ou pièces et précisez la prestation."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Peut-on rénover par étapes ?",
+        "a": "Oui, prévoyez une séquence respectant accès, irrigation et travaux futurs. Définissez décisions immédiates et raccordement des phases."
+      },
+      {
+        "q": "Que préciser dans un devis de plantation ?",
+        "a": "Types, tailles, quantités, préparation du sol, pose, nettoyage et premiers soins. Précisez remplacement, suivi et responsabilité de l’arrosage."
+      }
+    ],
+    "imageAlt": "Vue aérienne d’un projet paysager avec plantations, pelouse et piscine",
+    "articles": []
+  },
+  "hardscape": {
+    "seoTitle": "Patios et aménagements minéraux à Dallas–Fort Worth",
+    "description": "Préparez patios, chemins, murs et espaces extérieurs en DFW. Comparez drainage, préparation, matériaux et installation.",
+    "heading": "La base d’une pièce à ciel ouvert.",
+    "overview": "Définissez circulation, évacuation de l’eau et relation à la maison avant les finitions. La proposition doit expliquer aussi ce qui reste sous la surface.",
+    "solutionsTitle": "Patios, chemins et espaces à vivre.",
+    "solutions": [
+      {
+        "title": "Patios et cheminements",
+        "body": "Expliquez usages, mobilier et parcours. Demandez dimensions, matériaux, rives, excavation et préparation de base."
+      },
+      {
+        "title": "Pentes et eau",
+        "body": "Montrez accumulations d’eau et lien aux bâtiments. Intégrez nivellement et drainage ; des conditions complexes peuvent nécessiter un spécialiste."
+      },
+      {
+        "title": "Équipements extérieurs",
+        "body": "Coordonnez assises, cuisine ou feu avec accès et réseaux. Identifiez métiers, autorisations et exclusions avant construction."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Que comparer au-delà du revêtement ?",
+        "a": "Excavation, base, pentes, rives, drainage, accès, évacuation et remise en état. Un même revêtement peut recouvrir des installations très différentes."
+      },
+      {
+        "q": "Qui vérifie autorisations et réseaux enterrés ?",
+        "a": "Faites définir validations locales et localisation des réseaux avant excavation. Cela dépend du projet et de la commune ; précisez les responsabilités par écrit."
+      }
+    ],
+    "imageAlt": "Exemple de patio aménagé avec espace pour s’asseoir",
+    "articles": []
+  }
+}

@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import {
   Waves,
@@ -16,6 +16,7 @@ import {
   Star,
   Sparkle,
 } from "lucide-react";
+import { getServiceUi } from "@/lib/serviceExpansion";
 import { SERVICE_IMAGES } from "@/lib/serviceImages";
 
 const SERVICES = [
@@ -224,6 +225,7 @@ const STYLES = `
 `;
 
 export function ServicesIndexContent() {
+  const ui = getServiceUi(useLocale());
   const t = useTranslations("services");
   const tIdx = useTranslations("servicesIndex");
 
@@ -235,8 +237,8 @@ export function ServicesIndexContent() {
       <section className="hf-svc-idx-hero">
         <div className="hf-svc-idx-hero-inner">
           <p className="accent-label">{tIdx("eyebrow")}</p>
-          <h1 className="hf-svc-idx-hero-title">{tIdx("title")}</h1>
-          <p className="hf-svc-idx-hero-sub">{tIdx("subtitle")}</p>
+          <h1 className="hf-svc-idx-hero-title">{ui.directoryTitle}</h1>
+          <p className="hf-svc-idx-hero-sub">{ui.directoryIntro}</p>
         </div>
       </section>
 

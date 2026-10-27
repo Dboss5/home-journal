@@ -2,18 +2,25 @@
 
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { Check, ClipboardList, Compass, FileText, MapPin, Plus } from "lucide-react";
+import { BookOpen, Waves, Wind, Bug, Wrench, Sparkles, Trees, BrickWall, Check, ClipboardList, Compass, FileText, MapPin, Plus } from "lucide-react";
 import type { ServiceData } from "@/lib/services";
 import type { ServiceGuide } from "@/lib/serviceGuides";
 import { CITIES } from "@/lib/locations";
 import { HomeIllustration } from "@/components/home/HomeIllustrations";
+import { SERVICE_IMAGES } from "@/lib/serviceImages";
+import { getServiceUi, type ServiceExpansion } from "@/lib/serviceExpansion";
 import styles from "./ServiceContent.module.css";
 
-export function ServiceContent({ service, guide }: { service: ServiceData; guide: ServiceGuide }) {
+export function ServiceContent({ service, guide, expansion, reading }: {
+  service: ServiceData; guide: ServiceGuide; expansion: ServiceExpansion;
+  reading: {slug: string; title: string; excerpt: string}[];
+}) {
   const t = useTranslations("services");
   const g = useTranslations("serviceGuide");
   const locale = useLocale();
   const name = t(service.key);
+  const ui = getServiceUi(locale);
+  const ServiceIcon = ({pool: Waves, hvac: Wind, pest: Bug, plumbing: Wrench, lighting: Sparkles, landscape: Trees, hardscape: BrickWall})[service.key] ?? Compass;
   const quote = `/quote?service=${service.key}`;
   const provider = service.key === "pool" ? "Poolburg" : "Supremacy Service";
 
@@ -22,8 +29,8 @@ export function ServiceContent({ service, guide }: { service: ServiceData; guide
       <section className={styles.hero}>
         <div className={styles.heroCopy}>
           <Link href="/services" className={styles.eyebrow}>{g("breadcrumb")}</Link>
-          <h1>{name}</h1>
-          <p className={styles.dek}>{guide.kicker}</p>
+          <h1>{expansion.seoTitle}</h1>
+          <p className={styles.dek}>{expansion.heading}</p>
           <p>{guide.intro}</p>
           <div className={styles.actions}>
             <Link href={quote} className="btn btn-primary">{g("discuss")}</Link>
@@ -31,15 +38,25 @@ export function ServiceContent({ service, guide }: { service: ServiceData; guide
           </div>
           <span className={styles.location}><MapPin size={15} aria-hidden="true" /> {g("location")}</span>
         </div>
-        <div className={styles.heroArt}>
-          <HomeIllustration kind={service.key} />
-          <span className={styles.artLabel}>{g("artLabel")}</span>
-        </div>
+        <figure className={styles.heroPhoto}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={SERVICE_IMAGES[service.key]} alt={expansion.imageAlt} width={1400} height={1050} fetchPriority="high" />
+          <figcaption><ServiceIcon size={20} aria-hidden="true" /><span>{name}<small>{ui.region}</small></span></figcaption>
+          <div className={styles.illustrationStamp} aria-hidden="true"><HomeIllustration kind={service.key} /></div>
+        </figure>
       </section>
 
       <nav className={styles.jump} aria-label={g("navLabel", { name })}>
         <a href="#start">{g("jumpStart")}</a><a href="#scope">{g("jumpScope")}</a><a href="#quote">{g("jumpQuote")}</a><a href="#prepare">{g("jumpPrepare")}</a><a href="#questions">{g("jumpQuestions")}</a>
       </nav>
+
+      <section id="service-options" className={`${styles.section} ${styles.options}`}>
+        <header><span className={styles.eyebrow}>{ui.optionsLabel}</span><h2>{expansion.solutionsTitle}</h2><p>{expansion.overview}</p></header>
+        <div className={styles.solutionGrid}>{expansion.solutions.map((item, index) => <article key={item.title}>
+          <div className={styles.solutionTop}><ServiceIcon size={25} aria-hidden="true" /><span>0{index + 1}</span></div>
+          <h3>{item.title}</h3><p>{item.body}</p><a href="#quote">{g("jumpQuote")}</a>
+        </article>)}</div>
+      </section>
 
       <section id="start" className={styles.section}>
         <header><span className={styles.eyebrow}>{g("startLabel")}</span><h2>{g("startTitle")}</h2></header>
@@ -72,6 +89,13 @@ export function ServiceContent({ service, guide }: { service: ServiceData; guide
         <header><span className={styles.eyebrow}>{g("faqLabel")}</span><h2>{g("faqTitle")}</h2><p>{g("faqNote")}</p></header>
         <div>{guide.faqs.map(faq => <details className={styles.faq} key={faq.q}><summary>{faq.q}<Plus size={19} aria-hidden="true" /></summary><p>{faq.a}</p></details>)}</div>
       </section>
+
+      {reading.length > 0 && <section className={`${styles.section} ${styles.reading}`}>
+        <header><span className={styles.eyebrow}>{ui.guidesLabel}</span><h2>{ui.guidesTitle}</h2></header>
+        <div className={styles.readingGrid}>{reading.map(post => <Link href={`/blog/${post.slug}`} key={post.slug}>
+          <BookOpen size={23} aria-hidden="true" /><h3>{post.title}</h3><p>{post.excerpt}</p><span>{ui.read}</span>
+        </Link>)}</div>
+      </section>}
 
       <aside className={styles.provider} aria-label={g("providerLabel")}>
         <FileText size={28} aria-hidden="true" /><div><span className={styles.eyebrow}>{g("providerEyebrow")}</span><h2>{g("providerTitle", { provider })}</h2><p>{g("providerBody", { provider, name })}</p><Link href="/our-brands" className={styles.textLink}>{g("brands")}</Link></div>

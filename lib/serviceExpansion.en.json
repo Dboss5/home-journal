@@ -1,0 +1,248 @@
+{
+  "pool": {
+    "seoTitle": "Pool Service in Dallas–Fort Worth",
+    "description": "Compare pool cleaning, water testing, equipment repairs and maintenance plans in DFW. Know what to ask before booking a pool professional.",
+    "heading": "Pool care, from the water to the equipment.",
+    "overview": "A routine cleaning visit and an equipment repair need different plans. Describe the water condition, equipment behavior and recent changes so the provider can propose the right work for your pool.",
+    "solutionsTitle": "Pool maintenance and repair planning for your home.",
+    "solutions": [
+      {
+        "title": "Recurring cleaning",
+        "body": "Agree on brushing, skimming, vacuuming, baskets and a visit report. Define who handles water checks between appointments and how extra work is approved."
+      },
+      {
+        "title": "Cloudy water & recovery",
+        "body": "Share recent readings, chemical additions and circulation changes. Ask how the cause will be assessed and how progress will be checked before returning to a routine plan."
+      },
+      {
+        "title": "Pumps, filters & controls",
+        "body": "Provide model labels and error messages. Separate fault diagnosis, parts, installation and final testing rather than comparing a replacement part price alone."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does a saltwater pool still need maintenance?",
+        "a": "Yes. Ask for a plan that includes water testing, cleaning and inspection of the salt system according to its instructions. Confirm which tasks and replacement parts are outside the recurring fee."
+      },
+      {
+        "q": "What should I send before the visit?",
+        "a": "Send a wide photo of the pool, accessible equipment labels, current readings and a description of what changed. Explain gate access and recent repairs so the visit starts with useful information."
+      }
+    ],
+    "imageAlt": "Swimming pool and adjacent equipment area",
+    "articles": [
+      "why-is-my-pool-cloudy",
+      "pool-maintenance-visit-checklist-dfw"
+    ]
+  },
+  "hvac": {
+    "seoTitle": "HVAC Service in Dallas–Fort Worth",
+    "description": "Explore AC repair, heating maintenance, heat pumps and system replacement planning in DFW. Compare diagnostics, installation scope and follow-up.",
+    "heading": "A clearer path to a comfortable home.",
+    "overview": "Start with the rooms affected, the thermostat settings and when the problem happens. A useful HVAC proposal connects those symptoms to an investigation before recommending repair, maintenance or replacement.",
+    "solutionsTitle": "Cooling, heating and airflow deserve separate attention.",
+    "solutions": [
+      {
+        "title": "AC repair & cooling",
+        "body": "Describe warm air, weak airflow, unusual cycling or error messages. Ask which tests support the diagnosis and what will be verified after the repair."
+      },
+      {
+        "title": "Heating & heat pumps",
+        "body": "Identify your system type if known and share startup or temperature problems. Discuss the difference between a preseason check and a diagnostic appointment for an existing fault."
+      },
+      {
+        "title": "Replacement & installation",
+        "body": "Request an assessment of the home, equipment selection, duct connections, controls, removal and commissioning. Compare the whole installation rather than equipment names alone."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does weak airflow mean I need a new system?",
+        "a": "Not necessarily. Restricted airflow and uneven room temperatures need investigation. Ask the technician to explain the findings before deciding whether maintenance, duct work, a repair or replacement addresses the problem."
+      },
+      {
+        "q": "What belongs in a replacement proposal?",
+        "a": "Request the equipment models, installation work, controls, removal, testing, exclusions and applicable warranty details. Ask who handles any required local approvals and how the completed system will be checked."
+      }
+    ],
+    "imageAlt": "HVAC technician inspecting an outdoor air-conditioning unit",
+    "articles": [
+      "why-is-my-ac-blowing-warm-air",
+      "furnace-service-visit-checklist-dfw"
+    ]
+  },
+  "pest": {
+    "seoTitle": "Pest Control in Dallas–Fort Worth",
+    "description": "Plan pest inspections, cockroach treatment, rodent exclusion and recurring prevention in DFW. Understand preparation, treatment scope and follow-up.",
+    "heading": "Understand the activity before choosing the treatment.",
+    "overview": "Tell the provider what you saw, where it appeared and whether it returned after treatment. Pest identification and the property inspection should guide the plan, not a one-size-fits-all application schedule.",
+    "solutionsTitle": "Inspection, targeted control and prevention.",
+    "solutions": [
+      {
+        "title": "Interior pest activity",
+        "body": "Record sightings in kitchens, bathrooms or utility areas. Discuss identification, preparation and treatment locations before moving belongings or adding more products."
+      },
+      {
+        "title": "Rodents & entry points",
+        "body": "Ask for evidence, likely access routes and an exclusion sequence. Separate removal or control, entry-point repairs, cleanup and restoration in the proposal."
+      },
+      {
+        "title": "Exterior prevention",
+        "body": "Discuss the building perimeter, shelter, moisture and access points. Confirm what the recurring plan covers and how activity between visits is reported."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What if pests return after treatment?",
+        "a": "Record the date and location, then contact the provider before applying another product. Ask whether the observation fits the expected follow-up period and whether additional inspection or a change to the plan is needed."
+      },
+      {
+        "q": "How do I prepare children and pets?",
+        "a": "Obtain written preparation and re-entry instructions for the specific treatment. Ask about food, toys, pet areas and access restrictions. Follow the product and provider instructions rather than assuming every treatment has the same requirements."
+      }
+    ],
+    "imageAlt": "Pest-control technician inspecting and treating exterior eaves",
+    "articles": [
+      "why-do-roaches-keep-coming-back",
+      "rodent-exclusion-inspection-dfw"
+    ]
+  },
+  "plumbing": {
+    "seoTitle": "Plumbing Services in Dallas–Fort Worth",
+    "description": "Explore leak detection, toilet repairs, drains and water heater planning in DFW. Separate diagnosis, access, repair and restoration in your estimate.",
+    "heading": "Find the fault. Understand the repair.",
+    "overview": "A drip, a slow drain and unexplained water use need different investigations. Record the affected fixtures and when the symptom appears so the plumber can explain the right next step for your property.",
+    "solutionsTitle": "From the fixture to the supply line.",
+    "solutions": [
+      {
+        "title": "Leaks & water lines",
+        "body": "Share changes in water use, visible moisture and timing. Ask how the source will be confirmed before opening a wall, digging or approving a line replacement."
+      },
+      {
+        "title": "Toilets, fixtures & drains",
+        "body": "Identify whether one fixture or several are affected. A running toilet, slow drain or recurring blockage needs a scope that explains investigation and the proposed repair."
+      },
+      {
+        "title": "Water heaters & upgrades",
+        "body": "Provide the existing model and describe hot-water needs. Compare installation access, connections, removal, testing and any necessary property changes in writing."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Will finding a leak include repairing the wall?",
+        "a": "Not automatically. Ask the estimate to separate locating, access, pipe repair, testing and finish restoration. Confirm whether another trade is needed and who coordinates the final work."
+      },
+      {
+        "q": "Should I repair or replace a fixture?",
+        "a": "Ask what has failed, whether a compatible repair is available and what the alternatives include. Condition, access, parts and installation work matter; a symptom alone does not establish that replacement is necessary."
+      }
+    ],
+    "imageAlt": "Plumbing technician working on an open toilet tank",
+    "articles": [
+      "why-does-my-toilet-keep-running",
+      "hidden-household-water-leak-checklist-dfw"
+    ]
+  },
+  "lighting": {
+    "seoTitle": "Holiday Lighting in Dallas–Fort Worth",
+    "description": "Plan Christmas roofline lights, tree wrapping and outdoor displays in DFW. Compare design, power arrangements, seasonal support, takedown and storage.",
+    "heading": "A beautiful display starts with a considered plan.",
+    "overview": "Bring inspiration and a few property photos, then agree on design, access and power before installation. Make seasonal support and removal part of the conversation from the beginning.",
+    "solutionsTitle": "Rooflines, trees and welcoming entrances.",
+    "solutions": [
+      {
+        "title": "Rooflines & architectural details",
+        "body": "Choose the sections, light appearance and sightlines that matter. Confirm product type, mounting approach and roof access before comparing installation quotes."
+      },
+      {
+        "title": "Trees, paths & entrances",
+        "body": "Discuss the features to highlight and pedestrian routes to keep clear. Ask how cabling, controls and connections will be planned for the outdoor setting."
+      },
+      {
+        "title": "Seasonal care & removal",
+        "body": "Confirm product ownership, fault reporting, included maintenance, removal dates and storage. A display plan should explain the end of the season as clearly as installation."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can I add lights to an existing display?",
+        "a": "Ask the installer to assess compatibility, product ratings and power arrangements first. A matching color does not establish that different strings, controls or mounting systems can be combined."
+      },
+      {
+        "q": "Is takedown included in installation?",
+        "a": "It depends on the agreement. Request a written removal window, storage arrangement and responsibility for products and clips. Clarify any charge before approving the design."
+      }
+    ],
+    "imageAlt": "North Texas home with colorful holiday roofline and landscape lights",
+    "articles": [
+      "christmas-lighting-power-plan-dfw",
+      "real-cost-holiday-lighting"
+    ]
+  },
+  "landscape": {
+    "seoTitle": "Landscaping in Dallas–Fort Worth",
+    "description": "Plan lawn care, planting beds, irrigation reviews and seasonal landscape work in DFW. Compare site needs, maintenance responsibilities and project scopes.",
+    "heading": "An outdoor space that fits how you live.",
+    "overview": "Separate recurring care from a planting or renovation project. Discuss light, water, access and the time you want to spend maintaining the space before choosing the work or materials.",
+    "solutionsTitle": "Lawn care, planting and the details between.",
+    "solutions": [
+      {
+        "title": "Ongoing property care",
+        "body": "List lawn areas, beds and shrubs with the tasks expected at each visit. Confirm debris handling, access, reporting and work excluded from routine care."
+      },
+      {
+        "title": "Planting & bed renewal",
+        "body": "Explain the look you want and existing conditions. Ask the designer to discuss plant suitability, mature size, spacing, soil preparation and establishment responsibilities."
+      },
+      {
+        "title": "Irrigation & seasonal review",
+        "body": "Record uneven watering, runoff or dry areas. Ask for an assessment before changing a schedule or replacing components, and confirm what the visit includes."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can I renovate the landscape in phases?",
+        "a": "Yes, discuss a sequence that respects access, irrigation and future work. A written plan should identify which decisions must be made now and how later phases will connect to the first."
+      },
+      {
+        "q": "What should a planting quote specify?",
+        "a": "Request plant types and sizes, quantities, bed preparation, installation, cleanup and establishment care. Ask what replacements or follow-up are included and who is responsible for watering after installation."
+      }
+    ],
+    "imageAlt": "Aerial landscape design concept with planting beds, lawn and pool",
+    "articles": []
+  },
+  "hardscape": {
+    "seoTitle": "Hardscaping in Dallas–Fort Worth",
+    "description": "Plan patios, pathways, retaining walls and outdoor living projects in DFW. Compare drainage, preparation, materials, access and installation scope.",
+    "heading": "The foundation of an outdoor room.",
+    "overview": "Plan the way people move, where water goes and how the space meets the house before selecting finishes. A useful hardscape proposal explains what sits beneath the surface as well as what you will see.",
+    "solutionsTitle": "Patios, pathways and spaces built for use.",
+    "solutions": [
+      {
+        "title": "Patios & walkways",
+        "body": "Explain the intended use, furniture and routes. Ask for dimensions, material choices, edge details and the scope of excavation and base preparation."
+      },
+      {
+        "title": "Grade & water movement",
+        "body": "Share where water collects and how the area connects to buildings. Discuss grading and drainage in the design; structural or complex conditions may require specialist input."
+      },
+      {
+        "title": "Outdoor living features",
+        "body": "Coordinate seating, cooking or fire features with access and utilities. Identify separate trades, local approvals and exclusions before construction begins."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What should I compare besides the paving material?",
+        "a": "Compare excavation, base preparation, grading, edging, drainage, access, disposal and restoration. Two quotes using the same surface material can still describe very different installation work."
+      },
+      {
+        "q": "Who checks permits and buried utilities?",
+        "a": "Ask the contractor to identify required local approvals and the utility-location process before excavation. Requirements depend on the project and jurisdiction; get responsibilities in the written scope."
+      }
+    ],
+    "imageAlt": "Patio and hardscape design example with outdoor seating",
+    "articles": []
+  }
+}
