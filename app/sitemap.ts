@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllSlugs } from "@/lib/blog";
+import { CALCULATORS } from "@/lib/calculators/engine";
 import { CITIES, CITY_SERVICES } from "@/lib/locations";
 
 const BASE_URL =
@@ -9,6 +10,7 @@ const LOCALES = ["en", "es", "fr"] as const;
 
 const STATIC_ROUTES = [
   { path: "", priority: 1.0, changeFrequency: "weekly" as const },
+  { path: "/calculators", priority: 0.8, changeFrequency: "monthly" as const },
   { path: "/services", priority: 0.9, changeFrequency: "monthly" as const },
   { path: "/blog", priority: 0.9, changeFrequency: "weekly" as const },
   { path: "/about", priority: 0.7, changeFrequency: "monthly" as const },
@@ -44,6 +46,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
           ),
         },
       });
+    }
+
+    for (const calc of CALCULATORS) {
+      const path = `/calculators/${calc.slug}`;
+      entries.push({url: `${BASE_URL}/${locale}${path}`, changeFrequency: "monthly", priority: 0.7, alternates: {languages: Object.fromEntries(LOCALES.map(l => [l, `${BASE_URL}/${l}${path}`]))}});
     }
 
     // Service category pages

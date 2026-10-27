@@ -1,0 +1,132 @@
+{
+  "ui": {
+    "label": "Outils pour la maison",
+    "title": "Quelques calculs. Un projet plus clair.",
+    "description": "Calculez gratuitement le volume de piscine, la consommation de climatisation, les fuites, les éclairages de fêtes, le paillis et les pavés. Adaptez les exemples à votre maison.",
+    "open": "Ouvrir le calculateur",
+    "all": "Tous les calculateurs",
+    "inputs": "Vos mesures",
+    "results": "Votre estimation",
+    "reset": "Rétablir l’exemple",
+    "example": "Les champs présentent un exemple. Remplacez-les par vos mesures et vos tarifs. Tous les montants sont en USD.",
+    "invalid": "Saisissez des nombres dans les plages indiquées. Les quantités et les jours doivent être entiers. La profondeur maximale de la piscine doit être supérieure ou égale à la minimale.",
+    "range": "Plage autorisée",
+    "method": "Méthode de calcul",
+    "before": "Avant d’utiliser le résultat",
+    "faq": "Questions fréquentes",
+    "guide": "Consulter le guide du service",
+    "quote": "Parler de votre projet",
+    "related": "Autres outils",
+    "source": "Référence",
+    "privacy": "Les calculs restent dans votre navigateur. Aucune inscription.",
+    "live": "Actualisation pendant la saisie",
+    "estimate": "Estimation de préparation",
+    "provider": "Pour une prestation, contactez",
+    "home": "Accueil",
+    "units": "Unités américaines • tarifs en USD",
+    "noscript": "Activez JavaScript pour modifier les données et actualiser l’estimation."
+  },
+  "fields": {
+    "length": "Longueur",
+    "width": "Largeur",
+    "shallow": "Profondeur minimale",
+    "deep": "Profondeur maximale",
+    "watts": "Puissance en fonctionnement",
+    "hours": "Heures de fonctionnement par jour",
+    "days": "Nombre de jours",
+    "rate": "Tarif électrique",
+    "collected": "Eau recueillie",
+    "seconds": "Durée de collecte",
+    "waterRate": "Tarif de l’eau",
+    "strings": "Nombre de guirlandes",
+    "area": "Surface du massif",
+    "depth": "Épaisseur de paillis ajoutée",
+    "bag": "Volume par sac",
+    "paverLength": "Longueur du pavé",
+    "paverWidth": "Largeur du pavé",
+    "waste": "Marge pour coupes et casse"
+  },
+  "calculators": {
+    "pool-volume": {
+      "title": "Calculateur de volume de piscine",
+      "description": "Combien d’eau contient votre piscine ? Estimez un volume rectangulaire en gallons américains et en litres avec quatre mesures.",
+      "instructions": "Mesurez la longueur et la largeur intérieures à la ligne d’eau. Saisissez la profondeur de l’eau à chaque extrémité, et non la hauteur de la paroi.",
+      "formula": "Longueur × largeur × (profondeur minimale + maximale) ÷ 2 × 7,48051948 = gallons américains. Un pied cube vaut 28,316846592 litres.",
+      "caveat": "Suppose un bassin rectangulaire et un fond à pente régulière entre deux profondeurs. Escaliers, banquettes, courbes et fosses modifient le volume réel. Ne calcule pas les doses de produits chimiques.",
+      "resultLabels": [
+        "Gallons américains",
+        "Litres"
+      ],
+      "question": "Convient-il à une piscine ronde ou irrégulière ?",
+      "answer": "Non. Consultez les données du constructeur ou faites mesurer le bassin par un professionnel. La formule rectangulaire peut largement surestimer le volume d’une piscine de forme libre."
+    },
+    "ac-running-cost": {
+      "title": "Calculateur du coût de climatisation",
+      "description": "Combien coûte votre climatisation ? Estimez sa consommation et son coût à partir de la puissance, des heures réelles et de votre tarif.",
+      "instructions": "Utilisez la puissance mesurée ou la puissance électrique indiquée par le fabricant. Saisissez les heures de marche réelles, pas seulement les heures où le thermostat est activé.",
+      "formula": "Watts × heures de marche par jour × jours ÷ 1 000 = kWh. Multipliez les kWh par votre tarif en USD/kWh pour estimer le coût de l’énergie.",
+      "caveat": "Suppose une puissance constante en marche. Cycles, vitesses variables, météo et ventilateurs séparés modifient le résultat. Hors frais fixes et taxes. Ne dimensionne pas un climatiseur et ne prédit pas les économies d’un remplacement.",
+      "resultLabels": [
+        "Coût de l’énergie (USD)",
+        "Consommation (kWh)"
+      ],
+      "question": "Puis-je saisir la capacité en tonnes plutôt que les watts ?",
+      "answer": "Non. La capacité frigorifique ne représente pas la puissance électrique absorbée. Utilisez une puissance mesurée ou documentée et votre tarif réel."
+    },
+    "water-leak-waste": {
+      "title": "Calculateur de perte d’eau par fuite",
+      "description": "Combien d’eau cette fuite gaspille-t-elle ? Estimez le volume perdu et le coût de l’eau avec une collecte chronométrée et votre tarif.",
+      "instructions": "Si l’accès est sûr, recueillez les gouttes dans un récipient gradué en chronométrant la collecte. Saisissez les onces liquides américaines, les secondes et le tarif pour 1 000 gallons américains.",
+      "formula": "Onces liquides recueillies ÷ 128 ÷ secondes de collecte × 86 400 × jours = gallons américains perdus. Gallons ÷ 1 000 × tarif = coût estimé.",
+      "caveat": "Suppose une fuite constante, 24 heures sur 24. Hors assainissement, frais fixes et tarification par paliers. Ne manipulez pas d’équipement électrique et ne collectez pas l’eau d’une fuite cachée ou dangereuse.",
+      "resultLabels": [
+        "Gallons américains perdus",
+        "Coût de l’eau seule (USD)"
+      ],
+      "question": "Pourquoi ne pas simplement compter les gouttes ?",
+      "answer": "La taille des gouttes varie. Une collecte chronométrée mesure directement le volume. Pour une fuite cachée ou intermittente, vérifiez le compteur ou consultez un plombier."
+    },
+    "holiday-light-cost": {
+      "title": "Calculateur électrique des éclairages de fêtes",
+      "description": "Combien coûteront vos éclairages de fêtes ? Estimez leur consommation avec la puissance indiquée sur chaque guirlande.",
+      "instructions": "Saisissez le nombre de guirlandes identiques et la puissance d’une guirlande complète. Pour des produits différents, calculez chaque groupe séparément puis additionnez les coûts.",
+      "formula": "Guirlandes × watts par guirlande × heures par jour × jours ÷ 1 000 = kWh. Multipliez les kWh par votre tarif en USD/kWh.",
+      "caveat": "Estime uniquement l’électricité, hors pose, location et dépose. Lisez les étiquettes réelles ; la puissance d’exemple n’est pas une certification produit. Ne vérifie ni prises, ni charge des circuits, ni limites de raccordement.",
+      "resultLabels": [
+        "Coût de l’énergie (USD)",
+        "Consommation (kWh)"
+      ],
+      "question": "Indique-t-il combien de guirlandes raccorder ensemble ?",
+      "answer": "Non. Respectez les limites du fabricant et utilisez du matériel adapté à son emplacement. Consultez un installateur qualifié pour la distribution électrique de votre décoration.",
+      "fieldOverrides": {
+        "watts": "Puissance par guirlande complète"
+      }
+    },
+    "mulch-quantity": {
+      "title": "Calculateur de quantité de paillis",
+      "description": "Quelle quantité de paillis acheter ? Convertissez la surface et l’épaisseur ajoutée en yards cubes et en sacs arrondis au supérieur.",
+      "instructions": "Mesurez la surface, soustrayez les zones non couvertes et saisissez uniquement l’épaisseur supplémentaire. Vérifiez le volume indiqué sur le sac.",
+      "formula": "Surface en pieds carrés × épaisseur en pouces ÷ 324 = yards cubes. Surface × épaisseur ÷ 12 ÷ pieds cubes par sac = sacs, arrondis au supérieur.",
+      "caveat": "Suppose une couverture uniforme sur un massif plat. Sans marge pour tassement, pente ou minimum de livraison. Le paillis existant compte dans l’épaisseur totale ; dégagez les tiges et les troncs.",
+      "resultLabels": [
+        "Yards cubes",
+        "Sacs entiers"
+      ],
+      "question": "Et si mon massif comporte des courbes ?",
+      "answer": "Divisez-le en formes simples, calculez leurs surfaces puis additionnez-les. Soustrayez les espaces pavés ou plantés qui resteront découverts et saisissez la surface nette."
+    },
+    "patio-pavers": {
+      "title": "Calculateur de pavés de terrasse",
+      "description": "Combien de pavés faut-il ? Estimez la surface d’une terrasse rectangulaire et le nombre entier de pavés avec votre marge de coupe.",
+      "instructions": "Mesurez l’emprise prévue et utilisez les dimensions nominales de couverture d’un pavé indiquées par le fabricant. Adaptez la marge au motif et confirmez-la avec le fournisseur.",
+      "formula": "Longueur × largeur de terrasse = pieds carrés. Surface ÷ (longueur × largeur du pavé ÷ 144) × (1 + marge ÷ 100) = pavés, arrondis au supérieur.",
+      "caveat": "Suppose un seul format rectangulaire. Hors fondation, lit de pose, sable de joints, bordures et main-d’œuvre. La marge d’exemple est modifiable et non universelle. Les motifs multiformats et palettes nécessitent les calculs du fournisseur.",
+      "resultLabels": [
+        "Pavés entiers",
+        "Surface de terrasse (ft²)"
+      ],
+      "question": "Faut-il utiliser la taille réelle ou la taille de couverture ?",
+      "answer": "Utilisez les dimensions nominales de couverture posée du fabricant, avec les joints prévus lorsqu’ils sont spécifiés. De petits écarts répétés sur de nombreuses pièces modifient la commande."
+    }
+  }
+}

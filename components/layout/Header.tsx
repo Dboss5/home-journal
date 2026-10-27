@@ -3,7 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
-import { useTranslations } from "next-intl";
+import { getCalculatorContent } from "@/lib/calculators/content";
+import { useLocale, useTranslations } from "next-intl";
 import { Menu, X } from "lucide-react";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
@@ -15,6 +16,7 @@ const NAV = [
 
 export function Header() {
   const t = useTranslations("nav");
+  const calculatorLabel = getCalculatorContent(useLocale()).ui.all;
   const [open, setOpen] = useState(false);
 
   return (
@@ -39,6 +41,7 @@ export function Header() {
               {t(item.key)}
             </Link>
           ))}
+          <Link href="/calculators" className="hf-nav-link">{calculatorLabel}</Link>
           <LanguageSwitcher />
           <Link href="/quote" className="btn btn-primary hf-nav-cta">
             {t("quote")}
@@ -76,6 +79,7 @@ export function Header() {
               {t(item.key)}
             </Link>
           ))}
+          <Link href="/calculators" className="hf-mobile-link" onClick={() => setOpen(false)}>{calculatorLabel}</Link>
           <Link
             href="/quote"
             className="btn btn-primary hf-mobile-cta"
@@ -130,7 +134,7 @@ export function Header() {
         .hf-nav {
           display: flex;
           align-items: center;
-          gap: 28px;
+          gap: 18px;
         }
         .hf-nav-link {
           font-family: var(--font-accent);
@@ -204,7 +208,7 @@ export function Header() {
         }
 
         /* ---------- Breakpoint ---------- */
-        @media (max-width: 820px) {
+        @media (max-width: 1050px) {
           .hf-header-inner {
             padding: 12px 20px;
             gap: 12px;

@@ -9,6 +9,8 @@ import { CITIES } from "@/lib/locations";
 import { HomeIllustration } from "@/components/home/HomeIllustrations";
 import { SERVICE_IMAGES } from "@/lib/serviceImages";
 import { getServiceUi, type ServiceExpansion } from "@/lib/serviceExpansion";
+import { CALCULATORS } from "@/lib/calculators/engine";
+import { getCalculatorContent } from "@/lib/calculators/content";
 import styles from "./ServiceContent.module.css";
 
 export function ServiceContent({ service, guide, expansion, reading }: {
@@ -21,6 +23,8 @@ export function ServiceContent({ service, guide, expansion, reading }: {
   const name = t(service.key);
   const ui = getServiceUi(locale);
   const ServiceIcon = ({pool: Waves, hvac: Wind, pest: Bug, plumbing: Wrench, lighting: Sparkles, landscape: Trees, hardscape: BrickWall})[service.key] ?? Compass;
+  const calculators = CALCULATORS.filter(c => c.service === service.key);
+  const calculatorContent = getCalculatorContent(locale);
   const quote = `/quote?service=${service.key}`;
   const provider = service.key === "pool" ? "Poolburg" : "Supremacy Service";
 
@@ -95,6 +99,11 @@ export function ServiceContent({ service, guide, expansion, reading }: {
         <div className={styles.readingGrid}>{reading.map(post => <Link href={`/blog/${post.slug}`} key={post.slug}>
           <BookOpen size={23} aria-hidden="true" /><h3>{post.title}</h3><p>{post.excerpt}</p><span>{ui.read}</span>
         </Link>)}</div>
+      </section>}
+
+      {calculators.length > 0 && <section className={styles.section}>
+        <header><span className={styles.eyebrow}>{calculatorContent.ui.label}</span><h2>{calculatorContent.ui.all}</h2></header>
+        <div className={styles.readingGrid}>{calculators.map(calc => <Link href={`/calculators/${calc.slug}`} key={calc.slug}><ClipboardList size={24} aria-hidden="true" /><h3>{calculatorContent.calculators[calc.slug].title}</h3><p>{calculatorContent.calculators[calc.slug].description}</p><span>{calculatorContent.ui.open}</span></Link>)}</div>
       </section>}
 
       <aside className={styles.provider} aria-label={g("providerLabel")}>

@@ -1,7 +1,8 @@
 "use client";
 
 import { Link } from "@/i18n/navigation";
-import { useTranslations } from "next-intl";
+import { getCalculatorContent } from "@/lib/calculators/content";
+import { useLocale, useTranslations } from "next-intl";
 
 const SERVICE_KEYS = [
   { href: "/services/pool", key: "pool" as const },
@@ -14,10 +15,12 @@ const SERVICE_KEYS = [
 ];
 
 export function Footer() {
+  const calculatorLabel = getCalculatorContent(useLocale()).ui.all;
   const tSvc = useTranslations("services");
   const t = useTranslations("footer");
 
   const company = [
+    { href: "/calculators", label: calculatorLabel },
     { href: "/about", label: t("about") },
     { href: "/blog", label: t("journal") },
     { href: "/quote", label: t("quote") },

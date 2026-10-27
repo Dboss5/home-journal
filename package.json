@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:calculators": "node scripts/check-calculators.mjs",
+    "check:calculator-pages": "node scripts/check-calculator-pages.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",
