@@ -1,5 +1,6 @@
 interface CityStructuredDataProps {
   serviceName: string;
+  serviceSlug: string;
   serviceDescription: string;
   cityName: string;
   citySlug: string;
@@ -11,6 +12,7 @@ interface CityStructuredDataProps {
 
 export function CityStructuredData({
   serviceName,
+  serviceSlug,
   serviceDescription,
   cityName,
   citySlug,
@@ -25,7 +27,7 @@ export function CityStructuredData({
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: `${serviceName} in ${cityName}, ${state}`,
+    name: `${serviceName} ${{en: "in", es: "en", fr: "à"}[locale] ?? "in"} ${cityName}, ${state}`,
     description: serviceDescription,
     areaServed: {
       "@type": "City",
@@ -44,12 +46,10 @@ export function CityStructuredData({
     },
     provider: {
       "@type": "Organization",
-      name: "Homefront Journal",
-      url: base,
+      name: serviceSlug === "pool" ? "Poolburg" : "Supremacy Service",
+      url: serviceSlug === "pool" ? "https://poolburg.com" : "https://supremacyservice.com",
     },
-    url: `${base}/${locale}/services/${serviceName
-      .toLowerCase()
-      .replace(/\s+/g, "-")}/${citySlug}`,
+    url: `${base}/${locale}/services/${serviceSlug}/${citySlug}`,
   };
 
   const breadcrumbSchema = {
@@ -59,22 +59,20 @@ export function CityStructuredData({
       {
         "@type": "ListItem",
         position: 1,
-        name: "Home",
+        name: ({en: "Home", es: "Inicio", fr: "Accueil"})[locale] ?? "Home",
         item: `${base}/${locale}`,
       },
       {
         "@type": "ListItem",
         position: 2,
-        name: "Services",
+        name: ({en: "Services", es: "Servicios", fr: "Services"})[locale] ?? "Services",
         item: `${base}/${locale}/services`,
       },
       {
         "@type": "ListItem",
         position: 3,
-        name: `${serviceName} in ${cityName}`,
-        item: `${base}/${locale}/services/${serviceName
-          .toLowerCase()
-          .replace(/\s+/g, "-")}/${citySlug}`,
+        name: `${serviceName} ${{en: "in", es: "en", fr: "à"}[locale] ?? "in"} ${cityName}`,
+        item: `${base}/${locale}/services/${serviceSlug}/${citySlug}`,
       },
     ],
   };
@@ -83,11 +81,11 @@ export function CityStructuredData({
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema).replace(/</g, "\\u003c") }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema).replace(/</g, "\\u003c") }}
       />
     </>
   );

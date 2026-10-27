@@ -25,6 +25,8 @@ import {
   type ServiceKey,
 } from "@/lib/locations";
 import { getCityFaqs } from "@/lib/cityFaqs";
+import { getServiceExpansion, getServiceUi } from "@/lib/serviceExpansion";
+import { SERVICE_IMAGES } from "@/lib/serviceImages";
 import { CityStructuredData } from "./CityStructuredData";
 
 const ICONS: Record<string, LucideIcon> = {
@@ -44,6 +46,15 @@ interface ServiceShape {
 }
 
 const STYLES = `
+.hf-city-photo { position: relative; margin: 35px 0 0; border-radius: 80px 8px 8px 8px; overflow: hidden; border: 1px solid var(--border); }
+.hf-city-photo img { width: 100%; height: clamp(250px,38vw,440px); object-fit: cover; display: block; }
+.hf-city-photo figcaption { position: absolute; bottom: 18px; left: 18px; right: 18px; padding: 12px 18px; border-left: 3px solid var(--gold); background: var(--surface); color: var(--ink); text-align: left; font-family: var(--font-display); }
+.hf-city-service-options { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 22px; }
+.hf-city-service-options article { padding: 24px; border: 1px solid var(--border); border-top: 3px solid var(--gold); border-radius: var(--radius-md); background: var(--surface); }
+.hf-city-service-options h3 { font-family: var(--font-display); font-size: 1.2rem; margin-top: 0; }
+.hf-city-main-guide { display: inline-block; margin-top: 24px; color: var(--red); text-decoration: underline; text-underline-offset: 4px; }
+@media(max-width:700px) { .hf-city-service-options { grid-template-columns: 1fr; } }
+
 .hf-city { padding-bottom: 0; }
 .hf-city-hero {
   position: relative; margin: 0 -24px; padding: 100px 24px 80px;
@@ -230,6 +241,10 @@ export function ServiceCityContent({
           city: city.name,
         });
 
+  const expansionKey = service.key === "pest-control" ? "pest" : service.key === "holiday-lighting" ? "lighting" : service.key;
+  const expansion = getServiceExpansion(expansionKey, locale);
+  const ui = getServiceUi(locale);
+  const localName = `${serviceLabel} ${{en: "in", es: "en", fr: "à"}[locale] ?? "in"} ${city.name}`;
   const otherCities = CITIES.filter((c) => c.slug !== city.slug);
   const otherServices = CITY_SERVICES.filter((s) => s.key !== service.key);
   const faqs = getCityFaqs(service.key, city.name, locale);
@@ -244,7 +259,8 @@ export function ServiceCityContent({
 
       <CityStructuredData
         serviceName={serviceLabel}
-        serviceDescription={`${serviceLabel} in ${city.name}, ${city.state} — costs, vetted providers, and what to expect.`}
+        serviceSlug={service.key}
+        serviceDescription={`${localName}. ${expansion.description}`}
         cityName={city.name}
         citySlug={city.slug}
         state={city.state}
@@ -263,10 +279,21 @@ export function ServiceCityContent({
             {city.name}, {city.state}
           </p>
           <h1 className="hf-city-hero-title">
-            {serviceLabel} in {city.name}
+            {localName}
           </h1>
-          <p className="hf-city-hero-sub">{cityText.intro}</p>
+          <p className="hf-city-hero-sub">{expansion.overview}</p>
+          <figure className="hf-city-photo">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={SERVICE_IMAGES[expansionKey]} alt={expansion.imageAlt} width={1400} height={850} fetchPriority="high" />
+            <figcaption>{localName}</figcaption>
+          </figure>
         </div>
+      </section>
+
+      <section className="hf-city-section">
+        <h2>{ui.areaTitle.replace('{city}', city.name)}</h2>
+        <div className="hf-city-service-options">{expansion.solutions.map(item => <article key={item.title}><h3>{item.title}</h3><p>{item.body}</p></article>)}</div>
+        <Link href={`/services/${service.key}`} className="hf-city-main-guide">{expansion.solutionsTitle}</Link>
       </section>
 
       {/* LOCAL CONTEXT */}

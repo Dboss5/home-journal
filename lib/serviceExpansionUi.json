@@ -1,0 +1,44 @@
+{
+  "en": {
+    "visualLabel": "A closer look",
+    "optionsLabel": "Find the right service",
+    "guidesTitle": "Answers for your next decision",
+    "guidesLabel": "The Homefront reading room",
+    "read": "Read the guide",
+    "areaTitle": "A plan for your property in {city}",
+    "region": "Dallas–Fort Worth",
+    "directoryTitle": "Home Services in Dallas–Fort Worth",
+    "directoryDescription": "Explore pool care, HVAC, pest control, plumbing, holiday lighting, landscaping and hardscaping in DFW. Compare scopes and prepare for your next project.",
+    "directoryIntro": "Start with the work you need. Each field guide explains service options, useful questions and the next step for your property.",
+    "home": "Home",
+    "services": "Services"
+  },
+  "es": {
+    "visualLabel": "Una mirada más cerca",
+    "optionsLabel": "Encuentre el servicio adecuado",
+    "guidesTitle": "Respuestas para su próxima decisión",
+    "guidesLabel": "Lecturas de Homefront",
+    "read": "Leer la guía",
+    "areaTitle": "Un plan para su propiedad en {city}",
+    "region": "Dallas–Fort Worth",
+    "directoryTitle": "Servicios para el hogar en Dallas–Fort Worth",
+    "directoryDescription": "Explore piscina, climatización, plagas, fontanería, iluminación navideña, jardinería y patios en DFW. Compare alcances y prepare su proyecto.",
+    "directoryIntro": "Empiece por el trabajo que necesita. Cada guía explica opciones, preguntas útiles y el siguiente paso para su propiedad.",
+    "home": "Inicio",
+    "services": "Servicios"
+  },
+  "fr": {
+    "visualLabel": "De plus près",
+    "optionsLabel": "Choisir la bonne prestation",
+    "guidesTitle": "Des réponses pour votre prochaine décision",
+    "guidesLabel": "Les lectures Homefront",
+    "read": "Lire le guide",
+    "areaTitle": "Un plan pour votre propriété à {city}",
+    "region": "Dallas–Fort Worth",
+    "directoryTitle": "Services à domicile à Dallas–Fort Worth",
+    "directoryDescription": "Découvrez piscine, climatisation, nuisibles, plomberie, éclairage des fêtes, jardins et patios en DFW. Comparez les prestations et préparez votre projet.",
+    "directoryIntro": "Partez des travaux nécessaires. Chaque guide explique options, questions utiles et prochaine étape pour votre propriété.",
+    "home": "Accueil",
+    "services": "Services"
+  }
+}
