@@ -1,0 +1,176 @@
+{
+  "dallas": {
+    "heading": "Dallas, propiedad por propiedad.",
+    "intro": "Indique la zona de Dallas y cómo se llega al área de trabajo. Ampliaciones anteriores, entrada por callejón o equipos interiores pueden cambiar investigación y acceso.",
+    "context": "Si la propiedad está en un distrito protegido, consulte el recurso municipal y pregunte por las revisiones aplicables antes de aprobar cambios exteriores. Importa la dirección concreta, no una suposición sobre toda la ciudad.",
+    "imageAlt": "Vista de Dallas desde Reunion Tower",
+    "checks": [
+      "Acceso por puerta y callejón",
+      "Obras y ampliaciones previas",
+      "Autorizaciones exteriores"
+    ],
+    "places": [
+      "Junius Heights",
+      "Lake Cliff",
+      "Munger Place"
+    ],
+    "source": {
+      "label": "City of Dallas: landmark districts",
+      "url": "https://www.dallascityhall.com/departments/sustainabledevelopment/historicpreservation/Pages/landmark_districts.aspx"
+    },
+    "serviceNotes": {
+      "pool": "En su piscina de Dallas, muestre acceso a equipos, puertas y pavimento que podría afectar una reparación.",
+      "hvac": "Para climatización en Dallas, explique acceso interior o ático y cambios previos de equipos, controles y conductos.",
+      "pest": "En Dallas, registre plagas por estancia y entradas exteriores accesibles sin entrar en huecos inseguros.",
+      "plumbing": "Para fontanería en Dallas, describa aparatos y ampliaciones previas antes de abrir acabados.",
+      "lighting": "Para luces en Dallas, identifique fijaciones y consulte restricciones exteriores de su propiedad antes de aprobar.",
+      "landscape": "En jardines de Dallas, registre parterres y acceso; coordine plantación nueva con riego y plantas existentes.",
+      "hardscape": "Para patios en Dallas, muestre conexión con casa y acumulación de agua antes de elegir excavación y acabados."
+    }
+  },
+  "plano": {
+    "heading": "Un plan claro para su vivienda de Plano.",
+    "intro": "Describa el recorrido desde la entrada hasta los equipos o proyecto. Incluya fotos de plantación, superficies terminadas y zonas que deben permanecer accesibles.",
+    "context": "Use la referencia de Downtown Plano para orientación. En su propiedad, describa mejoras existentes y confirme alcance y autorizaciones locales para el trabajo propuesto.",
+    "imageAlt": "Quiosco de Haggard Park en Plano",
+    "checks": [
+      "Superficies que proteger",
+      "Acceso a equipos y proyecto",
+      "Planos y documentación"
+    ],
+    "places": [
+      "Downtown Plano",
+      "Haggard Park",
+      "Interurban Railway Museum"
+    ],
+    "source": {
+      "label": "Visit Plano: Downtown Plano Arts District",
+      "url": "https://www.visitplano.com/guide-to-the-downtown-plano-arts-district/"
+    },
+    "serviceNotes": {
+      "pool": "En Plano, identifique controlador, etiquetas y acceso a equipos alrededor de las plantas.",
+      "hvac": "Para climatización en Plano, registre habitaciones y cambios previos de termostato o conductos.",
+      "pest": "Para plagas en Plano, muestre recurrencia y productos aplicados, incluso dentro de armarios.",
+      "plumbing": "En Plano, fotografíe humedad y si aparece al usar uno o varios aparatos.",
+      "lighting": "Para luces en Plano, marque tejados, tomas exteriores y parterres que deben protegerse.",
+      "landscape": "En jardines de Plano, enumere plantas a conservar y riego desigual antes de sustituir.",
+      "hardscape": "En patios de Plano, indique pavimento a conservar, ancho de acceso y unión con superficies existentes."
+    }
+  },
+  "frisco": {
+    "heading": "Aproveche la visita en Frisco desde el inicio.",
+    "intro": "Facilite dirección completa, zona e instrucciones en lugar de depender de un punto de referencia. Incluya puerta, aparcamiento y recorrido al trabajo.",
+    "context": "La referencia de Rail District aporta contexto de Main Street. Si obras o eventos afectan su calle, comunique las instrucciones actuales al reservar.",
+    "imageAlt": "Main Street en Frisco Square",
+    "checks": [
+      "Dirección y entrada exactas",
+      "Aparcamiento y acceso",
+      "Obras ya iniciadas"
+    ],
+    "places": [
+      "Rail District",
+      "Main Street",
+      "Frisco Square"
+    ],
+    "source": {
+      "label": "City of Frisco: Rail District",
+      "url": "https://www.friscotexas.gov/1599/Downtown-Redevelopment"
+    },
+    "serviceNotes": {
+      "pool": "Para piscinas en Frisco, confirme puertas y si otros proyectos compartirán rutas de acceso y entrega.",
+      "hvac": "Para climatización en Frisco, facilite equipos y termostato y obras que afecten acceso o pruebas.",
+      "pest": "Para plagas en Frisco, describa actividad y materiales movidos recientemente que convenga revisar.",
+      "plumbing": "En Frisco, distinga reparación de aparato y obra de renovación y facilite planos existentes.",
+      "lighting": "Para decoración en Frisco, acuerde acceso a tejados y árboles, propiedad de luces y desmontaje.",
+      "landscape": "En jardines de Frisco, coordine parterres con patios, drenaje y riego previstos.",
+      "hardscape": "Para patios en Frisco, acuerde almacenamiento y entrega antes de coordinar con otros contratistas."
+    }
+  },
+  "mckinney": {
+    "heading": "Prepare el trabajo adecuado para su propiedad de McKinney.",
+    "intro": "Comparta historial conocido, sobre todo reparaciones y cambios exteriores. Fotos y facturas ayudan a distinguir un síntoma nuevo de una condición anterior.",
+    "context": "Si tiene designación histórica o modifica el exterior, consulte los recursos de conservación de McKinney y pregunte por la revisión antes de aprobar diseño.",
+    "imageAlt": "Edificios del centro histórico de McKinney",
+    "checks": [
+      "Historial de reparaciones",
+      "Acabados antiguos que proteger",
+      "Revisión del diseño exterior"
+    ],
+    "places": [
+      "Historic Downtown",
+      "Chestnut Square",
+      "McKinney Square"
+    ],
+    "source": {
+      "label": "City of McKinney: preservation resources",
+      "url": "https://www.mckinneytexas.org/350/Historic-Preservation-Resources"
+    },
+    "serviceNotes": {
+      "pool": "En McKinney, facilite historial de piscina y acceso sin alterar elementos del jardín a conservar.",
+      "hvac": "Para climatización en McKinney, explique ubicaciones y protección de acabados y elementos exteriores existentes.",
+      "pest": "Para plagas en McKinney, comparta recurrencia y consulte exclusión compatible con ventilación y detalles existentes.",
+      "plumbing": "En fontanería de McKinney, entregue facturas previas e identifique acabados a conservar antes de investigar.",
+      "lighting": "Para luces en McKinney, consulte fijaciones en acabados exteriores y revisión de propiedad antes de instalar.",
+      "landscape": "En jardines de McKinney, señale plantas maduras a conservar y establecimiento de nuevas plantas y riego.",
+      "hardscape": "Para patios en McKinney, acuerde detalles conservados, drenaje y responsabilidades de autorización antes de excavar."
+    }
+  },
+  "fort-worth": {
+    "heading": "Planifique los detalles en Fort Worth.",
+    "intro": "Describa zona, entrada de servicio y ubicación de equipos. Llegar a la calle no significa poder acceder al trabajo; el presupuesto debe explicarlo.",
+    "context": "Para una propiedad histórica designada, consulte conservación municipal y confirme requisitos del trabajo exterior. El nombre de una zona no demuestra que todas las propiedades tengan el mismo estatus.",
+    "imageAlt": "Entrada de Fort Worth Stockyards",
+    "checks": [
+      "Entrada y aparcamiento",
+      "Acceso y almacenamiento temporal",
+      "Revisión de la propiedad"
+    ],
+    "places": [
+      "Fairmount",
+      "Stockyards",
+      "Mistletoe Heights"
+    ],
+    "source": {
+      "label": "City of Fort Worth: historic preservation",
+      "url": "https://www.fortworthtexas.gov/departments/development-services/historic-preservation"
+    },
+    "serviceNotes": {
+      "pool": "En Fort Worth, explique acceso a piscina aparte de la entrada y restricciones de puerta o aparcamiento.",
+      "hvac": "Para climatización en Fort Worth, indique entrada y si hay acceso por ático, estancia o camino exterior.",
+      "pest": "Para plagas en Fort Worth, describa límites de acceso y zonas que quedarán sin inspección.",
+      "plumbing": "Para fontanería en Fort Worth, indique recorrido y posibles efectos en paredes, pavimento o estancias ocupadas.",
+      "lighting": "Para luces en Fort Worth, acuerde acceso, zona de preparación y requisitos específicos de fijación.",
+      "landscape": "En jardines de Fort Worth, distinga cuidado periódico de plantación o riego como trabajos independientes.",
+      "hardscape": "Para patios en Fort Worth, planifique entregas, retirada de tierra y agua antes de elegir acabado."
+    }
+  },
+  "arlington": {
+    "heading": "Una visita práctica en Arlington.",
+    "intro": "Confirme dirección de Texas y horario viable. Explique aparcamiento, puertas, mascotas y restricciones de eventos que afecten su calle ese día.",
+    "context": "La referencia de Entertainment District sirve para orientación. La solicitud debe identificar directamente propiedad, área de trabajo y obstáculos para entrega o retirada.",
+    "imageAlt": "AT&T Stadium en Arlington, Texas",
+    "checks": [
+      "Horario y acceso",
+      "Rutas de entrega y retirada",
+      "Datos de propiedad y equipos"
+    ],
+    "places": [
+      "Downtown Arlington",
+      "Entertainment District",
+      "AT&T Stadium"
+    ],
+    "source": {
+      "label": "City of Arlington: Entertainment District",
+      "url": "https://www.arlingtontx.gov/Home/Featured-Backgrounds/Entertainment-District"
+    },
+    "serviceNotes": {
+      "pool": "En Arlington, confirme horario de piscina y disponibilidad de acceso a puerta y equipos.",
+      "hvac": "Para climatización en Arlington, facilite contacto y habitaciones afectadas para centrar la visita.",
+      "pest": "Para plagas en Arlington, acuerde preparación y acceso con habitaciones ocupadas, niños y mascotas.",
+      "plumbing": "Para fontanería en Arlington, confirme cuándo pueden dejar de usarse aparatos y quién autoriza diagnóstico extra.",
+      "lighting": "Para luces en Arlington, revise rutas peatonales y acceso de instalación y desmontaje.",
+      "landscape": "En jardines de Arlington, explique uso de la propiedad y horarios seguros para residentes y visitantes.",
+      "hardscape": "Para patios en Arlington, reserve entrega y retirada y defina zonas que deben seguir utilizables."
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "dallas": {
+    "heading": "Dallas, one property at a time.",
+    "intro": "Tell the provider which part of Dallas you are in and how the work area is reached. A previous addition, an alley entrance or an interior equipment location can change the investigation and access plan.",
+    "context": "For properties in a designated landmark district, check the city resource and ask which reviews apply before agreeing to exterior alterations. An address-specific assessment matters more than a citywide assumption.",
+    "imageAlt": "Dallas skyline viewed from Reunion Tower",
+    "checks": [
+      "Gate and alley access",
+      "Previous work and additions",
+      "Exterior project approvals"
+    ],
+    "places": [
+      "Junius Heights",
+      "Lake Cliff",
+      "Munger Place"
+    ],
+    "source": {
+      "label": "City of Dallas: landmark districts",
+      "url": "https://www.dallascityhall.com/departments/sustainabledevelopment/historicpreservation/Pages/landmark_districts.aspx"
+    },
+    "serviceNotes": {
+      "pool": "For a Dallas pool, show the route to the equipment pad and identify gates or finished paving that could affect a repair.",
+      "hvac": "For Dallas HVAC work, explain attic or interior access and provide records of previous changes to equipment, controls or ducts.",
+      "pest": "For Dallas pest activity, record sightings by room and show accessible exterior entry points without entering unsafe voids.",
+      "plumbing": "For Dallas plumbing, describe affected fixtures and earlier additions so a plumber can plan the investigation before opening finishes.",
+      "lighting": "For Dallas holiday lights, identify mounting areas and ask about property-specific exterior restrictions before approving the display.",
+      "landscape": "For Dallas planting work, record existing beds and access; ask how new work will connect to irrigation and established planting.",
+      "hardscape": "For Dallas patios or paths, show the connection to the house and where water collects before discussing excavation and finishes."
+    }
+  },
+  "plano": {
+    "heading": "A clearer plan for your Plano home.",
+    "intro": "Start with the route from the driveway to the equipment or project area. Include photographs of existing planting, finished surfaces and anything that needs to remain accessible during work.",
+    "context": "Use the Downtown Plano reference for local orientation. For your own property, describe existing improvements and ask the provider to confirm the scope and any local approvals for the proposed work.",
+    "imageAlt": "Gazebo at Haggard Park in Plano",
+    "checks": [
+      "Finished surfaces to protect",
+      "Equipment and project access",
+      "Current plans and records"
+    ],
+    "places": [
+      "Downtown Plano",
+      "Haggard Park",
+      "Interurban Railway Museum"
+    ],
+    "source": {
+      "label": "Visit Plano: Downtown Plano Arts District",
+      "url": "https://www.visitplano.com/guide-to-the-downtown-plano-arts-district/"
+    },
+    "serviceNotes": {
+      "pool": "For a Plano pool visit, identify the controller, accessible labels and the route around landscaping to the equipment.",
+      "hvac": "For Plano comfort problems, record which rooms are affected and whether previous thermostat or duct work changed the system.",
+      "pest": "For Plano pest inspections, show where activity recurs and list products already used, including applications inside cabinets.",
+      "plumbing": "For Plano plumbing, photograph visible moisture and note whether it appears during use of one fixture or several.",
+      "lighting": "For Plano lighting, mark roofline sections, existing outdoor power and planting beds that need protection during access.",
+      "landscape": "For Plano landscape renewal, list plants to keep and areas with uneven watering before selecting replacements.",
+      "hardscape": "For Plano hardscape work, identify paving to keep, access width and how the new surface should meet existing finished areas."
+    }
+  },
+  "frisco": {
+    "heading": "Make the Frisco visit useful from the start.",
+    "intro": "Give the full Frisco address, neighborhood and access instructions rather than relying on a nearby landmark. Include gate arrangements, parking and the route to the work area.",
+    "context": "The Rail District reference provides local context around Main Street. If work or an event changes access on your street, send the current instructions with the booking rather than assuming the provider already knows.",
+    "imageAlt": "Main Street at Frisco Square",
+    "checks": [
+      "Exact address and entrance",
+      "Parking and access instructions",
+      "Work already in progress"
+    ],
+    "places": [
+      "Rail District",
+      "Main Street",
+      "Frisco Square"
+    ],
+    "source": {
+      "label": "City of Frisco: Rail District",
+      "url": "https://www.friscotexas.gov/1599/Downtown-Redevelopment"
+    },
+    "serviceNotes": {
+      "pool": "For Frisco pool work, confirm gate access and whether other outdoor projects will share the equipment or delivery route.",
+      "hvac": "For Frisco HVAC, share equipment and thermostat details and identify ongoing building work that may affect access or testing.",
+      "pest": "For Frisco pest treatment, describe the activity and any recently moved materials or work areas the inspector should review.",
+      "plumbing": "For Frisco plumbing, distinguish a fixture repair from work connected to a renovation and provide any existing plans.",
+      "lighting": "For Frisco displays, confirm roof and tree access, product ownership and removal timing before reserving the installation date.",
+      "landscape": "For Frisco planting, coordinate new beds with planned patios, drainage and irrigation rather than treating each phase in isolation.",
+      "hardscape": "For Frisco hardscaping, agree on material staging and delivery access before scheduling work alongside other contractors."
+    }
+  },
+  "mckinney": {
+    "heading": "Prepare the right work for your McKinney property.",
+    "intro": "Include the property history you know, particularly earlier repairs or exterior changes. Photos and previous invoices help a provider separate a new symptom from an existing condition.",
+    "context": "If the property is historically designated or the work changes its exterior, use McKinney’s preservation resources and ask about the review process before committing to the design.",
+    "imageAlt": "Buildings around historic downtown McKinney",
+    "checks": [
+      "Repair and alteration history",
+      "Older finishes to protect",
+      "Exterior design review"
+    ],
+    "places": [
+      "Historic Downtown",
+      "Chestnut Square",
+      "McKinney Square"
+    ],
+    "source": {
+      "label": "City of McKinney: preservation resources",
+      "url": "https://www.mckinneytexas.org/350/Historic-Preservation-Resources"
+    },
+    "serviceNotes": {
+      "pool": "For a McKinney pool, provide repair history and explain how a technician can reach equipment without disturbing retained garden features.",
+      "hvac": "For McKinney HVAC, describe existing equipment locations and ask how proposed work will protect finishes and any exterior features being retained.",
+      "pest": "For McKinney pest work, share the history of recurring activity and ask how exclusion will preserve necessary ventilation and existing details.",
+      "plumbing": "For McKinney plumbing, bring previous invoices and identify finishes to retain before agreeing to investigative access.",
+      "lighting": "For McKinney lights, discuss fixing methods on existing exterior finishes and any property review before installation.",
+      "landscape": "For McKinney gardens, identify mature planting to retain and ask how new planting and irrigation will be established around it.",
+      "hardscape": "For McKinney hardscapes, discuss retained exterior details, drainage connections and approval responsibilities before excavation."
+    }
+  },
+  "fort-worth": {
+    "heading": "Plan the details before work begins in Fort Worth.",
+    "intro": "Describe the part of Fort Worth, the exact service entrance and the equipment location. The proposal should explain site access rather than assuming that arrival at the street is the same as reaching the job.",
+    "context": "For a designated historic property, consult the city’s preservation resource and confirm the review requirements for your particular exterior work. Do not treat a neighborhood name as proof that every property has the same status.",
+    "imageAlt": "Entrance sign at the Fort Worth Stockyards",
+    "checks": [
+      "Service entrance and parking",
+      "Project access and staging",
+      "Property-specific review"
+    ],
+    "places": [
+      "Fairmount",
+      "Stockyards",
+      "Mistletoe Heights"
+    ],
+    "source": {
+      "label": "City of Fort Worth: historic preservation",
+      "url": "https://www.fortworthtexas.gov/departments/development-services/historic-preservation"
+    },
+    "serviceNotes": {
+      "pool": "For a Fort Worth pool appointment, describe equipment access separately from the property entrance and include gate or parking restrictions.",
+      "hvac": "For Fort Worth HVAC, note the service entrance and whether the equipment is reached from an attic, interior room or exterior path.",
+      "pest": "For Fort Worth pest work, show access constraints and ask which parts of the property will be inspected versus left inaccessible.",
+      "plumbing": "For Fort Worth plumbing, describe the access route and any areas where investigation would affect walls, paving or occupied rooms.",
+      "lighting": "For Fort Worth holiday lights, agree on access and staging, then confirm any property-specific requirements for exterior fixings.",
+      "landscape": "For Fort Worth landscape work, define which areas receive recurring care and which are separate planting or irrigation projects.",
+      "hardscape": "For Fort Worth hardscapes, plan deliveries, spoil removal and water movement before selecting the final surface."
+    }
+  },
+  "arlington": {
+    "heading": "An Arlington appointment with a practical plan.",
+    "intro": "Confirm the Texas address and a workable appointment window. Explain parking, gates, pets and any event-related access restrictions affecting your street on the day of the visit.",
+    "context": "The Entertainment District resource helps with city orientation. Your service request should still identify the property and work area directly, along with anything that could affect delivery or removal access.",
+    "imageAlt": "AT&T Stadium in Arlington, Texas",
+    "checks": [
+      "Appointment and access window",
+      "Delivery and removal routes",
+      "Property and equipment details"
+    ],
+    "places": [
+      "Downtown Arlington",
+      "Entertainment District",
+      "AT&T Stadium"
+    ],
+    "source": {
+      "label": "City of Arlington: Entertainment District",
+      "url": "https://www.arlingtontx.gov/Home/Featured-Backgrounds/Entertainment-District"
+    },
+    "serviceNotes": {
+      "pool": "For an Arlington pool visit, confirm a service window and make sure gate and equipment access will remain available.",
+      "hvac": "For Arlington HVAC, provide a reachable contact and the affected rooms so the visit can focus on the reported comfort problem.",
+      "pest": "For Arlington pest treatment, agree on access and preparation instructions for occupied rooms, children and pets.",
+      "plumbing": "For Arlington plumbing, confirm when fixtures can be taken out of use and who can approve additional diagnostic work.",
+      "lighting": "For Arlington holiday displays, discuss pedestrian routes and installation or removal access during the intended display period.",
+      "landscape": "For Arlington landscape care, explain property use and the times when crews can safely work around residents and visitors.",
+      "hardscape": "For Arlington patios, paths or outdoor features, reserve delivery and removal access and define areas that must remain usable."
+    }
+  }
+}

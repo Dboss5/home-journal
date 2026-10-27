@@ -1,3 +1,4 @@
+import { SERVICE_BASE } from "@/lib/serviceSeo";
 interface CityStructuredDataProps {
   serviceName: string;
   serviceSlug: string;
@@ -8,6 +9,8 @@ interface CityStructuredDataProps {
   lat: number;
   lng: number;
   locale: string;
+  faqItems: {q: string; a: string}[];
+  image: string;
 }
 
 export function CityStructuredData({
@@ -20,13 +23,16 @@ export function CityStructuredData({
   lat,
   lng,
   locale,
+  faqItems,
+  image,
 }: CityStructuredDataProps) {
-  const base =
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://homefrontjournal.com";
+  const base = SERVICE_BASE;
+  const pageUrl = `${base}/${locale}/services/${serviceSlug}/${citySlug}`;
 
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
+    "@id": `${pageUrl}#service`,
     name: `${serviceName} ${{en: "in", es: "en", fr: "à"}[locale] ?? "in"} ${cityName}, ${state}`,
     description: serviceDescription,
     areaServed: {
@@ -71,12 +77,21 @@ export function CityStructuredData({
       {
         "@type": "ListItem",
         position: 3,
-        name: `${serviceName} ${{en: "in", es: "en", fr: "à"}[locale] ?? "in"} ${cityName}`,
-        item: `${base}/${locale}/services/${serviceSlug}/${citySlug}`,
+        name: serviceName,
+        item: `${base}/${locale}/services/${serviceSlug}`,
+      },
+      {
+        "@type": "ListItem", position: 4, name: cityName,
+        item: pageUrl,
       },
     ],
   };
 
+  const faqSchema = {"@context": "https://schema.org", "@type": "FAQPage", "@id": `${pageUrl}#questions`,
+    mainEntity: faqItems.map(faq => ({"@type": "Question", name: faq.q, acceptedAnswer: {"@type": "Answer", text: faq.a}}))};
+  const webPageSchema = {"@context": "https://schema.org", "@type": "WebPage", "@id": pageUrl,
+    url: pageUrl, name: serviceSchema.name, description: serviceDescription, inLanguage: locale,
+    mainEntity: {"@id": `${pageUrl}#service`}, primaryImageOfPage: {"@type": "ImageObject", url: `${base}${image}`}};
   return (
     <>
       <script
@@ -87,6 +102,8 @@ export function CityStructuredData({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema).replace(/</g, "\\u003c") }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, "\\u003c")}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(webPageSchema).replace(/</g, "\\u003c")}} />
     </>
   );
 }
