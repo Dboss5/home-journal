@@ -35,7 +35,10 @@
       "pool-maintenance-visit-checklist-dfw",
       "why-is-my-pool-losing-water",
       "why-is-my-pool-pump-so-loud",
-      "why-does-my-pool-turn-green-after-rain"
+      "why-does-my-pool-turn-green-after-rain",
+      "why-are-there-air-bubbles-in-my-pool",
+      "why-is-my-pool-filter-pressure-high",
+      "why-does-my-pool-smell-strongly-of-chlorine"
     ]
   },
   "hvac": {
@@ -73,7 +76,9 @@
       "why-is-my-ac-blowing-warm-air",
       "furnace-service-visit-checklist-dfw",
       "why-is-my-ac-leaking-water",
-      "why-is-one-room-hotter-than-the-rest"
+      "why-is-one-room-hotter-than-the-rest",
+      "why-does-my-ac-keep-turning-on-and-off",
+      "why-does-my-ac-smell-musty"
     ]
   },
   "pest": {
@@ -110,7 +115,8 @@
     "articles": [
       "why-do-roaches-keep-coming-back",
       "rodent-exclusion-inspection-dfw",
-      "why-do-i-hear-scratching-in-my-attic"
+      "why-do-i-hear-scratching-in-my-attic",
+      "why-do-ants-keep-coming-back"
     ]
   },
   "plumbing": {
@@ -148,7 +154,9 @@
       "why-does-my-toilet-keep-running",
       "hidden-household-water-leak-checklist-dfw",
       "why-is-my-water-heater-not-making-hot-water",
-      "is-a-tankless-water-heater-worth-it"
+      "is-a-tankless-water-heater-worth-it",
+      "why-does-my-sink-drain-slowly",
+      "why-is-my-water-pressure-low"
     ]
   },
   "lighting": {
@@ -185,7 +193,8 @@
     "articles": [
       "christmas-lighting-power-plan-dfw",
       "real-cost-holiday-lighting",
-      "why-do-my-outdoor-christmas-lights-keep-tripping"
+      "why-do-my-outdoor-christmas-lights-keep-tripping",
+      "can-christmas-lights-damage-my-roof"
     ]
   },
   "landscape": {

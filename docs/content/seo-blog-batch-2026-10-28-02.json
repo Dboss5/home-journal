@@ -1,0 +1,111 @@
+{
+  "why-are-there-air-bubbles-in-my-pool": {
+    "brand": "Poolburg",
+    "urls": [
+      "https://poolburg.com/air-bubbles-from-pool-return-jets/",
+      "https://poolburg.com/pool-filter-pressure-too-low/",
+      "https://www.pentair.com/education-support/water-education-center/pool-and-spa-education/pool-pump-information-guide.html"
+    ],
+    "image": "/images/blog/why-is-my-pool-pump-so-loud.webp",
+    "imageSource": "Existing local repository asset reused without modification.",
+    "serviceSlug": "pool"
+  },
+  "why-is-my-pool-filter-pressure-high": {
+    "brand": "Poolburg",
+    "urls": [
+      "https://poolburg.com/pool-filter-pressure-too-high/",
+      "https://poolburg.com/normal-pool-filter-pressure-gauge-reading/",
+      "https://www.pentair.com/en-us/pool-spa/education-support/homeowner-support/pool-filter-product-safety-help-center.html"
+    ],
+    "image": "/images/blog/why-is-my-pool-pump-so-loud.webp",
+    "imageSource": "Existing local repository asset reused without modification.",
+    "serviceSlug": "pool"
+  },
+  "why-does-my-pool-smell-strongly-of-chlorine": {
+    "brand": "Poolburg",
+    "urls": [
+      "https://poolburg.com/pool-water-testing/",
+      "https://poolburg.com/pool-water-testing-kits/",
+      "https://www.cdc.gov/healthy-swimming/prevention/preventing-eye-irritation-from-pool-chemicals.html"
+    ],
+    "image": "/images/services/pool.webp",
+    "imageSource": "Existing local repository asset reused without modification.",
+    "serviceSlug": "pool"
+  },
+  "why-does-my-ac-keep-turning-on-and-off": {
+    "brand": "Supremacy Service",
+    "urls": [
+      "https://supremacyservice.com/air-conditioner-repair/",
+      "https://supremacyservice.com/air-conditioning/",
+      "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/ac-short-cycling/"
+    ],
+    "image": "/images/services/hvac.webp",
+    "imageSource": "Existing local repository asset reused without modification.",
+    "serviceSlug": "hvac"
+  },
+  "why-does-my-ac-smell-musty": {
+    "brand": "Supremacy Service",
+    "urls": [
+      "https://supremacyservice.com/air-conditioner-repair/",
+      "https://supremacyservice.com/duct-inspection-services-in-dallas-tx/",
+      "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+    ],
+    "image": "/images/blog/why-is-one-room-hotter-than-the-rest.webp",
+    "imageSource": "Existing local repository asset reused without modification.",
+    "serviceSlug": "hvac"
+  },
+  "why-does-my-sink-drain-slowly": {
+    "brand": "Supremacy Service",
+    "urls": [
+      "https://supremacyservice.com/drain-cleaning/",
+      "https://supremacyservice.com/sewer-line-repair-and-replacement/",
+      "https://www.portland.gov/bes/preventing-pollution/fats-oil-and-grease"
+    ],
+    "image": "/images/blog/why-does-my-sink-drain-slowly.webp",
+    "imageSource": "https://supremacyservice.com/wp-content/uploads/2026/07/drain-camera.jpg",
+    "serviceSlug": "plumbing"
+  },
+  "why-is-my-water-pressure-low": {
+    "brand": "Supremacy Service",
+    "urls": [
+      "https://supremacyservice.com/water-line-repair-and-replacement-in-dallas/",
+      "https://supremacyservice.com/water-leak-detection/",
+      "https://www.fortworthtexas.gov/departments/water/main-breaks"
+    ],
+    "image": "/images/blog/why-is-my-water-pressure-low.webp",
+    "imageSource": "https://supremacyservice.com/wp-content/uploads/2026/07/Traditional-waterline-Replacement-services-in-Dallas-1024x819.webp",
+    "serviceSlug": "plumbing"
+  },
+  "why-do-ants-keep-coming-back": {
+    "brand": "Supremacy Service",
+    "urls": [
+      "https://supremacyservice.com/perimeter-pest-control-in-dallas/",
+      "https://supremacyservice.com/pest-control/",
+      "https://ipm.ucanr.edu/home-and-landscape/ants/"
+    ],
+    "image": "/images/services/pest.webp",
+    "imageSource": "Existing local repository asset reused without modification.",
+    "serviceSlug": "pest-control"
+  },
+  "why-is-my-electrical-outlet-warm": {
+    "brand": "Supremacy Service",
+    "urls": [
+      "https://supremacyservice.com/outlets-switches-installation-repair/",
+      "https://supremacyservice.com/electrical-safety-inspections-dfw/",
+      "https://www.cpsc.gov/s3fs-public/518.pdf"
+    ],
+    "image": "/images/blog/why-did-my-outlet-stop-working.webp",
+    "imageSource": "Existing local repository asset reused without modification."
+  },
+  "can-christmas-lights-damage-my-roof": {
+    "brand": "Supremacy Service",
+    "urls": [
+      "https://supremacyservice.com/christmas-light-installation/",
+      "https://supremacyservice.com/tree-and-shrub-wrap-lighting-dallas/",
+      "https://www.gaf.com/en-us/blog/your-home/6-tips-for-installing-holiday-roofing-decorations-9c9140d1-aa4b-4483-aee6-c43b3f207459"
+    ],
+    "image": "/images/blog/why-do-my-outdoor-christmas-lights-keep-tripping.webp",
+    "imageSource": "Existing local repository asset reused without modification.",
+    "serviceSlug": "holiday-lighting"
+  }
+}

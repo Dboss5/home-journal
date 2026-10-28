@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import matter from 'gray-matter';
 import {spawn} from 'node:child_process';
-const manifest=JSON.parse(fs.readFileSync('docs/content/seo-blog-batch-2026-10-28.json','utf8'));
+const manifest=JSON.parse(fs.readFileSync(process.argv[2] ?? 'docs/content/seo-blog-batch-2026-10-28.json','utf8'));
 assert.equal(Object.keys(manifest).length,10);
 const posts=[];
 for(const locale of ['en','es','fr']){
@@ -49,6 +49,12 @@ try{
   assert.equal((body.match(/<a\b/g)||[]).length,3);
   for(const url of manifest[slug].urls) assert.ok(body.includes(`href="${url}"`));
   assert.ok(indexes[locale].includes(`href="${path}"`));assert.ok(sitemap.includes(path));
+  if(process.argv[2]) {
+    const search=await get(`/${locale}/search?q=${encodeURIComponent(data.title)}`);
+    assert.ok(search.includes(`href="${path}"`),`Search discovers ${path}`);
+    const serviceSlug=manifest[slug].serviceSlug;
+    if(serviceSlug){const service=await get(`/${locale}/services/${serviceSlug}`);assert.ok(service.includes(`href="${path}"`),`Service links ${path}`);}
+  }
  }
  for(const item of Object.values(manifest)){const r=await fetch(`http://127.0.0.1:${port}${item.image}`);assert.equal(r.status,200);assert.match(r.headers.get('content-type'),/image/);}
  for(const locale of ['en','es','fr']){
