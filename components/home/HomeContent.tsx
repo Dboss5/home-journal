@@ -512,13 +512,24 @@ const HOME_STYLES = `
   color: #1A1614;
 }
 
+.hf-service-description {padding: 0 20px; margin: 0; color: var(--ink-muted); font-size: .88rem; line-height: 1.65;}
+.hf-home-brands {display: inline-block; color: var(--red); text-decoration: underline; text-underline-offset: 4px; margin-top: 10px;}
+.hf-journal-excerpt {margin: 0 24px; color: var(--ink-muted); font-size: .9rem; line-height: 1.7;}
+.hf-home-planning {padding: 32px; background: var(--surface-alt); border: 1px solid var(--border); border-radius: var(--radius-lg); margin: 0 0 60px;}
+.hf-home-planning>p:not(.accent-label) {max-width: 85ch; line-height: 1.8; color: var(--ink-muted); margin: 20px 0 24px;}
+.hf-home-faq {padding: 0 0 64px;}
+.hf-home-faq h2 {margin-bottom: 28px;}
+.hf-home-faq details {border-bottom: 1px solid var(--border); padding: 20px 0;}
+.hf-home-faq summary {cursor: pointer; font-weight: 600; line-height: 1.65;}
+.hf-home-faq p {max-width: 85ch; color: var(--ink-muted); line-height: 1.8; margin: 14px 0 0;}
+.hf-home-faq summary:focus-visible,.hf-home-brands:focus-visible {outline: 2px solid var(--red); outline-offset: 5px;}
 /* Visual edition: preserve the original editorial palette and section order. */
 .hf-hero { min-height: 680px; display: flex; align-items: center; padding: 90px 6%; }
 .hf-hero-photo { object-fit: cover; object-position: center; }
 .hf-hero-veil { background: linear-gradient(90deg,rgba(20,35,31,.88) 0%,rgba(20,35,31,.67) 38%,rgba(20,35,31,.12) 72%); }
 .hf-hero-inner { text-align: left; width: 100%; max-width: 1200px; }
 .hf-hero .accent-label { color: #EDD6A5; }
-.hf-hero-title { color: #FFF8EA; max-width: 10ch; font-size: clamp(3.2rem,6.5vw,5.8rem); }
+.hf-hero-title { color: #FFF8EA; max-width: 17ch; font-size: clamp(2.8rem,5.2vw,4.6rem); }
 .hf-hero-sub { color: #EDE7D9; max-width: 34ch; margin: 0; font-size: 1.05rem; }
 .hf-hero-ctas { justify-content: flex-start; margin-top: 28px; }
 .hf-hero .btn-ghost { color: #FFF8EA; border-color: #D4BB89; background: rgba(20,35,31,.3); }
@@ -529,7 +540,7 @@ const HOME_STYLES = `
 .hf-service-card { padding: 0 0 20px; gap: 14px; }
 .hf-service-card > .hf-illustration { width: 100%; height: auto; border-radius: 0; transition: transform .4s ease; }
 .hf-service-card:hover > .hf-illustration { transform: scale(1.025); }
-.hf-service-label { padding: 0 20px; }
+.hf-service-label { padding: 0 20px; margin: 0; }
 .hf-service-icon { position: absolute; top: 14px; left: 14px; background: var(--surface); padding: 9px; border-radius: 50%; box-shadow: var(--shadow-sm); }
 .hf-service-arrow { display: none; }
 .hf-service-card:first-child { grid-column: span 2; grid-row: span 2; }
@@ -594,6 +605,8 @@ export function HomeContent() {
       <FeaturedAnimations />
       <WhyUs />
       <JournalPreview />
+      <PlanningTools />
+      <HomeFaq />
       <FinalCTA />
     </>
   );
@@ -670,6 +683,7 @@ function ServicesGrid() {
       <div className="hf-section-head">
         <p className="accent-label">{th("servicesEyebrow")}</p>
         <h2 className="hf-section-title">{th("servicesTitle")}</h2>
+        <p className="hf-section-sub">{th("servicesSub")}</p>
       </div>
       <div className="hf-services-grid">
         {SERVICES.map(({ key, href, icon: Icon }) => (
@@ -678,7 +692,8 @@ function ServicesGrid() {
             <span className="hf-service-icon">
               <Icon size={26} strokeWidth={1.5} />
             </span>
-            <span className="hf-service-label">{t(key)}</span>
+            <h3 className="hf-service-label">{t(key)}</h3>
+            <p className="hf-service-description">{th(`serviceDescriptions.${key}`)}</p>
             <span className="hf-service-arrow">
               <ArrowRight size={16} strokeWidth={2} />
             </span>
@@ -774,6 +789,8 @@ function WhyUs() {
           <p className="accent-label">{t("whyEyebrow")}</p>
           <h2 className="hf-section-title">{t("whyTitle")}</h2>
           <p className="hf-why-body">{t("whyBody1")}</p>
+          <p className="hf-why-body">{t("whyBody2")}</p>
+          <Link href="/our-brands" className="hf-home-brands">{t("brandsCta")}</Link>
 
           <Link href="/about" className="btn btn-ghost hf-why-cta">
             {t("whyCta")}
@@ -789,22 +806,24 @@ function WhyUs() {
 function JournalPreview() {
   const t = useTranslations("home");
   const posts = [
-    { slug: "pool-service-cost-dfw", title: t("poolCardTitle"), category: t("poolCardCategory") },
-    { slug: "hvac-repair-cost-dfw", title: t("hvacCardTitle"), category: t("hvacCardCategory") },
-    { slug: "plumbing-cost-dfw", title: t("plumbingCardTitle"), category: t("plumbingCardCategory") },
+    { slug: "why-is-my-pool-losing-water", title: t("poolCardTitle"), category: t("poolCardCategory"), excerpt: t("poolCardExcerpt") },
+    { slug: "why-is-my-ac-leaking-water", title: t("hvacCardTitle"), category: t("hvacCardCategory"), excerpt: t("hvacCardExcerpt") },
+    { slug: "why-is-my-water-heater-not-making-hot-water", title: t("plumbingCardTitle"), category: t("plumbingCardCategory"), excerpt: t("plumbingCardExcerpt") },
   ];
   return (
     <section className="hf-journal">
       <div className="hf-section-head-center">
         <p className="accent-label">{t("journalEyebrow")}</p>
         <h2 className="hf-section-title">{t("journalTitle")}</h2>
+        <p className="hf-section-sub">{t("journalSub")}</p>
       </div>
       <div className="hf-journal-grid">
         {posts.map((p) => (
           <article key={p.slug} className="hf-journal-card">
-            <Link href={`/blog/${p.slug}`} className="hf-journal-image" aria-label={p.title}><Image src={`/images/blog/${p.slug}.jpg`} alt="" fill sizes="(max-width: 820px) 100vw, 33vw" /></Link>
+            <Link href={`/blog/${p.slug}`} className="hf-journal-image" aria-label={p.title}><Image src={`/images/blog/${p.slug}.webp`} alt="" fill sizes="(max-width: 820px) 100vw, 33vw" /></Link>
             <span className="hf-journal-cat">{p.category}</span>
             <h3 className="hf-journal-title">{p.title}</h3>
+            <p className="hf-journal-excerpt">{p.excerpt}</p>
 
             <Link href={`/blog/${p.slug}`} className="hf-journal-link">
               {t("journalRead")}
@@ -821,6 +840,25 @@ function JournalPreview() {
       </div>
     </section>
   );
+}
+
+/* ---------- PLANNING TOOLS & FAQ ---------- */
+function PlanningTools() {
+  const t = useTranslations("home");
+  return <section className="hf-home-planning">
+    <p className="accent-label">{t("planningEyebrow")}</p>
+    <h2 className="hf-section-title">{t("planningTitle")}</h2>
+    <p>{t("planningBody")}</p>
+    <Link href="/calculators" className="btn btn-ghost">{t("planningCta")}</Link>
+  </section>;
+}
+function HomeFaq() {
+  const t = useTranslations("home");
+  const faqs = t.raw("faqs") as {q: string; a: string}[];
+  return <section className="hf-home-faq" id="home-questions">
+    <h2 className="hf-section-title">{t("faqTitle")}</h2>
+    {faqs.map(faq => <details key={faq.q}><summary>{faq.q}</summary><p>{faq.a}</p></details>)}
+  </section>;
 }
 
 /* ---------- FINAL CTA ---------- */
