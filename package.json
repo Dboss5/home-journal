@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "test:calculators": "node scripts/check-calculators.mjs",
-    "check:calculator-pages": "node scripts/check-calculator-pages.mjs"
+    "check:calculator-pages": "node scripts/check-calculator-pages.mjs",
+    "check:search": "node scripts/check-search.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",

@@ -5,7 +5,8 @@ import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { getCalculatorContent } from "@/lib/calculators/content";
 import { useLocale, useTranslations } from "next-intl";
-import { Menu, X } from "lucide-react";
+import { getSearchUi } from "@/lib/searchUi";
+import { Menu, X, Search } from "lucide-react";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
 const NAV = [
@@ -16,7 +17,9 @@ const NAV = [
 
 export function Header() {
   const t = useTranslations("nav");
-  const calculatorLabel = getCalculatorContent(useLocale()).ui.all;
+  const locale = useLocale();
+  const calculatorLabel = getCalculatorContent(locale).ui.all;
+  const searchLabel = getSearchUi(locale).button;
   const [open, setOpen] = useState(false);
 
   return (
@@ -42,6 +45,7 @@ export function Header() {
             </Link>
           ))}
           <Link href="/calculators" className="hf-nav-link">{calculatorLabel}</Link>
+          <Link href="/search" className="hf-search" aria-label={searchLabel}><Search size={20} aria-hidden="true" /></Link>
           <LanguageSwitcher />
           <Link href="/quote" className="btn btn-primary hf-nav-cta">
             {t("quote")}
@@ -50,6 +54,7 @@ export function Header() {
 
         {/* ---------- Mobile controls (always visible) ---------- */}
         <div className="hf-mobile-controls">
+          <Link href="/search" className="hf-search" aria-label={searchLabel}><Search size={20} aria-hidden="true" /></Link>
           <LanguageSwitcher />
           <button
             className="hf-menu-btn"
@@ -173,6 +178,19 @@ export function Header() {
           align-items: center;
           gap: 12px;
         }
+        .hf-search {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 44px;
+          height: 44px;
+          flex-shrink: 0;
+          color: var(--ink);
+          border: 1px solid var(--border);
+          border-radius: var(--radius-sm);
+        }
+        .hf-search:focus-visible {outline: 2px solid var(--red); outline-offset: 3px;}
+        .hf-search:hover {color: var(--red); border-color: var(--gold);}
         .hf-menu-btn {
           background: transparent;
           border: 1px solid var(--border);
@@ -208,7 +226,7 @@ export function Header() {
         }
 
         /* ---------- Breakpoint ---------- */
-        @media (max-width: 1050px) {
+        @media (max-width: 1150px) {
           .hf-header-inner {
             padding: 12px 20px;
             gap: 12px;
@@ -223,8 +241,13 @@ export function Header() {
             display: flex;
           }
           .hf-logo-img {
-            height: 34px;
+            height: 30px;
           }
+        }
+        @media (max-width: 420px) {
+          .hf-header-inner {padding: 12px 16px; gap: 8px;}
+          .hf-mobile-controls {gap: 6px;}
+          .hf-logo-img {width: 96px; height: auto;}
         }
       `}</style>
     </header>
