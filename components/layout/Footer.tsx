@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { getCalculatorContent } from "@/lib/calculators/content";
 import { useLocale, useTranslations } from "next-intl";
@@ -65,6 +66,13 @@ export function Footer() {
         <p className="hf-footer-copy">
           © {new Date().getFullYear()} Homefront Journal. {t("rights")}
         </p>
+      </div>
+
+      <div className="hf-footer-crewtend">
+        <a href="https://crewtend.com/">
+          <Image src="/images/brands/crewtend.png" alt="" width={28} height={26} />
+          <span>CrewTend</span>
+        </a>
       </div>
 
       <style jsx>{`
@@ -144,7 +152,35 @@ export function Footer() {
           letter-spacing: 0.12em;
           text-transform: uppercase;
         }
+        .hf-footer-crewtend {
+          max-width: 1200px;
+          margin: 22px auto 0;
+          display: flex;
+          justify-content: flex-end;
+        }
+        .hf-footer-crewtend a {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          min-height: 44px;
+          padding: 4px 8px;
+          color: var(--ink-muted);
+          font-family: var(--font-accent);
+          font-size: 0.75rem;
+          letter-spacing: 0.04em;
+          border-radius: var(--radius-sm);
+        }
+        .hf-footer-crewtend a:hover {
+          color: var(--ink);
+          text-decoration: underline;
+          text-underline-offset: 4px;
+        }
+        .hf-footer-crewtend a:focus-visible {
+          outline: 2px solid var(--red);
+          outline-offset: 3px;
+        }
         @media (max-width: 820px) {
+          .hf-footer-crewtend {justify-content: flex-start;}
           .hf-footer-inner {
             grid-template-columns: 1fr;
             gap: 32px;
