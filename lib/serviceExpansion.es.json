@@ -32,7 +32,10 @@
     "imageAlt": "Piscina y zona de equipos cercana",
     "articles": [
       "why-is-my-pool-cloudy",
-      "pool-maintenance-visit-checklist-dfw"
+      "pool-maintenance-visit-checklist-dfw",
+      "why-is-my-pool-losing-water",
+      "why-is-my-pool-pump-so-loud",
+      "why-does-my-pool-turn-green-after-rain"
     ]
   },
   "hvac": {
@@ -68,7 +71,9 @@
     "imageAlt": "Técnico de climatización revisando una unidad exterior",
     "articles": [
       "why-is-my-ac-blowing-warm-air",
-      "furnace-service-visit-checklist-dfw"
+      "furnace-service-visit-checklist-dfw",
+      "why-is-my-ac-leaking-water",
+      "why-is-one-room-hotter-than-the-rest"
     ]
   },
   "pest": {
@@ -104,7 +109,8 @@
     "imageAlt": "Técnico de plagas inspeccionando y tratando aleros exteriores",
     "articles": [
       "why-do-roaches-keep-coming-back",
-      "rodent-exclusion-inspection-dfw"
+      "rodent-exclusion-inspection-dfw",
+      "why-do-i-hear-scratching-in-my-attic"
     ]
   },
   "plumbing": {
@@ -140,7 +146,9 @@
     "imageAlt": "Técnico de fontanería trabajando en la cisterna de un inodoro",
     "articles": [
       "why-does-my-toilet-keep-running",
-      "hidden-household-water-leak-checklist-dfw"
+      "hidden-household-water-leak-checklist-dfw",
+      "why-is-my-water-heater-not-making-hot-water",
+      "is-a-tankless-water-heater-worth-it"
     ]
   },
   "lighting": {
@@ -176,7 +184,8 @@
     "imageAlt": "Vivienda con luces navideñas de colores en tejado y jardín",
     "articles": [
       "christmas-lighting-power-plan-dfw",
-      "real-cost-holiday-lighting"
+      "real-cost-holiday-lighting",
+      "why-do-my-outdoor-christmas-lights-keep-tripping"
     ]
   },
   "landscape": {

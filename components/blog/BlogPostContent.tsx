@@ -11,6 +11,7 @@ interface Post {
   date: string;
   excerpt: string;
   coverImage?: string;
+  coverImageAlt?: string;
   readingTime: string;
 }
 
@@ -294,7 +295,7 @@ export function BlogPostContent({
       {post.coverImage && (
         <div className="hf-post-cover">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={post.coverImage} alt={post.title} />
+          <img src={post.coverImage} alt={post.coverImageAlt ?? post.title} />
         </div>
       )}
 

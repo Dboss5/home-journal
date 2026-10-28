@@ -9,7 +9,8 @@
     "lint": "eslint",
     "test:calculators": "node scripts/check-calculators.mjs",
     "check:calculator-pages": "node scripts/check-calculator-pages.mjs",
-    "check:search": "node scripts/check-search.mjs"
+    "check:search": "node scripts/check-search.mjs",
+    "check:seo-blogs": "node scripts/check-seo-blog-batch.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",

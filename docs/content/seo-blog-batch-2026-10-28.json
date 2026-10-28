@@ -1,0 +1,102 @@
+{
+  "why-is-my-pool-losing-water": {
+    "brand": "Poolburg",
+    "urls": [
+      "https://poolburg.com/pool-leak-detection/",
+      "https://poolburg.com/pool-leak-detection-near-me/",
+      "https://www.epa.gov/watersense/pool-water-efficiency"
+    ],
+    "image": "/images/blog/why-is-my-pool-losing-water.webp",
+    "imageSource": "https://poolburg.com/wp-content/uploads/2026/05/PatiowithingroundpoolinFortWorthTX.webp"
+  },
+  "why-is-my-pool-pump-so-loud": {
+    "brand": "Poolburg",
+    "urls": [
+      "https://poolburg.com/pool-pump-noise/",
+      "https://poolburg.com/pool-pump-motor-repair-north-texas/",
+      "https://www.pentair.com/education-support/water-education-center/pool-and-spa-education/pool-pump-information-guide.html"
+    ],
+    "image": "/images/blog/why-is-my-pool-pump-so-loud.webp",
+    "imageSource": "https://poolburg.com/wp-content/uploads/2026/02/image-61_11zon.jpg"
+  },
+  "why-does-my-pool-turn-green-after-rain": {
+    "brand": "Poolburg",
+    "urls": [
+      "https://poolburg.com/why-is-my-pool-green/",
+      "https://poolburg.com/green-pool-recovery-north-texas/",
+      "https://www.cdc.gov/healthy-swimming/about/home-pool-and-hot-tub-water-treatment-and-testing.html"
+    ],
+    "image": "/images/blog/why-does-my-pool-turn-green-after-rain.webp",
+    "imageSource": "https://poolburg.com/wp-content/uploads/2026/04/fixing-green-pools.webp"
+  },
+  "why-is-my-ac-leaking-water": {
+    "brand": "Supremacy Service",
+    "urls": [
+      "https://supremacyservice.com/air-conditioner-repair/",
+      "https://supremacyservice.com/air-conditioning/",
+      "https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist"
+    ],
+    "image": "/images/blog/why-is-my-ac-leaking-water.webp",
+    "imageSource": "https://supremacyservice.com/wp-content/uploads/2026/06/Air-conditioning-repair-checks-1024x819.webp"
+  },
+  "why-is-one-room-hotter-than-the-rest": {
+    "brand": "Supremacy Service",
+    "urls": [
+      "https://supremacyservice.com/duct-inspection-services-in-dallas-tx/",
+      "https://supremacyservice.com/ductwork-installation-dallas-tx/",
+      "https://www.energystar.gov/saveathome/heating-cooling/duct-sealing/benefits"
+    ],
+    "image": "/images/blog/why-is-one-room-hotter-than-the-rest.webp",
+    "imageSource": "https://supremacyservice.com/wp-content/uploads/2026/06/Duct-Inspection-Services-In-Dallas-1024x819.webp"
+  },
+  "why-is-my-water-heater-not-making-hot-water": {
+    "brand": "Supremacy Service",
+    "urls": [
+      "https://supremacyservice.com/water-heater-replacement-and-installation-services/",
+      "https://supremacyservice.com/tank-vs-tankless-water-heater-dallas/",
+      "https://www.hotwater.com/info-center/water-heater-not-working.html"
+    ],
+    "image": "/images/blog/why-is-my-water-heater-not-making-hot-water.webp",
+    "imageSource": "https://supremacyservice.com/wp-content/uploads/2026/06/Heater-Repair-In-Dallas-Tx.webp"
+  },
+  "is-a-tankless-water-heater-worth-it": {
+    "brand": "Supremacy Service",
+    "urls": [
+      "https://supremacyservice.com/tank-vs-tankless-water-heater-dallas/",
+      "https://supremacyservice.com/tankless-water-heaters-dallas/",
+      "https://www.energystar.gov/products/whole_home_tankless_gas_water_heaters"
+    ],
+    "image": "/images/blog/is-a-tankless-water-heater-worth-it.webp",
+    "imageSource": "https://supremacyservice.com/wp-content/uploads/2026/10/Tankless-water-heating-solutions-in-Dallas-1024x576.webp"
+  },
+  "why-do-i-hear-scratching-in-my-attic": {
+    "brand": "Supremacy Service",
+    "urls": [
+      "https://supremacyservice.com/rodent-control-and-exclusion-dfw/",
+      "https://supremacyservice.com/squirrel-removal-dfw/",
+      "https://www.epa.gov/rodenticides/identify-and-prevent-rodent-infestations"
+    ],
+    "image": "/images/blog/why-do-i-hear-scratching-in-my-attic.webp",
+    "imageSource": "https://supremacyservice.com/wp-content/uploads/2026/09/Squirrel-Removal-Attic-Exclusion-in-Dallas-Fort-Worth-1024x768.webp"
+  },
+  "why-does-my-breaker-keep-tripping": {
+    "brand": "Supremacy Service",
+    "urls": [
+      "https://supremacyservice.com/electrical-safety-inspections-dfw/",
+      "https://supremacyservice.com/electrical-breaker-installation-or-replacement-in-dallas/",
+      "https://www.cpsc.gov/s3fs-public/518.pdf"
+    ],
+    "image": "/images/blog/why-does-my-breaker-keep-tripping.webp",
+    "imageSource": "https://supremacyservice.com/wp-content/uploads/2026/07/Electrical-Breaker-Installation-or-Replacement-1024x819.webp"
+  },
+  "why-do-my-outdoor-christmas-lights-keep-tripping": {
+    "brand": "Supremacy Service",
+    "urls": [
+      "https://supremacyservice.com/christmas-light-installation/",
+      "https://supremacyservice.com/outlets-switches-installation-repair/",
+      "https://www.esfi.org/outdoor-decoration-safety-tips/"
+    ],
+    "image": "/images/blog/why-do-my-outdoor-christmas-lights-keep-tripping.webp",
+    "imageSource": "https://supremacyservice.com/wp-content/uploads/2026/07/classic-warm-christmass-light-installation-services-in-Dallas.webp"
+  }
+}
