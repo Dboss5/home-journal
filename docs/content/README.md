@@ -21,3 +21,15 @@ Each new article body contains exactly three links: two topically relevant brand
 The MDX files contain the exact URLs. New pages opt out of automatic related-article cards using `showRelated: false`; existing articles keep their current behavior. Standard site navigation and the existing quote footer remain shared site elements, outside the three editorial links in the article body.
 
 The new pages reuse the existing article layout. The pest article omits a cover rather than showing a pool image. No WordPress source content was changed.
+
+## Question-led article batch — 2026-10-28
+
+Ten additional topics were added in English, Spanish and French (30 MDX files): pool water loss, noisy pool pumps, green water after rain, AC water leaks, a hot room, no hot water, tankless conversion, attic scratching, repeated breaker trips and outdoor holiday-light trips.
+
+Every article has an opening answer, three practical sections and two follow-up questions, with roughly 300–360 words per version. All use `showRelated: false` and exactly two matching-brand links plus one independent authority link. No price tables, fabricated search volumes, ranking guarantees or named expert endorsements were added. Sources were checked against the live destination pages before publication.
+
+The [batch manifest](seo-blog-batch-2026-10-28.json) records editorial destinations and image provenance. Ten topic-specific covers were reused from the user-linked brand sites, reviewed visually, optimized to local WebP files and given descriptive translated alt text. They are illustrative covers, not records of work performed for a named customer. The covers total approximately 1.2 MB.
+
+The shared article route now generates title/description, canonical and language-alternate URLs, article social metadata, and BlogPosting/BreadcrumbList JSON-LD. Existing posts receive the same metadata using their existing frontmatter. The new `coverImageAlt` field is optional for older posts. Matching service and city guides expose nine of the ten new articles through their existing reading sections; the electrical topic appears in the journal, search and sitemap alongside all others.
+
+Validation: `npm run build`, `npx tsc --noEmit`, `npm run check:seo-blogs`, and `git diff --check`. The batch check validates the 30 production pages, 90 editorial links, 10 image endpoints, metadata/schema, blog/sitemap/search discovery and existing-post behavior. Browser screenshot review is unavailable in this environment; cover assets were inspected directly.

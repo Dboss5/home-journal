@@ -11,6 +11,7 @@ export interface BlogPost {
   date: string;
   excerpt: string;
   coverImage?: string;
+  coverImageAlt?: string;
   content: string;
   readingTime: string;
   showRelated?: boolean;
@@ -71,6 +72,7 @@ export function getPostBySlug(
       date: data.date ?? new Date().toISOString().slice(0, 10),
       excerpt: data.excerpt ?? "",
       coverImage: data.coverImage,
+      coverImageAlt: data.coverImageAlt,
       content,
       showRelated: data.showRelated !== false,
       readingTime: `${Math.max(1, Math.ceil(rt.minutes))} ${{en: "min read", es: "min de lectura", fr: "min de lecture"}[locale] ?? "min read"}`,
