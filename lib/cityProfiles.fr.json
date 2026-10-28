@@ -172,5 +172,395 @@
       "landscape": "Pour un jardin à Arlington, décrivez usages et horaires sûrs autour des résidents et visiteurs.",
       "hardscape": "Pour un patio à Arlington, réservez livraisons et enlèvements et précisez les espaces restant utilisables."
     }
+  },
+  "allen": {
+    "heading": "Allen : préparez les travaux autour des accès quotidiens.",
+    "intro": "Watters Creek Village, Celebration Park et le Heritage Center servent de repères à Allen. Pour une visite, précisez portail, stationnement et chemin vers les équipements ; un monument voisin ne remplace pas l’adresse.",
+    "context": "Si le jardin accueille jeux, animaux ou plusieurs interventions, coordonnez l’accès avant les travaux. Indiquez les zones à maintenir utilisables et convenez de la gestion des outils, tuyaux et barrières temporaires.",
+    "imageAlt": "Le bâtiment du Allen Heritage Center à Allen, Texas.",
+    "checks": [
+      "Accès par le portail du jardin",
+      "Routines familiales et animaux",
+      "Parcours du matériel et de l’arrosage"
+    ],
+    "places": [
+      "Watters Creek Village",
+      "Celebration Park",
+      "Allen Heritage Center"
+    ],
+    "source": {
+      "label": "Visit Allen: parks and local places",
+      "url": "https://visitallentexas.com/plan-your-trip/fun-free/"
+    },
+    "serviceNotes": {
+      "pool": "Pour une piscine à Allen, coordonnez le portail avec entretien de pelouse ou arrosage et montrez un accès aux équipements évitant les zones de jeux.",
+      "hvac": "Pour le confort à Allen, notez les pièces et horaires concernés ainsi que les portes fermées ; demandez un contrôle d’air avant un équipement plus puissant.",
+      "pest": "Pour les nuisibles à Allen, relevez nourriture animale extérieure et passages aux portes ; distinguez prévention et traitement selon l’identification.",
+      "plumbing": "En plomberie à Allen, listez les appareils touchés aux différents étages et les coupures accessibles afin de cibler les ouvertures nécessaires.",
+      "lighting": "Pour les fêtes à Allen, incluez allées et portails utilisés ; demandez comment câbles et minuteries respecteront les déplacements habituels.",
+      "landscape": "Pour plantations ou paillis à Allen, photographiez arroseurs et bordures afin de considérer couverture et irrigation existante ensemble.",
+      "hardscape": "Pour allée ou terrasse à Allen, précisez le passage à garder ouvert et demandez un contrôle des niveaux et de l’évacuation avant les finitions."
+    },
+    "faqs": [
+      {
+        "q": "Comment adapter une visite à Allen aux routines du foyer ?",
+        "a": "Fournissez adresse, accès et horaires où le passage doit rester libre. Convenez de la gestion des animaux avant confirmation du rendez-vous."
+      },
+      {
+        "q": "La proximité de Celebration Park détermine-t-elle le service ?",
+        "a": "Non. Un repère aide à s’orienter ; équipements, symptômes et conditions de votre propriété déterminent l’évaluation et le périmètre."
+      }
+    ]
+  },
+  "richardson": {
+    "heading": "Richardson : incluez les transformations précédentes dans le dossier.",
+    "intro": "Cottonwood Park, CityLine et le Eisemann Center sont des repères de Richardson. Une demande nécessite adresse et accès précis, surtout si une pièce ou un équipement a changé depuis une intervention antérieure.",
+    "context": "En cas de conversion ou d’extension, rassemblez plans et rapports disponibles. Faites distinguer un défaut du système initial des besoins du nouvel espace plutôt que supposer un remplacement nécessaire.",
+    "imageAlt": "Le Charles W. Eisemann Center for Performing Arts à Richardson.",
+    "checks": [
+      "Pièces et équipements transformés",
+      "Rapports disponibles",
+      "Accès communs du bâtiment"
+    ],
+    "places": [
+      "Cottonwood Park",
+      "CityLine",
+      "Eisemann Center"
+    ],
+    "source": {
+      "label": "City of Richardson: local places",
+      "url": "https://www.cor.net/Home/Components/News/News/7823/73"
+    },
+    "serviceNotes": {
+      "pool": "Pour une piscine de Richardson aux commandes modifiées, fournissez liste actuelle des équipements et changements d’automatisation afin d’inspecter le système réellement installé.",
+      "hvac": "En climatisation à Richardson, indiquez bureaux convertis, pièces ajoutées et écarts de confort ; demandez l’évaluation du retour d’air et de la charge.",
+      "pest": "Pour les nuisibles à Richardson, notez l’activité autour du garage et des traversées après travaux sans ouvrir les murs pour chercher.",
+      "plumbing": "En plomberie à Richardson, montrez appareils déplacés et trappes restantes avant d’accepter des ouvertures exploratoires dans les finitions.",
+      "lighting": "Pour les fêtes à Richardson, indiquez rives de toiture modifiées et prises extérieures ; évaluez fixation et alimentation selon la configuration actuelle.",
+      "landscape": "Pour les plantations à Richardson, marquez les massifs touchés par une extension et leur liaison avec arrosage et espace utilisable.",
+      "hardscape": "Pour les pavages à Richardson, montrez seuils et surfaces ajoutés à différentes dates pour traiter les transitions sans masquer un dénivelé inexpliqué."
+    },
+    "faqs": [
+      {
+        "q": "Quels documents aident après des modifications à Richardson ?",
+        "a": "Partagez les changements de configuration, équipements et accès liés au service, avec les rapports disponibles. Demandez ce qui doit être inspecté dans l’état actuel."
+      },
+      {
+        "q": "Comment préparer des travaux avec accès commun ?",
+        "a": "Confirmez unité, entrée autorisée, stationnement et coordination avec propriétaire ou gestionnaire. Un simple repère local ne suffit pas pour organiser l’accès."
+      }
+    ]
+  },
+  "rockwall": {
+    "heading": "Rockwall : décrivez l’exposition et le parcours vers le chantier.",
+    "intro": "The Harbor, Lake Ray Hubbard et le palais de justice historique situent une adresse à Rockwall. Une vue sur le lac fournit un contexte ; chaque propriété doit préciser accès, exposition et emplacement des équipements.",
+    "context": "Si le trajet comporte des niveaux ou un pavage fini, envoyez des photos depuis le sol et signalez le passage le plus étroit. Notez les conditions du symptôme ; une vue sur le lac ne prouve pas une cause météo.",
+    "imageAlt": "Le palais de justice historique du comté de Rockwall au Texas.",
+    "checks": [
+      "Changements de niveau",
+      "Équipements exposés",
+      "Protection des surfaces finies"
+    ],
+    "places": [
+      "The Harbor",
+      "Lake Ray Hubbard",
+      "Historic Rockwall County Courthouse"
+    ],
+    "source": {
+      "label": "City of Rockwall: The Harbor",
+      "url": "https://www.rockwall.com/parks_parks.asp?n=TheHarbor"
+    },
+    "serviceNotes": {
+      "pool": "Pour une piscine à Rockwall, notez débris portés par le vent et variations réelles ; montrez le trajet aux équipements avant de modifier nettoyage ou circulation.",
+      "hvac": "Pour la climatisation à Rockwall, signalez les conditions du défaut et l’emplacement extérieur ; l’exposition seule ne diagnostique pas une pièce.",
+      "pest": "Pour les nuisibles à Rockwall, photographiez l’activité accessible près du stockage ou des ouvertures ; demandez une identification sans attribuer la cause au lac.",
+      "plumbing": "En plomberie à Rockwall, séparez symptômes intérieurs et sol humide et indiquez l’arrosage pour éviter de présumer une fuite enterrée.",
+      "lighting": "Pour les fêtes à Rockwall, examinez surfaces et exposition réelle avec dépose contrôlée plutôt qu’un plan de toiture générique.",
+      "landscape": "Pour les plantations à Rockwall, documentez soleil, ombre et irrigation des massifs réels plutôt que choisir selon une description lacustre générale.",
+      "hardscape": "Pour une terrasse à Rockwall, montrez marches, soutènements et chemins d’eau afin d’inclure accès d’excavation et transitions de niveau."
+    },
+    "faqs": [
+      {
+        "q": "Une vue sur le lac établit-elle la cause d’une panne à Rockwall ?",
+        "a": "Non. Notez quand le symptôme apparaît et faites inspecter l’équipement. L’exposition est un contexte, pas la preuve d’un défaut météo."
+      },
+      {
+        "q": "Pourquoi montrer le parcours et la zone de travail ?",
+        "a": "Marches, portails étroits et pavages peuvent modifier l’arrivée des matériaux. Faites inclure accès et protection des surfaces dans la proposition."
+      }
+    ]
+  },
+  "southlake": {
+    "heading": "Southlake : transformez plusieurs zones en un périmètre clair.",
+    "intro": "Town Square, Bicentennial Park et Bob Jones Nature Center sont des repères de Southlake. Distinguez l’entrée de la zone de travail et précisez si plusieurs espaces extérieurs ou ensembles d’équipements sont concernés.",
+    "context": "Si la propriété possède plusieurs systèmes, un portail ou un long trajet de portage, préparez un inventaire. Faites préciser chaque poste pour ne pas confondre un composant accessible avec un contrôle de toute la propriété.",
+    "imageAlt": "Southlake Town Square à Southlake, Texas.",
+    "checks": [
+      "Entrée et distance de portage",
+      "Zones techniques distinctes",
+      "Travaux et suivi détaillés"
+    ],
+    "places": [
+      "Southlake Town Square",
+      "Bicentennial Park",
+      "Bob Jones Nature Center and Preserve"
+    ],
+    "source": {
+      "label": "City of Southlake: parks and open space",
+      "url": "https://www.cityofsouthlake.com/807/Parks-Recreation-Open-Space"
+    },
+    "serviceNotes": {
+      "pool": "Pour piscine et spa à Southlake, identifiez les équipements de chaque bassin et changements de commandes afin de contrôler le bon circuit.",
+      "hvac": "En climatisation à Southlake, indiquez les pièces desservies par chaque unité ou zone connue et les écarts de confort avant une rénovation globale.",
+      "pest": "Pour les nuisibles à Southlake, distinguez maison, rangement séparé et autres structures ; confirmez les bâtiments compris dans la visite.",
+      "plumbing": "En plomberie à Southlake, listez les appareils par bâtiment ou étage et faites séparer investigation, réparation et remise en état des accès.",
+      "lighting": "Pour les fêtes à Southlake, détaillez toiture, entrée et arbres dans un plan écrit avec alimentation et dépose par zone.",
+      "landscape": "Pour les jardins à Southlake, distinguez entretien et réaménagement et précisez zones d’arrosage, portage et travaux par étapes.",
+      "hardscape": "Pour les pavages à Southlake, détaillez chaque chemin ou terrasse et la livraison, y compris protection des surfaces actuelles."
+    },
+    "faqs": [
+      {
+        "q": "Et si la zone de Southlake est derrière un portail ou loin du stationnement ?",
+        "a": "Indiquez l’entrée, le trajet et les passages étroits. Confirmez accès des véhicules et portage avant le chiffrage."
+      },
+      {
+        "q": "Peut-on réunir plusieurs zones dans un devis ?",
+        "a": "Demandez un détail par zone, avec exclusions et essais ou suivi. Un montant global ne doit pas masquer les systèmes effectivement examinés."
+      }
+    ]
+  },
+  "colleyville": {
+    "heading": "Colleyville : protégez les aménagements existants pendant les réparations.",
+    "intro": "Nature Center, McPherson Park et City Hall sont des lieux connus de Colleyville. Repérez arbres, plantations et finitions autour du chantier : ces détails appartiennent au plan d’accès, pas seulement au dessin final.",
+    "context": "Si racines, ombre ou massifs peuvent être touchés, photographiez depuis le sol et demandez qui évalue leur protection. Un symptôme près d’un arbre ne démontre ni cause racinaire ni nécessité de suppression.",
+    "imageAlt": "La mairie de Colleyville photographiée en juillet 2018.",
+    "checks": [
+      "Arbres et plantations existants",
+      "Accès préservant les massifs",
+      "Responsabilité de remise en état"
+    ],
+    "places": [
+      "Colleyville Nature Center",
+      "McPherson Park",
+      "Colleyville City Hall"
+    ],
+    "source": {
+      "label": "City of Colleyville: parks and facilities",
+      "url": "https://www.colleyvilleparksandrec.com/parks-facilities"
+    },
+    "serviceNotes": {
+      "pool": "Pour une piscine à Colleyville, montrez plantations et accès technique pour intervenir sans piétinement ni supposer qu’un arbre cause le problème.",
+      "hvac": "En climatisation à Colleyville, indiquez végétation et accès autour de l’unité extérieure ; faites contrôler les dégagements selon sa notice.",
+      "pest": "Pour les nuisibles à Colleyville, relevez activité sur bâtiment et jardin et le lien entre identification, traitement et protection des espèces non ciblées.",
+      "plumbing": "En plomberie à Colleyville, distinguez symptômes et hypothèses de racines ; demandez des preuves avant excavation près d’arbres établis.",
+      "lighting": "Pour les fêtes à Colleyville, discutez état des arbres et fixations avant d’entourer les branches, avec une dépose évitant les dommages.",
+      "landscape": "Pour les plantations à Colleyville, faites préciser les interactions entre sol remué, irrigation, accès d’entretien et racines actuelles.",
+      "hardscape": "Pour les pavages à Colleyville, exigez limites d’excavation, précautions racinaires et restauration des plantations voisines au-delà de la surface finie."
+    },
+    "faqs": [
+      {
+        "q": "Comment les arbres de Colleyville influencent-ils le plan ?",
+        "a": "Montrez leur position par rapport à l’accès et aux travaux. Demandez qui détermine les protections avant de creuser, tailler ou fixer une décoration."
+      },
+      {
+        "q": "Les racines expliquent-elles tout symptôme près d’un arbre ?",
+        "a": "Non. Décrivez le problème et demandez les preuves de l’inspection adaptée. La proximité ne justifie pas seule coupe de racines ou abattage."
+      }
+    ]
+  },
+  "flower-mound": {
+    "heading": "Flower Mound : incluez les niveaux et les liaisons extérieures.",
+    "intro": "River Walk, Heritage Park et Grapevine Lake sont des repères de Flower Mound. Un jardin peut relier terrasses, massifs et équipements à différents niveaux ; montrez ces connexions plutôt qu’isoler chaque intervention.",
+    "context": "Si le terrain est en pente ou borde un espace ouvert, relevez évacuation et parcours des matériaux. La localisation ne diagnostique pas sol, nuisibles ou fondations ; demandez quelle inspection propre au site est nécessaire.",
+    "imageAlt": "Vue aérienne de Flower Mound, Texas.",
+    "checks": [
+      "Marches et variations de niveau",
+      "Circulation de l’eau sur place",
+      "Liaisons entre espaces extérieurs"
+    ],
+    "places": [
+      "River Walk",
+      "Heritage Park",
+      "Grapevine Lake"
+    ],
+    "source": {
+      "label": "Town of Flower Mound: community history",
+      "url": "https://www.flowermound.gov/1281/History"
+    },
+    "serviceNotes": {
+      "pool": "Pour une piscine à Flower Mound, montrez niveaux de terrasse et accès aux équipements, puis les débris avant de modifier entretien ou supposer une panne.",
+      "hvac": "En climatisation à Flower Mound, précisez unités intérieures et extérieures ainsi que marches d’accès avec des photos prises en sécurité.",
+      "pest": "Pour les nuisibles à Flower Mound, relevez séparément activité du bâtiment et espace ouvert pour fonder le plan sur les indices.",
+      "plumbing": "En plomberie à Flower Mound, notez l’eau de surface après pluie ou arrosage et distinguez-la des symptômes aux appareils intérieurs.",
+      "lighting": "Pour les fêtes à Flower Mound, incluez niveaux du sol et accès à la toiture pour préparer pose et dépose sûres.",
+      "landscape": "Pour les jardins à Flower Mound, repérez irrigation et ruissellement avant de choisir paillis, bordures ou nouvelles plantations.",
+      "hardscape": "Pour terrasse ou soutènement à Flower Mound, faites évaluer niveaux, drainage et accès avant quantités d’excavation et finitions."
+    },
+    "faqs": [
+      {
+        "q": "Que montrer quand le jardin de Flower Mound change de niveau ?",
+        "a": "Transmettez des photos sûres de marches, pentes et accès. Demandez si une visite doit confirmer niveaux et drainage avant chiffrage."
+      },
+      {
+        "q": "La proximité d’un espace ouvert détermine-t-elle le traitement des nuisibles ?",
+        "a": "Non. Signalez observations et points d’entrée accessibles. Identification et inspection doivent guider le plan plutôt qu’un sentier voisin."
+      }
+    ]
+  },
+  "coppell": {
+    "heading": "Coppell : coordonnez les accès et préservez la configuration existante.",
+    "intro": "Old Town, sa place et le Biodiversity Education Center orientent une visite à Coppell. Précisez si l’accès traverse maison, portail latéral ou passage commun et situez la zone de travail avant l’arrivée.",
+    "context": "Si le matériel passe près d’une clôture, d’un voisin ou de finitions existantes, convenez d’abord d’accès et protection. Définissez stockage des fournitures et responsabilité de remise en état des surfaces touchées.",
+    "imageAlt": "Passerelle de Grapevine Springs Preserve à Coppell, Texas.",
+    "checks": [
+      "Passages latéraux et communs",
+      "Protection des finitions",
+      "Adresse et consignes d’arrivée"
+    ],
+    "places": [
+      "Old Town Coppell",
+      "The Square at Old Town",
+      "Biodiversity Education Center"
+    ],
+    "source": {
+      "label": "City of Coppell: Old Town",
+      "url": "https://www.coppelltx.gov/611/Old-Town-Coppell"
+    },
+    "serviceNotes": {
+      "pool": "Pour une piscine à Coppell, confirmez largeur du portail et passage près des clôtures ou plantes sans compter sur l’accès voisin.",
+      "hvac": "En climatisation à Coppell, indiquez l’accès intérieur et le passage des outils dans les pièces occupées avant l’inspection.",
+      "pest": "Pour les nuisibles à Coppell, relevez l’activité de votre côté des clôtures communes et aux portes ; confirmez limites et suivi prévus.",
+      "plumbing": "En plomberie à Coppell, montrez accès et finitions autour de la zone suspecte pour séparer recherche et remise en état.",
+      "lighting": "Pour les fêtes à Coppell, évaluez fascia, gouttières et supports réels ; une adresse à Old Town ne détermine pas la fixation.",
+      "landscape": "Pour les jardins à Coppell, repérez bordures et passages étroits pour éviter que croissance ou arrosage nouveaux bloquent les équipements.",
+      "hardscape": "Pour les pavages à Coppell, précisez limites et livraisons avant dessin, avec responsabilité écrite de protection et restauration des surfaces voisines."
+    },
+    "faqs": [
+      {
+        "q": "Comment organiser un accès partagé à Coppell ?",
+        "a": "Expliquez le parcours et obtenez l’autorisation nécessaire auprès de la personne qui le contrôle. Le prestataire doit disposer d’un accès confirmé, pas présumé chez le voisin."
+      },
+      {
+        "q": "Une adresse à Old Town impose-t-elle la méthode de pose ?",
+        "a": "Non. Vérifiez propriété et support concernés, puis toute approbation pertinente auprès de l’organisme responsable avant de convenir des modifications."
+      }
+    ]
+  },
+  "carrollton": {
+    "heading": "Carrollton : identifiez bâtiment, entrée et espaces transformés.",
+    "intro": "Historic Downtown, la station et les silos sont des repères de Carrollton. Une visite nécessite bâtiment ou unité, bonne entrée et équipement précis, surtout si la propriété a changé d’usage.",
+    "context": "Si pièce, garage ou espace séparé a été converti, décrivez l’usage actuel et fournissez les rapports disponibles. Coordonnez stationnement et parcours pour inspecter le bon système sans déduire sa configuration de la façade.",
+    "imageAlt": "Le dépôt historique près de Downtown Carrollton Station photographié en 2019.",
+    "checks": [
+      "Identification du bâtiment et de l’unité",
+      "Espaces convertis ou ajoutés",
+      "Stationnement et accès de travail"
+    ],
+    "places": [
+      "Historic Downtown Carrollton",
+      "Downtown Carrollton Station",
+      "Downtown grain silos"
+    ],
+    "source": {
+      "label": "City of Carrollton: Historic Downtown",
+      "url": "https://www.cityofcarrollton.com/residents/amenities/historic-downtown-carrollton"
+    },
+    "serviceNotes": {
+      "pool": "Pour une piscine à Carrollton, identifiez équipements communs au spa ou nettoyeur et changements de commandes avant l’évaluation du fonctionnement.",
+      "hvac": "En climatisation à Carrollton, expliquez pièces converties et occupation actuelle pour évaluer air et confort selon l’usage réel.",
+      "pest": "Pour les nuisibles à Carrollton, décrivez l’activité par pièce ou unité et la coordination avec le gestionnaire avant les limites du traitement.",
+      "plumbing": "En plomberie à Carrollton, listez appareils des extensions ou conversions et documents éclairant leur raccordement au système original.",
+      "lighting": "Pour les fêtes à Carrollton, identifiez bonne façade, entrée et prises ainsi que les zones exclues de la décoration demandée.",
+      "landscape": "Pour les jardins à Carrollton, distinguez massifs privés et espaces communs et confirmez qui peut approuver irrigation ou plantations.",
+      "hardscape": "Pour les pavages à Carrollton, repérez seuils, passages et stationnement à maintenir utilisables avec un plan d’accès par étapes."
+    },
+    "faqs": [
+      {
+        "q": "Et si la zone de Carrollton a changé depuis la dernière visite ?",
+        "a": "Décrivez usage, configuration et symptômes actuels avec les documents disponibles. Faites examiner la situation présente avant de recommander des modifications."
+      },
+      {
+        "q": "Un repère du centre remplace-t-il l’adresse complète ?",
+        "a": "Non. Fournissez numéro, unité et entrée. Les lieux connus orientent sans identifier la zone d’intervention ni confirmer l’accès."
+      }
+    ]
+  },
+  "grapevine": {
+    "heading": "Grapevine : clarifiez les modifications extérieures avant accord.",
+    "intro": "Main Street, le corridor Cotton Belt et Original Town participent au contexte historique documenté de Grapevine. Établissez propriété, matériaux et éventuelle revue extérieure applicable au changement proposé.",
+    "context": "Les adresses de Grapevine n’ont pas toutes le même statut ni les mêmes exigences. Consultez la ressource municipale pour votre propriété, puis séparez investigation, modifications autorisées et remise en état dans le devis.",
+    "imageAlt": "Historic Main Street à Grapevine photographiée en octobre 2012.",
+    "checks": [
+      "Revue extérieure propre à l’adresse",
+      "Matériaux et finitions existants",
+      "Organisation et remise en état"
+    ],
+    "places": [
+      "Historic Main Street",
+      "Cotton Belt Railroad Historic District",
+      "Original Town Historic District"
+    ],
+    "source": {
+      "label": "City of Grapevine: historic places",
+      "url": "https://www.grapevinetexas.gov/1658/National-Register-of-Historic-Places"
+    },
+    "serviceNotes": {
+      "pool": "Pour une piscine à Grapevine, montrez l’accès à travers les surfaces existantes et vérifiez toute revue particulière avant modification d’équipements extérieurs.",
+      "hvac": "En climatisation à Grapevine, indiquez équipements visibles et traversées prévues de murs ou toiture pour considérer matériaux et examen applicable.",
+      "pest": "Pour l’exclusion des nuisibles à Grapevine, demandez preuves des entrées et réparation adaptée aux moulures existantes sans généraliser tous les interstices.",
+      "plumbing": "En plomberie à Grapevine, précisez ouvertures et restauration, surtout avec des matériaux d’origine ou difficiles à assortir.",
+      "lighting": "Pour les fêtes à Grapevine, convenez de fixations compatibles et non dommageables, puis vérifiez les conditions extérieures propres à l’adresse.",
+      "landscape": "Pour les jardins à Grapevine, documentez massifs et éléments de façade pour distinguer entretien et modification du cadre extérieur.",
+      "hardscape": "Pour les pavages à Grapevine, incluez surfaces actuelles, transitions et restauration ; confirmez toute revue nécessaire avant de modifier la façade."
+    },
+    "faqs": [
+      {
+        "q": "Quelle revue extérieure demander pour une propriété à Grapevine ?",
+        "a": "Vérifiez adresse et transformation auprès du service municipal ou de l’organisme compétent. Un repère historique ne définit pas le statut de toute maison voisine."
+      },
+      {
+        "q": "Comment inclure les matériaux existants au devis ?",
+        "a": "Photographiez les surfaces accessibles et précisez ouvertures, fixations et restauration. Convenez matériaux et exclusions avant le début."
+      }
+    ]
+  },
+  "lewisville": {
+    "heading": "Lewisville : reliez le symptôme à l’usage actuel de la propriété.",
+    "intro": "Old Town Main Street, le Grand Theater et Lewisville Lake offrent des repères locaux. Décrivez configuration, zone touchée et accès sans supposer qu’un district voisin explique le défaut.",
+    "context": "Si vous coordonnez entretien, travaux extérieurs ou changement d’usage, partagez ordre et disponibilités. Demandez quelles tâches dépendent d’un autre métier pour ne pas rouvrir une finition faute d’accès prévu.",
+    "imageAlt": "West Main Street à Lewisville photographiée en août 2019.",
+    "checks": [
+      "Ordre des travaux prévus",
+      "Usage actuel des pièces et du jardin",
+      "Accès avant achèvement des finitions"
+    ],
+    "places": [
+      "Old Town Main Street",
+      "Lewisville Grand Theater",
+      "Lewisville Lake"
+    ],
+    "source": {
+      "label": "City of Lewisville: Old Town discoveries",
+      "url": "https://www.cityoflewisville.com/about-lewisville/our-history/old-town-discoveries"
+    },
+    "serviceNotes": {
+      "pool": "Pour une piscine à Lewisville, indiquez travaux de jardin prévus et programmation des équipements afin de coordonner accès et contrôles sans visites incompatibles.",
+      "hvac": "En climatisation à Lewisville, décrivez confort des pièces occupées et changements d’usage avant de cibler commandes, distribution ou équipements.",
+      "pest": "Pour les nuisibles à Lewisville, relevez l’activité réelle dans maison et rangements ; la proximité du lac ne détermine ni espèce ni traitement.",
+      "plumbing": "En plomberie à Lewisville, annoncez sols ou meubles prévus pour envisager investigation et accès avant la pose des finitions.",
+      "lighting": "Pour les fêtes à Lewisville, incluez usage des entrées, allées et jardin dans les accords de fixation, programmation et dépose.",
+      "landscape": "Pour les jardins à Lewisville, distinguez entretien actuel et futur réaménagement et placez le contrôle d’arrosage dans l’ordre des tâches.",
+      "hardscape": "Pour les pavages à Lewisville, coordonnez drainage et recherche des réseaux enterrés avant de fixer la pose de la surface finale."
+    },
+    "faqs": [
+      {
+        "q": "La proximité de Lewisville Lake impose-t-elle un plan particulier ?",
+        "a": "Pas automatiquement. Décrivez les conditions de la propriété et le rôle des observations. Un repère voisin est un contexte, pas un diagnostic."
+      },
+      {
+        "q": "Comment coordonner plusieurs projets à Lewisville ?",
+        "a": "Partagez ordre, métiers et accès. Demandez quelles inspections ou réparations doivent précéder finitions, plantations ou pavages neufs."
+      }
+    ]
   }
 }

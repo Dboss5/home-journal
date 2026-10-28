@@ -40,5 +40,75 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Arlington_June_2020_1_(AT%26T_Stadium).jpg",
     "title": "Arlington_June_2020_1_(AT&T_Stadium).jpg"
+  },
+  "allen": {
+    "artist": "Jphill19",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Allen_Texas_Heritage_Center.jpg",
+    "title": "Allen Texas Heritage Center"
+  },
+  "richardson": {
+    "artist": "Farragutful",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles_W._Eisemann_Center_for_Performing_Arts_02.jpg",
+    "title": "Charles W. Eisemann Center for Performing Arts 02"
+  },
+  "rockwall": {
+    "artist": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Historic_rockwall_county_courthouse_2014.jpg",
+    "title": "Historic rockwall county courthouse 2014"
+  },
+  "southlake": {
+    "artist": "Chriswardster (attributed on Wikimedia Commons)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:TownSquare.jpg#Licensing",
+    "source": "https://commons.wikimedia.org/wiki/File:TownSquare.jpg",
+    "title": "TownSquare"
+  },
+  "colleyville": {
+    "artist": "Iheartdfw at English Wikipedia",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Colleyville_City_Hall-July_2018.jpeg",
+    "title": "Colleyville City Hall-July 2018"
+  },
+  "flower-mound": {
+    "artist": "formulanone",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Flower_Mound_Texas_Aerial_(49394951597).jpg",
+    "title": "Flower Mound Texas Aerial (49394951597)"
+  },
+  "coppell": {
+    "artist": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Grapevine_springs_park_channel_and_bridge.jpg",
+    "title": "Grapevine springs park channel and bridge"
+  },
+  "carrollton": {
+    "artist": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Carrollton_July_2019_28_(depot).jpg",
+    "title": "Carrollton July 2019 28 (depot)"
+  },
+  "grapevine": {
+    "artist": "Wildstoo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Main_Street,_Grapevine,_TX,_Oct_2012.jpg",
+    "title": "Main Street, Grapevine, TX, Oct 2012"
+  },
+  "lewisville": {
+    "artist": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lewisville_August_2019_36_(W_Main_Street).jpg",
+    "title": "Lewisville August 2019 36 (W Main Street)"
   }
 }

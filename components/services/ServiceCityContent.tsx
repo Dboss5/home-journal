@@ -252,7 +252,7 @@ export function ServiceCityContent({
   const localName = `${serviceLabel} ${{en: "in", es: "en", fr: "à"}[locale] ?? "in"} ${city.name}`;
   const otherCities = CITIES.filter((c) => c.slug !== city.slug);
   const otherServices = CITY_SERVICES.filter((s) => s.key !== service.key);
-  const faqs = getCityFaqs(service.key, city.name, locale);
+  const faqs = getCityFaqs(service.key, city.name, locale, city.slug);
 
   const trackedUrl = `${siblingUrl}${
     siblingUrl.includes("?") ? "&" : "?"

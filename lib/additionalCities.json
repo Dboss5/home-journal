@@ -1,0 +1,252 @@
+[
+  {
+    "slug": "allen",
+    "name": "Allen",
+    "state": "TX",
+    "population": "",
+    "lat": 33.12694444,
+    "lng": -96.66305556,
+    "text": {
+      "en": {
+        "intro": "Watters Creek Village, Celebration Park and the Heritage Center provide familiar bearings in Allen. For a home visit, explain the actual gate, parking space and equipment route rather than giving a nearby landmark as the address.",
+        "pricingNote": "Request a dated estimate for your address and the actual findings.",
+        "localIssue": "If the backyard is used for play, pets or more than one maintenance visit, coordinate access before work starts. Mark the areas that must remain usable and ask how tools, hoses and temporary barriers will be managed."
+      },
+      "es": {
+        "intro": "Watters Creek Village, Celebration Park y el Heritage Center ayudan a orientarse en Allen. Para una visita, explique la entrada, el aparcamiento y el recorrido hasta el equipo; un monumento cercano no sustituye la dirección.",
+        "pricingNote": "Solicite presupuesto fechado para su dirección y los hallazgos reales.",
+        "localIssue": "Si el patio se utiliza para jugar, mascotas o varias tareas de mantenimiento, coordine el acceso antes de empezar. Señale las zonas que deben seguir utilizables y acuerde la gestión de herramientas, mangueras y barreras temporales."
+      },
+      "fr": {
+        "intro": "Watters Creek Village, Celebration Park et le Heritage Center servent de repères à Allen. Pour une visite, précisez portail, stationnement et chemin vers les équipements ; un monument voisin ne remplace pas l’adresse.",
+        "pricingNote": "Demandez un devis daté pour votre adresse et les observations réelles.",
+        "localIssue": "Si le jardin accueille jeux, animaux ou plusieurs interventions, coordonnez l’accès avant les travaux. Indiquez les zones à maintenir utilisables et convenez de la gestion des outils, tuyaux et barrières temporaires."
+      }
+    }
+  },
+  {
+    "slug": "richardson",
+    "name": "Richardson",
+    "state": "TX",
+    "population": "",
+    "lat": 32.94833333,
+    "lng": -96.72972222,
+    "text": {
+      "en": {
+        "intro": "Richardson reference points include Cottonwood Park, CityLine and the Eisemann Center. A service request still needs the exact property and access details, particularly when a room or equipment location has changed since earlier work.",
+        "pricingNote": "Request a dated estimate for your address and the actual findings.",
+        "localIssue": "If a space has been converted or an addition completed, gather the drawings and service records you have. Ask the provider to distinguish an original-system issue from the demands of the altered space rather than assume a replacement is needed."
+      },
+      "es": {
+        "intro": "Cottonwood Park, CityLine y el Eisemann Center son referencias de Richardson. Una solicitud necesita dirección y acceso exactos, especialmente si cambiaron una habitación o la ubicación de equipos desde trabajos anteriores.",
+        "pricingNote": "Solicite presupuesto fechado para su dirección y los hallazgos reales.",
+        "localIssue": "Si hubo una conversión o ampliación, reúna planos y registros disponibles. Pida distinguir un problema del sistema original de las necesidades del espacio modificado, sin asumir que deba sustituirse el equipo."
+      },
+      "fr": {
+        "intro": "Cottonwood Park, CityLine et le Eisemann Center sont des repères de Richardson. Une demande nécessite adresse et accès précis, surtout si une pièce ou un équipement a changé depuis une intervention antérieure.",
+        "pricingNote": "Demandez un devis daté pour votre adresse et les observations réelles.",
+        "localIssue": "En cas de conversion ou d’extension, rassemblez plans et rapports disponibles. Faites distinguer un défaut du système initial des besoins du nouvel espace plutôt que supposer un remplacement nécessaire."
+      }
+    }
+  },
+  {
+    "slug": "rockwall",
+    "name": "Rockwall",
+    "state": "TX",
+    "population": "",
+    "lat": 32.91694444,
+    "lng": -96.4375,
+    "text": {
+      "en": {
+        "intro": "The Harbor, Lake Ray Hubbard and the historic courthouse help place a Rockwall address on the map. A lake-facing setting is useful context, but the individual site must establish access, exposure and where equipment is located.",
+        "pricingNote": "Request a dated estimate for your address and the actual findings.",
+        "localIssue": "If the route changes level or crosses finished decking, send ground-level photos and identify the narrowest point. Record the conditions when a symptom occurs; a view of the lake does not prove weather caused a fault."
+      },
+      "es": {
+        "intro": "The Harbor, Lake Ray Hubbard y el juzgado histórico orientan en Rockwall. Las vistas al lago aportan contexto, pero cada propiedad debe definir acceso, exposición y ubicación de sus equipos.",
+        "pricingNote": "Solicite presupuesto fechado para su dirección y los hallazgos reales.",
+        "localIssue": "Si el recorrido cambia de nivel o atraviesa pavimento terminado, envíe fotos desde el suelo e identifique el paso más estrecho. Registre cuándo aparece el síntoma; ver el lago no prueba una causa meteorológica."
+      },
+      "fr": {
+        "intro": "The Harbor, Lake Ray Hubbard et le palais de justice historique situent une adresse à Rockwall. Une vue sur le lac fournit un contexte ; chaque propriété doit préciser accès, exposition et emplacement des équipements.",
+        "pricingNote": "Demandez un devis daté pour votre adresse et les observations réelles.",
+        "localIssue": "Si le trajet comporte des niveaux ou un pavage fini, envoyez des photos depuis le sol et signalez le passage le plus étroit. Notez les conditions du symptôme ; une vue sur le lac ne prouve pas une cause météo."
+      }
+    }
+  },
+  {
+    "slug": "southlake",
+    "name": "Southlake",
+    "state": "TX",
+    "population": "",
+    "lat": 32.94666667,
+    "lng": -97.14527778,
+    "text": {
+      "en": {
+        "intro": "Town Square, Bicentennial Park and Bob Jones Nature Center are local reference points for Southlake. For a property visit, distinguish the entrance from the actual work area and explain whether more than one outdoor or equipment zone is involved.",
+        "pricingNote": "Request a dated estimate for your address and the actual findings.",
+        "localIssue": "If your property has several systems, a gated entrance or a longer carry route, make an inventory before the visit. Ask what each part of the quote covers so one accessible component is not treated as a survey of the entire property."
+      },
+      "es": {
+        "intro": "Town Square, Bicentennial Park y Bob Jones Nature Center son referencias de Southlake. Distinga entrada y zona real de trabajo e indique si intervienen varios espacios exteriores o grupos de equipos.",
+        "pricingNote": "Solicite presupuesto fechado para su dirección y los hallazgos reales.",
+        "localIssue": "Si hay varios sistemas, puerta de acceso o un recorrido largo, prepare un inventario. Pida el contenido de cada parte del presupuesto para no tratar un componente accesible como una revisión de toda la propiedad."
+      },
+      "fr": {
+        "intro": "Town Square, Bicentennial Park et Bob Jones Nature Center sont des repères de Southlake. Distinguez l’entrée de la zone de travail et précisez si plusieurs espaces extérieurs ou ensembles d’équipements sont concernés.",
+        "pricingNote": "Demandez un devis daté pour votre adresse et les observations réelles.",
+        "localIssue": "Si la propriété possède plusieurs systèmes, un portail ou un long trajet de portage, préparez un inventaire. Faites préciser chaque poste pour ne pas confondre un composant accessible avec un contrôle de toute la propriété."
+      }
+    }
+  },
+  {
+    "slug": "colleyville",
+    "name": "Colleyville",
+    "state": "TX",
+    "population": "",
+    "lat": 32.88055556,
+    "lng": -97.14722222,
+    "text": {
+      "en": {
+        "intro": "The Nature Center, McPherson Park and City Hall are familiar Colleyville landmarks. At a home, note any established trees, planting and finished surfaces around the proposed work; those details belong in the access plan, not just the final design.",
+        "pricingNote": "Request a dated estimate for your address and the actual findings.",
+        "localIssue": "Where roots, shade or existing beds may be affected, photograph the area from ground level and ask who will assess protection needs. A symptom near a tree does not establish that roots caused it or that removal is the answer."
+      },
+      "es": {
+        "intro": "El Nature Center, McPherson Park y City Hall son lugares conocidos de Colleyville. En casa, identifique árboles, plantaciones y acabados próximos al trabajo: forman parte del plan de acceso, no solo del resultado final.",
+        "pricingNote": "Solicite presupuesto fechado para su dirección y los hallazgos reales.",
+        "localIssue": "Si pueden afectarse raíces, sombra o parterres, fotografíe desde el suelo y pregunte quién evaluará la protección. Un síntoma junto a un árbol no demuestra que lo causen raíces ni que haya que retirarlo."
+      },
+      "fr": {
+        "intro": "Nature Center, McPherson Park et City Hall sont des lieux connus de Colleyville. Repérez arbres, plantations et finitions autour du chantier : ces détails appartiennent au plan d’accès, pas seulement au dessin final.",
+        "pricingNote": "Demandez un devis daté pour votre adresse et les observations réelles.",
+        "localIssue": "Si racines, ombre ou massifs peuvent être touchés, photographiez depuis le sol et demandez qui évalue leur protection. Un symptôme près d’un arbre ne démontre ni cause racinaire ni nécessité de suppression."
+      }
+    }
+  },
+  {
+    "slug": "flower-mound",
+    "name": "Flower Mound",
+    "state": "TX",
+    "population": "",
+    "lat": 33.03416667,
+    "lng": -97.11388889,
+    "text": {
+      "en": {
+        "intro": "The River Walk, Heritage Park and Grapevine Lake provide Flower Mound reference points. Your own yard may connect decks, beds and equipment at different levels; show those connections rather than treating every outdoor task as an isolated patch.",
+        "pricingNote": "Request a dated estimate for your address and the actual findings.",
+        "localIssue": "If the site slopes or backs onto an open area, record drainage observations and the actual carrying route. Do not infer a soil, pest or foundation problem from location alone; ask what property-specific inspection is needed."
+      },
+      "es": {
+        "intro": "River Walk, Heritage Park y Grapevine Lake son referencias de Flower Mound. Su patio puede conectar terrazas, parterres y equipos a niveles distintos; muestre esas conexiones en lugar de tratar cada trabajo como un punto aislado.",
+        "pricingNote": "Solicite presupuesto fechado para su dirección y los hallazgos reales.",
+        "localIssue": "Si el terreno tiene pendiente o linda con espacio abierto, registre drenaje y recorrido de materiales. No deduzca problemas de suelo, plagas o cimentación por la ubicación; pida una inspección específica."
+      },
+      "fr": {
+        "intro": "River Walk, Heritage Park et Grapevine Lake sont des repères de Flower Mound. Un jardin peut relier terrasses, massifs et équipements à différents niveaux ; montrez ces connexions plutôt qu’isoler chaque intervention.",
+        "pricingNote": "Demandez un devis daté pour votre adresse et les observations réelles.",
+        "localIssue": "Si le terrain est en pente ou borde un espace ouvert, relevez évacuation et parcours des matériaux. La localisation ne diagnostique pas sol, nuisibles ou fondations ; demandez quelle inspection propre au site est nécessaire."
+      }
+    }
+  },
+  {
+    "slug": "coppell",
+    "name": "Coppell",
+    "state": "TX",
+    "population": "",
+    "lat": 32.96305556,
+    "lng": -96.99722222,
+    "text": {
+      "en": {
+        "intro": "Old Town, its town square and the Biodiversity Education Center help orient a Coppell visit. Tell the provider whether access is through the house, a side gate or a shared route, and identify the exact work area before arrival.",
+        "pricingNote": "Request a dated estimate for your address and the actual findings.",
+        "localIssue": "If equipment or materials must pass close to a fence, neighbor or established finish, agree on access and protection first. Decide where supplies can be staged and who will restore any disturbed surfaces."
+      },
+      "es": {
+        "intro": "Old Town, su plaza y el Biodiversity Education Center orientan una visita en Coppell. Indique si se entra por la vivienda, una puerta lateral o paso compartido y sitúe el trabajo antes de la llegada.",
+        "pricingNote": "Solicite presupuesto fechado para su dirección y los hallazgos reales.",
+        "localIssue": "Si los materiales pasan junto a una valla, un vecino o acabados existentes, acuerde acceso y protección primero. Defina dónde se depositarán suministros y quién restaurará cualquier superficie alterada."
+      },
+      "fr": {
+        "intro": "Old Town, sa place et le Biodiversity Education Center orientent une visite à Coppell. Précisez si l’accès traverse maison, portail latéral ou passage commun et situez la zone de travail avant l’arrivée.",
+        "pricingNote": "Demandez un devis daté pour votre adresse et les observations réelles.",
+        "localIssue": "Si le matériel passe près d’une clôture, d’un voisin ou de finitions existantes, convenez d’abord d’accès et protection. Définissez stockage des fournitures et responsabilité de remise en état des surfaces touchées."
+      }
+    }
+  },
+  {
+    "slug": "carrollton",
+    "name": "Carrollton",
+    "state": "TX",
+    "population": "",
+    "lat": 32.95361111,
+    "lng": -96.89027778,
+    "text": {
+      "en": {
+        "intro": "Historic Downtown, the station and grain silos are recognizable Carrollton references. A service visit needs more precision: provide the building or unit, the correct entrance and the location of the equipment, especially where a property has changed use.",
+        "pricingNote": "Request a dated estimate for your address and the actual findings.",
+        "localIssue": "If a room, garage or separate area was converted, describe the current use and provide available records. Coordinate parking and the path through the property so a contractor can inspect the right system without guessing from the street frontage."
+      },
+      "es": {
+        "intro": "Historic Downtown, la estación y los silos son referencias de Carrollton. Una visita necesita edificio o unidad, entrada correcta y equipo exactos, especialmente si la propiedad cambió de uso.",
+        "pricingNote": "Solicite presupuesto fechado para su dirección y los hallazgos reales.",
+        "localIssue": "Si se convirtió una habitación, garaje o zona independiente, describa el uso actual y aporte registros disponibles. Coordine aparcamiento y recorrido para inspeccionar el sistema correcto sin deducirlo de la fachada."
+      },
+      "fr": {
+        "intro": "Historic Downtown, la station et les silos sont des repères de Carrollton. Une visite nécessite bâtiment ou unité, bonne entrée et équipement précis, surtout si la propriété a changé d’usage.",
+        "pricingNote": "Demandez un devis daté pour votre adresse et les observations réelles.",
+        "localIssue": "Si pièce, garage ou espace séparé a été converti, décrivez l’usage actuel et fournissez les rapports disponibles. Coordonnez stationnement et parcours pour inspecter le bon système sans déduire sa configuration de la façade."
+      }
+    }
+  },
+  {
+    "slug": "grapevine",
+    "name": "Grapevine",
+    "state": "TX",
+    "population": "",
+    "lat": 32.935,
+    "lng": -97.08583333,
+    "text": {
+      "en": {
+        "intro": "Main Street, the Cotton Belt rail corridor and Original Town are part of Grapevine’s documented historic context. For a home project, first establish the exact property, its existing materials and whether any exterior review applies to the proposed changes.",
+        "pricingNote": "Request a dated estimate for your address and the actual findings.",
+        "localIssue": "Not every Grapevine address has the same status or requirements. Use the city resource to ask the appropriate office about your address, then have the provider separate investigation, approved alterations and restoration in the scope."
+      },
+      "es": {
+        "intro": "Main Street, el corredor Cotton Belt y Original Town forman parte del contexto histórico documentado de Grapevine. Para un proyecto, determine propiedad, materiales y si algún trámite exterior afecta al cambio propuesto.",
+        "pricingNote": "Solicite presupuesto fechado para su dirección y los hallazgos reales.",
+        "localIssue": "No todas las direcciones de Grapevine tienen igual condición o requisitos. Consulte el recurso municipal sobre su dirección y pida separar investigación, modificaciones autorizadas y restauración en el alcance."
+      },
+      "fr": {
+        "intro": "Main Street, le corridor Cotton Belt et Original Town participent au contexte historique documenté de Grapevine. Établissez propriété, matériaux et éventuelle revue extérieure applicable au changement proposé.",
+        "pricingNote": "Demandez un devis daté pour votre adresse et les observations réelles.",
+        "localIssue": "Les adresses de Grapevine n’ont pas toutes le même statut ni les mêmes exigences. Consultez la ressource municipale pour votre propriété, puis séparez investigation, modifications autorisées et remise en état dans le devis."
+      }
+    }
+  },
+  {
+    "slug": "lewisville",
+    "name": "Lewisville",
+    "state": "TX",
+    "population": "",
+    "lat": 33.03833333,
+    "lng": -97.00611111,
+    "text": {
+      "en": {
+        "intro": "Old Town Main Street, the Grand Theater and Lewisville Lake offer local reference points. A useful service request explains the home’s present layout, the affected area and how the work can be reached, rather than assuming the nearby district explains the fault.",
+        "pricingNote": "Request a dated estimate for your address and the actual findings.",
+        "localIssue": "Where a household is coordinating maintenance, outdoor work or a change in room use, share the sequence and available dates. Ask which tasks depend on another trade so a finished surface is not opened again because access was overlooked."
+      },
+      "es": {
+        "intro": "Old Town Main Street, el Grand Theater y Lewisville Lake son referencias locales. Una solicitud útil explica distribución, área afectada y acceso, sin asumir que el distrito cercano explica la avería.",
+        "pricingNote": "Solicite presupuesto fechado para su dirección y los hallazgos reales.",
+        "localIssue": "Si coordina mantenimiento, obras exteriores o cambios de uso, comparta orden y fechas disponibles. Pregunte qué tareas dependen de otros oficios para no abrir de nuevo un acabado por olvidar el acceso."
+      },
+      "fr": {
+        "intro": "Old Town Main Street, le Grand Theater et Lewisville Lake offrent des repères locaux. Décrivez configuration, zone touchée et accès sans supposer qu’un district voisin explique le défaut.",
+        "pricingNote": "Demandez un devis daté pour votre adresse et les observations réelles.",
+        "localIssue": "Si vous coordonnez entretien, travaux extérieurs ou changement d’usage, partagez ordre et disponibilités. Demandez quelles tâches dépendent d’un autre métier pour ne pas rouvrir une finition faute d’accès prévu."
+      }
+    }
+  }
+]
