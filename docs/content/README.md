@@ -33,3 +33,13 @@ The [batch manifest](seo-blog-batch-2026-10-28.json) records editorial destinati
 The shared article route now generates title/description, canonical and language-alternate URLs, article social metadata, and BlogPosting/BreadcrumbList JSON-LD. Existing posts receive the same metadata using their existing frontmatter. The new `coverImageAlt` field is optional for older posts. Matching service and city guides expose nine of the ten new articles through their existing reading sections; the electrical topic appears in the journal, search and sitemap alongside all others.
 
 Validation: `npm run build`, `npx tsc --noEmit`, `npm run check:seo-blogs`, and `git diff --check`. The batch check validates the 30 production pages, 90 editorial links, 10 image endpoints, metadata/schema, blog/sitemap/search discovery and existing-post behavior. Browser screenshot review is unavailable in this environment; cover assets were inspected directly.
+
+## Second question-led batch — 2026-10-28
+
+Ten more topics were added in all three languages: return-jet bubbles, high pool-filter pressure, strong pool odor, AC short cycling, musty AC odors, slow sinks, low water pressure, returning ants, warm outlets and roof protection during holiday-light installation. They use new slugs and distinct questions from the first batch.
+
+Each article retains the focused three-link policy: two relevant Poolburg or Supremacy destinations and one independent primary source. Covers include eight reused article/service references and two additional optimized plumbing assets from Supremacy; all were inspected for relevance. Cover alt text describes the illustration rather than claiming a diagnosis. Existing SEO metadata/schema, journal, search and sitemap automatically include the new posts. Nine topics are also added to the matching service/city reading lists; there is no electrical category page to link the electrical topic from.
+
+The [second-batch manifest](seo-blog-batch-2026-10-28-02.json) records destinations, covers and service associations. All 29 unique editorial URLs were reachable during the pre-merge check. No dosing instructions, price estimates, ranking claims or fabricated credentials were added.
+
+Validation: `npm run build` (301 generated pages), `npx tsc --noEmit`, `git diff --check`, and `npm run check:seo-blogs -- docs/content/seo-blog-batch-2026-10-28-02.json`. The checker now accepts an optional manifest and verifies all new title queries in search plus each available matching service backlink. All 30 new pages and 90 editorial links passed. Browser screenshot review is unavailable; cover assets were inspected directly.
