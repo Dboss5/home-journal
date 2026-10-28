@@ -1,4 +1,4 @@
-import { getCityUi } from "@/lib/cityProfiles";
+import { getCityUi, getCityProfile } from "@/lib/cityProfiles";
 import { getPostBySlug } from "@/lib/blog";
 import { getServiceExpansion } from "@/lib/serviceExpansion";
 import { serviceMetadata } from "@/lib/serviceSeo";
@@ -49,7 +49,10 @@ export async function generateMetadata({
   const label = content.seoTitle.split(' Dallas')[0].replace(/ (in|en|à)$/, '');
   const title = `${label} ${{en: 'in', es: 'en', fr: 'à'}[locale] ?? 'in'} ${city.name}, TX`;
   const ui = getCityUi(locale);
-  const description = ui.meta.replace('{service}', label.toLowerCase()).replace('{city}', city.name);
+  const profile = getCityProfile(citySlug,locale);
+  const description = profile.faqs
+    ? `${title}. ${profile.serviceNotes[key]}`
+    : ui.meta.replace('{service}', label.toLowerCase()).replace('{city}', city.name);
   return serviceMetadata(locale, `/services/${slug}/${citySlug}`, title, description, `/images/cities/${citySlug}.webp`);
 }
 

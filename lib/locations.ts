@@ -1,3 +1,5 @@
+import additionalCityProviderUrls from "./additionalCityProviderUrls.json";
+import additionalCities from "./additionalCities.json";
 export interface CityText {
   intro: string;
   pricingNote: string;
@@ -224,6 +226,7 @@ export const CITIES: City[] = [
       },
     },
   },
+  ...additionalCities,
 ];
 
 export type ServiceKey =
@@ -335,7 +338,8 @@ export function resolveSiblingUrl(
   service: ServiceForCity,
   citySlug: string
 ): string {
-  return service.siblingUrls[citySlug] ?? service.siblingFallback;
+  const localUrls = additionalCityProviderUrls as Record<string, Record<string,string>>;
+  return localUrls[service.key]?.[citySlug] ?? service.siblingUrls[citySlug] ?? service.siblingFallback;
 }
 
 export function getAllCityServiceCombos(): {

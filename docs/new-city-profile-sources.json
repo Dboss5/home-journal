@@ -1,0 +1,132 @@
+{
+  "allen": {
+    "name": "Allen",
+    "source": {
+      "label": "Visit Allen: parks and local places",
+      "url": "https://visitallentexas.com/plan-your-trip/fun-free/"
+    },
+    "places": [
+      "Watters Creek Village",
+      "Celebration Park",
+      "Allen Heritage Center"
+    ],
+    "coordinatesSource": "https://en.wikipedia.org/wiki/Allen,_Texas"
+  },
+  "richardson": {
+    "name": "Richardson",
+    "source": {
+      "label": "City of Richardson: local places",
+      "url": "https://www.cor.net/Home/Components/News/News/7823/73"
+    },
+    "places": [
+      "Cottonwood Park",
+      "CityLine",
+      "Eisemann Center"
+    ],
+    "coordinatesSource": "https://en.wikipedia.org/wiki/Richardson,_Texas"
+  },
+  "rockwall": {
+    "name": "Rockwall",
+    "source": {
+      "label": "City of Rockwall: The Harbor",
+      "url": "https://www.rockwall.com/parks_parks.asp?n=TheHarbor"
+    },
+    "places": [
+      "The Harbor",
+      "Lake Ray Hubbard",
+      "Historic Rockwall County Courthouse"
+    ],
+    "coordinatesSource": "https://en.wikipedia.org/wiki/Rockwall,_Texas"
+  },
+  "southlake": {
+    "name": "Southlake",
+    "source": {
+      "label": "City of Southlake: parks and open space",
+      "url": "https://www.cityofsouthlake.com/807/Parks-Recreation-Open-Space"
+    },
+    "places": [
+      "Southlake Town Square",
+      "Bicentennial Park",
+      "Bob Jones Nature Center and Preserve"
+    ],
+    "coordinatesSource": "https://en.wikipedia.org/wiki/Southlake,_Texas"
+  },
+  "colleyville": {
+    "name": "Colleyville",
+    "source": {
+      "label": "City of Colleyville: parks and facilities",
+      "url": "https://www.colleyvilleparksandrec.com/parks-facilities"
+    },
+    "places": [
+      "Colleyville Nature Center",
+      "McPherson Park",
+      "Colleyville City Hall"
+    ],
+    "coordinatesSource": "https://en.wikipedia.org/wiki/Colleyville,_Texas"
+  },
+  "flower-mound": {
+    "name": "Flower Mound",
+    "source": {
+      "label": "Town of Flower Mound: community history",
+      "url": "https://www.flowermound.gov/1281/History"
+    },
+    "places": [
+      "River Walk",
+      "Heritage Park",
+      "Grapevine Lake"
+    ],
+    "coordinatesSource": "https://en.wikipedia.org/wiki/Flower_Mound,_Texas"
+  },
+  "coppell": {
+    "name": "Coppell",
+    "source": {
+      "label": "City of Coppell: Old Town",
+      "url": "https://www.coppelltx.gov/611/Old-Town-Coppell"
+    },
+    "places": [
+      "Old Town Coppell",
+      "The Square at Old Town",
+      "Biodiversity Education Center"
+    ],
+    "coordinatesSource": "https://en.wikipedia.org/wiki/Coppell,_Texas"
+  },
+  "carrollton": {
+    "name": "Carrollton",
+    "source": {
+      "label": "City of Carrollton: Historic Downtown",
+      "url": "https://www.cityofcarrollton.com/residents/amenities/historic-downtown-carrollton"
+    },
+    "places": [
+      "Historic Downtown Carrollton",
+      "Downtown Carrollton Station",
+      "Downtown grain silos"
+    ],
+    "coordinatesSource": "https://en.wikipedia.org/wiki/Carrollton,_Texas"
+  },
+  "grapevine": {
+    "name": "Grapevine",
+    "source": {
+      "label": "City of Grapevine: historic places",
+      "url": "https://www.grapevinetexas.gov/1658/National-Register-of-Historic-Places"
+    },
+    "places": [
+      "Historic Main Street",
+      "Cotton Belt Railroad Historic District",
+      "Original Town Historic District"
+    ],
+    "coordinatesSource": "https://en.wikipedia.org/wiki/Grapevine,_Texas"
+  },
+  "lewisville": {
+    "name": "Lewisville",
+    "source": {
+      "label": "City of Lewisville: Old Town discoveries",
+      "url": "https://www.cityoflewisville.com/about-lewisville/our-history/old-town-discoveries"
+    },
+    "places": [
+      "Old Town Main Street",
+      "Lewisville Grand Theater",
+      "Lewisville Lake"
+    ],
+    "coordinatesSource": "https://en.wikipedia.org/wiki/Lewisville,_Texas"
+  }
+}

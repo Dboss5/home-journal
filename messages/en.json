@@ -59,8 +59,8 @@
     "journalRead": "Read article",
     "journalBrowse": "Browse all articles",
     "citiesEyebrow": "Local homeowner resources",
-    "citiesTitle": "Pool-care guides for six DFW cities.",
-    "citiesSub": "Explore pool planning in Dallas, Plano, Frisco, McKinney, Fort Worth and Arlington. City pages add local context, service questions and maps; confirm your address and availability with the provider before booking.",
+    "citiesTitle": "Pool-care guides across 16 DFW cities.",
+    "citiesSub": "Browse local guides for Dallas–Fort Worth, including Allen, Richardson, Rockwall, Southlake, Coppell and the Grapevine–Lewisville area. Explore property considerations, quote questions and city maps; confirm your full address and availability with the provider.",
     "citiesBrowseAll": "Browse all services",
     "finalTitle": "Ready to discuss a home-service project?",
     "finalSub": "Tell us the service you need and where the property is located. Describe the issue so the provider can confirm availability, assess the work and explain the next step.",
@@ -99,7 +99,7 @@
       },
       {
         "q": "Where can I find guidance for my city?",
-        "a": "Our city guides cover Dallas, Plano, Frisco, McKinney, Fort Worth and Arlington. Start with a service category to browse its city pages. A city guide is a planning resource, not confirmation of an appointment or coverage at every address."
+        "a": "Our city guides now cover 16 DFW cities, including Dallas, Plano, Frisco, McKinney, Fort Worth, Arlington and ten additional communities. Start with a service category to browse the full list. A city guide is a planning resource, not an appointment or coverage confirmation."
       },
       {
         "q": "What should I prepare before requesting a quote?",

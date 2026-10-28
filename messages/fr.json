@@ -59,8 +59,8 @@
     "journalRead": "Lire l'article",
     "journalBrowse": "Parcourir tous les articles",
     "citiesEyebrow": "Ressources locales pour propriétaires",
-    "citiesTitle": "Des guides piscine pour six villes de DFW.",
-    "citiesSub": "Préparez un projet piscine à Dallas, Plano, Frisco, McKinney, Fort Worth ou Arlington. Les pages apportent contexte local, questions et cartes ; confirmez votre adresse et la disponibilité auprès du prestataire avant de réserver.",
+    "citiesTitle": "Des guides piscine pour 16 villes de DFW.",
+    "citiesSub": "Consultez les guides de Dallas–Fort Worth, notamment Allen, Richardson, Rockwall, Southlake, Coppell et le secteur Grapevine–Lewisville. Explorez propriété, questions et cartes ; confirmez adresse et disponibilité auprès du prestataire.",
     "citiesBrowseAll": "Parcourir tous les services",
     "finalTitle": "Prêt à discuter d’un projet pour votre maison ?",
     "finalSub": "Indiquez le service, l’emplacement et le problème. Le prestataire pourra confirmer la disponibilité, évaluer les travaux et expliquer la suite.",
@@ -99,7 +99,7 @@
       },
       {
         "q": "Où trouver des conseils pour ma ville ?",
-        "a": "Nos guides couvrent Dallas, Plano, Frisco, McKinney, Fort Worth et Arlington. Commencez par une catégorie de service pour consulter ses pages locales. Un guide prépare un projet sans confirmer un rendez-vous ni une couverture à toutes les adresses."
+        "a": "Nos guides couvrent 16 villes de DFW, dont Dallas, Plano, Frisco, McKinney, Fort Worth, Arlington et dix autres communes. Choisissez une catégorie pour la liste complète. Un guide prépare un projet sans confirmer rendez-vous ni couverture."
       },
       {
         "q": "Que préparer avant de demander un devis ?",

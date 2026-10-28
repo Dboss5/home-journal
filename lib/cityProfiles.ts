@@ -5,6 +5,7 @@ import ui from './cityPageUi.json';
 import credits from './cityImageCredits.json';
 export interface CityProfile {
  heading: string; intro: string; context: string; imageAlt: string; checks: string[];
+ faqs?: {q: string; a: string}[];
  places: string[]; source: {label: string; url: string}; serviceNotes: Record<string,string>;
 }
 const profiles: Record<string, Record<string,CityProfile>> = {en,es,fr};

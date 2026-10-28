@@ -11,7 +11,8 @@
     "check:calculator-pages": "node scripts/check-calculator-pages.mjs",
     "check:search": "node scripts/check-search.mjs",
     "check:seo-blogs": "node scripts/check-seo-blog-batch.mjs",
-    "check:home-seo": "node scripts/check-home-seo.mjs"
+    "check:home-seo": "node scripts/check-home-seo.mjs",
+    "check:city-expansion": "node scripts/check-city-expansion.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",

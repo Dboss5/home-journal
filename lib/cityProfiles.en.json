@@ -172,5 +172,395 @@
       "landscape": "For Arlington landscape care, explain property use and the times when crews can safely work around residents and visitors.",
       "hardscape": "For Arlington patios, paths or outdoor features, reserve delivery and removal access and define areas that must remain usable."
     }
+  },
+  "allen": {
+    "heading": "Allen: plan the work around everyday access.",
+    "intro": "Watters Creek Village, Celebration Park and the Heritage Center provide familiar bearings in Allen. For a home visit, explain the actual gate, parking space and equipment route rather than giving a nearby landmark as the address.",
+    "context": "If the backyard is used for play, pets or more than one maintenance visit, coordinate access before work starts. Mark the areas that must remain usable and ask how tools, hoses and temporary barriers will be managed.",
+    "imageAlt": "Allen Heritage Center building in Allen, Texas.",
+    "checks": [
+      "Backyard gate arrangements",
+      "Family and pet routines",
+      "Irrigation and equipment routes"
+    ],
+    "places": [
+      "Watters Creek Village",
+      "Celebration Park",
+      "Allen Heritage Center"
+    ],
+    "source": {
+      "label": "Visit Allen: parks and local places",
+      "url": "https://visitallentexas.com/plan-your-trip/fun-free/"
+    },
+    "serviceNotes": {
+      "pool": "For an Allen pool visit, coordinate the gate with lawn or irrigation work and show how the technician can reach the pad without crossing a play area.",
+      "hvac": "For Allen cooling concerns, record which rooms change temperature during the day and whether doors are closed; ask for an airflow assessment before an equipment upgrade.",
+      "pest": "For Allen pest activity, note outdoor pet feeding and repeat entry points near doors; discuss prevention separately from the treatment required by the identification.",
+      "plumbing": "For Allen plumbing, list affected upstairs and downstairs fixtures and identify accessible shutoffs so the investigation can be planned without opening unrelated finishes.",
+      "lighting": "For Allen holiday lighting, keep arrival paths and frequently used gates in the plan; ask how cords and timers will fit normal household movement.",
+      "landscape": "For Allen planting or mulch, photograph sprinkler heads and bed edges before the visit so coverage changes and existing irrigation are considered together.",
+      "hardscape": "For an Allen path or patio, explain which route the household must keep open and ask how levels and drainage will be checked before choosing finishes."
+    },
+    "faqs": [
+      {
+        "q": "What helps arrange an Allen visit around household routines?",
+        "a": "Provide the full address, gate instructions and times when the route must stay clear. Agree on access and pet arrangements before the provider confirms the appointment."
+      },
+      {
+        "q": "Does being near Celebration Park determine the service needed?",
+        "a": "No. A familiar landmark helps orientation, but the equipment, symptoms and conditions at your property determine the assessment and scope."
+      }
+    ]
+  },
+  "richardson": {
+    "heading": "Richardson: make previous alterations part of the brief.",
+    "intro": "Richardson reference points include Cottonwood Park, CityLine and the Eisemann Center. A service request still needs the exact property and access details, particularly when a room or equipment location has changed since earlier work.",
+    "context": "If a space has been converted or an addition completed, gather the drawings and service records you have. Ask the provider to distinguish an original-system issue from the demands of the altered space rather than assume a replacement is needed.",
+    "imageAlt": "The Charles W. Eisemann Center for Performing Arts in Richardson.",
+    "checks": [
+      "Changes to rooms and equipment",
+      "Available service records",
+      "Shared building access"
+    ],
+    "places": [
+      "Cottonwood Park",
+      "CityLine",
+      "Eisemann Center"
+    ],
+    "source": {
+      "label": "City of Richardson: local places",
+      "url": "https://www.cor.net/Home/Components/News/News/7823/73"
+    },
+    "serviceNotes": {
+      "pool": "For a Richardson pool with updated controls, provide the current equipment list and any automation changes so the visit covers the system actually installed.",
+      "hvac": "For Richardson HVAC work, identify converted offices or added rooms and record comfort differences; ask whether the return path and room load have been assessed.",
+      "pest": "For Richardson pest concerns, record activity around garage or utility penetrations after renovations, without opening wall cavities to search for the source.",
+      "plumbing": "For Richardson plumbing, show which fixtures were added or moved and where access panels remain available before agreeing to exploratory opening work.",
+      "lighting": "For Richardson holiday lights, identify altered roof edges and available outdoor outlets; have the mounting and power plan assessed for the current layout.",
+      "landscape": "For Richardson landscape work, mark beds changed by an addition and ask how new planting will connect with existing irrigation and usable outdoor space.",
+      "hardscape": "For Richardson hardscape changes, show thresholds and paving added at different times so the proposal can address transitions rather than cover an unexplained level difference."
+    },
+    "faqs": [
+      {
+        "q": "What records help if my Richardson property has been altered?",
+        "a": "Share layout, equipment and access changes relevant to the service, with records if available. Ask what must be inspected in the current arrangement."
+      },
+      {
+        "q": "How do I prepare for work with shared building access?",
+        "a": "Confirm the actual unit, authorized entry, parking and any coordination with the owner or manager. Do not assume a city reference point is enough to arrange access."
+      }
+    ]
+  },
+  "rockwall": {
+    "heading": "Rockwall: describe the exposure and the route to the work.",
+    "intro": "The Harbor, Lake Ray Hubbard and the historic courthouse help place a Rockwall address on the map. A lake-facing setting is useful context, but the individual site must establish access, exposure and where equipment is located.",
+    "context": "If the route changes level or crosses finished decking, send ground-level photos and identify the narrowest point. Record the conditions when a symptom occurs; a view of the lake does not prove weather caused a fault.",
+    "imageAlt": "Historic Rockwall County Courthouse in Rockwall, Texas.",
+    "checks": [
+      "Changes in level",
+      "Exposed equipment locations",
+      "Protection of finished surfaces"
+    ],
+    "places": [
+      "The Harbor",
+      "Lake Ray Hubbard",
+      "Historic Rockwall County Courthouse"
+    ],
+    "source": {
+      "label": "City of Rockwall: The Harbor",
+      "url": "https://www.rockwall.com/parks_parks.asp?n=TheHarbor"
+    },
+    "serviceNotes": {
+      "pool": "For a Rockwall pool, record wind-blown debris and operating changes at the actual site, and show the pad route before discussing circulation or cleaning adjustments.",
+      "hvac": "For Rockwall HVAC, note whether the fault coincides with particular conditions and show the outdoor unit location; exposure alone does not diagnose a component failure.",
+      "pest": "For Rockwall pest work, photograph accessible activity near exterior storage or openings; ask for identification rather than assuming the lake setting explains the pest.",
+      "plumbing": "For Rockwall plumbing, describe indoor symptoms separately from wet ground and note irrigation activity so the investigation does not start with an assumed buried leak.",
+      "lighting": "For Rockwall holiday lights, discuss attachment surfaces and the property’s actual exposure, with a controlled removal plan rather than a generic roofline layout.",
+      "landscape": "For Rockwall planting, document sun, shade and irrigation zones at the beds themselves instead of selecting materials only from a broad lakeside description.",
+      "hardscape": "For a Rockwall patio, provide photos of steps, retaining edges and drainage paths so excavation access and level transitions can be included in the scope."
+    },
+    "faqs": [
+      {
+        "q": "Does a lake view establish the cause of a Rockwall equipment problem?",
+        "a": "No. Record when the symptom occurs and have the equipment inspected. Site exposure is context, not proof of a weather-related fault."
+      },
+      {
+        "q": "Why show the route as well as the work area?",
+        "a": "Steps, narrow gates and finished paving can affect how equipment and materials reach the job. Ask the provider to include access and surface protection in the proposal."
+      }
+    ]
+  },
+  "southlake": {
+    "heading": "Southlake: turn a multi-area project into a clear scope.",
+    "intro": "Town Square, Bicentennial Park and Bob Jones Nature Center are local reference points for Southlake. For a property visit, distinguish the entrance from the actual work area and explain whether more than one outdoor or equipment zone is involved.",
+    "context": "If your property has several systems, a gated entrance or a longer carry route, make an inventory before the visit. Ask what each part of the quote covers so one accessible component is not treated as a survey of the entire property.",
+    "imageAlt": "Southlake Town Square in Southlake, Texas.",
+    "checks": [
+      "Entry and carrying distance",
+      "Separate equipment zones",
+      "Itemized work and follow-up"
+    ],
+    "places": [
+      "Southlake Town Square",
+      "Bicentennial Park",
+      "Bob Jones Nature Center and Preserve"
+    ],
+    "source": {
+      "label": "City of Southlake: parks and open space",
+      "url": "https://www.cityofsouthlake.com/807/Parks-Recreation-Open-Space"
+    },
+    "serviceNotes": {
+      "pool": "For a Southlake pool and spa, identify which equipment serves each body of water and list control changes so the inspection covers the correct circuit.",
+      "hvac": "For Southlake HVAC, label the rooms served by each known unit or zone and record where comfort differs before discussing a whole-home upgrade.",
+      "pest": "For Southlake pest prevention, distinguish activity near the house from detached storage or other structures and confirm which buildings the proposed visit includes.",
+      "plumbing": "For Southlake plumbing, list the affected fixtures by building or floor and ask whether the quote covers investigation, repair and any access restoration separately.",
+      "lighting": "For Southlake holiday displays, divide the roofline, entry and tree areas into a written layout and clarify power routes and removal for each section.",
+      "landscape": "For Southlake landscape projects, separate routine bed care from redesign and identify irrigation zones, carrying distance and areas needing staged work.",
+      "hardscape": "For Southlake hardscape, clarify each patio or path section and how deliveries will reach it, including any protection needed for existing paving."
+    },
+    "faqs": [
+      {
+        "q": "What if the Southlake work area is behind a gate or far from parking?",
+        "a": "Give the provider the entry method and describe the route, including narrow points. Confirm vehicle access and carrying arrangements before work is priced."
+      },
+      {
+        "q": "Can several areas be combined into one quote?",
+        "a": "Ask for an itemized scope showing each area, exclusions and testing or follow-up. A single total should not obscure which systems were actually assessed."
+      }
+    ]
+  },
+  "colleyville": {
+    "heading": "Colleyville: protect established outdoor features while planning repairs.",
+    "intro": "The Nature Center, McPherson Park and City Hall are familiar Colleyville landmarks. At a home, note any established trees, planting and finished surfaces around the proposed work; those details belong in the access plan, not just the final design.",
+    "context": "Where roots, shade or existing beds may be affected, photograph the area from ground level and ask who will assess protection needs. A symptom near a tree does not establish that roots caused it or that removal is the answer.",
+    "imageAlt": "Colleyville City Hall photographed in July 2018.",
+    "checks": [
+      "Existing trees and planting",
+      "Access without damaging beds",
+      "Responsibility for restoration"
+    ],
+    "places": [
+      "Colleyville Nature Center",
+      "McPherson Park",
+      "Colleyville City Hall"
+    ],
+    "source": {
+      "label": "City of Colleyville: parks and facilities",
+      "url": "https://www.colleyvilleparksandrec.com/parks-facilities"
+    },
+    "serviceNotes": {
+      "pool": "For a Colleyville pool, show nearby planting and the route to the pad so servicing or repairs can be planned without trampling beds or assuming a tree is the cause.",
+      "hvac": "For Colleyville HVAC, identify vegetation around the outdoor unit and any access limitations; have equipment clearances assessed against its instructions.",
+      "pest": "For Colleyville pest concerns, record where activity occurs around the structure and landscape, and ask how identification guides treatment and non-target protection.",
+      "plumbing": "For Colleyville plumbing, keep drainage symptoms separate from assumptions about roots; request inspection evidence before accepting excavation near established trees.",
+      "lighting": "For Colleyville holiday lighting, discuss tree condition and attachment methods before wrapping branches, including how seasonal removal will avoid damage.",
+      "landscape": "For Colleyville planting work, ask how soil disturbance, irrigation changes and maintenance access will interact with existing root zones and beds.",
+      "hardscape": "For Colleyville paving, have the plan explain excavation limits, root-zone considerations and restoration of adjacent planting rather than quoting the finished surface alone."
+    },
+    "faqs": [
+      {
+        "q": "How should existing Colleyville trees affect the work plan?",
+        "a": "Show their position relative to the access route and proposed disturbance. Ask who will assess protection requirements before digging, pruning or attaching decorations."
+      },
+      {
+        "q": "Do roots explain every drainage or paving symptom near a tree?",
+        "a": "No. Describe the symptom and request evidence from the appropriate inspection. Proximity alone does not justify root cutting or tree removal."
+      }
+    ]
+  },
+  "flower-mound": {
+    "heading": "Flower Mound: include changes in level and outdoor connections.",
+    "intro": "The River Walk, Heritage Park and Grapevine Lake provide Flower Mound reference points. Your own yard may connect decks, beds and equipment at different levels; show those connections rather than treating every outdoor task as an isolated patch.",
+    "context": "If the site slopes or backs onto an open area, record drainage observations and the actual carrying route. Do not infer a soil, pest or foundation problem from location alone; ask what property-specific inspection is needed.",
+    "imageAlt": "An aerial view of Flower Mound, Texas.",
+    "checks": [
+      "Steps and grade changes",
+      "Water movement at the site",
+      "Connections between outdoor areas"
+    ],
+    "places": [
+      "River Walk",
+      "Heritage Park",
+      "Grapevine Lake"
+    ],
+    "source": {
+      "label": "Town of Flower Mound: community history",
+      "url": "https://www.flowermound.gov/1281/History"
+    },
+    "serviceNotes": {
+      "pool": "For a Flower Mound pool, show deck levels and pad access and record debris patterns before changing the cleaning plan or assuming an equipment fault.",
+      "hvac": "For Flower Mound HVAC, explain the indoor and outdoor unit locations and any stepped access, with photos of the route from a safe position.",
+      "pest": "For Flower Mound pest activity, record sightings at the building and any adjoining open space separately so the provider can target evidence rather than location assumptions.",
+      "plumbing": "For Flower Mound plumbing, note where surface water appears after rain or irrigation and distinguish that observation from affected indoor fixtures.",
+      "lighting": "For Flower Mound holiday lighting, include changes in ground level and roof access in the layout so installation and removal can be planned safely.",
+      "landscape": "For Flower Mound beds, map existing irrigation and where runoff crosses planting before choosing new mulch, borders or plant positions.",
+      "hardscape": "For a Flower Mound patio or retaining edge, ask how levels, drainage and access will be assessed before excavation quantities and surface finishes are agreed."
+    },
+    "faqs": [
+      {
+        "q": "What should I show where a Flower Mound yard changes level?",
+        "a": "Provide safe ground-level photos of steps, slopes and the route to the work. Ask whether a site visit is needed to confirm levels and drainage before pricing."
+      },
+      {
+        "q": "Does being beside open space determine the pest treatment?",
+        "a": "No. Report actual sightings and accessible entry points. Identification and inspection should determine the plan rather than a nearby trail or green area."
+      }
+    ]
+  },
+  "coppell": {
+    "heading": "Coppell: coordinate access and preserve the existing layout.",
+    "intro": "Old Town, its town square and the Biodiversity Education Center help orient a Coppell visit. Tell the provider whether access is through the house, a side gate or a shared route, and identify the exact work area before arrival.",
+    "context": "If equipment or materials must pass close to a fence, neighbor or established finish, agree on access and protection first. Decide where supplies can be staged and who will restore any disturbed surfaces.",
+    "imageAlt": "Footbridge in Grapevine Springs Preserve in Coppell, Texas.",
+    "checks": [
+      "Side and shared access",
+      "Protection of existing finishes",
+      "Full address and arrival instructions"
+    ],
+    "places": [
+      "Old Town Coppell",
+      "The Square at Old Town",
+      "Biodiversity Education Center"
+    ],
+    "source": {
+      "label": "City of Coppell: Old Town",
+      "url": "https://www.coppelltx.gov/611/Old-Town-Coppell"
+    },
+    "serviceNotes": {
+      "pool": "For a Coppell pool, confirm gate width and the route past fences or planting so the visit can reach the equipment without relying on a neighbor’s access.",
+      "hvac": "For Coppell HVAC, identify where the indoor equipment is reached and whether tools must pass through occupied rooms; arrange access before the inspection.",
+      "pest": "For Coppell pest control, record activity on your side of shared fences and near doors, then ask what boundaries and follow-up the plan actually covers.",
+      "plumbing": "For Coppell plumbing, show accessible service points and finished surfaces around the suspected area so the quote separates investigation from making good.",
+      "lighting": "For Coppell holiday lighting, assess the actual fascia, gutters and available mounting surfaces; an Old Town address alone does not determine a suitable attachment.",
+      "landscape": "For Coppell planting, identify bed edges and narrow maintenance routes so proposed growth and irrigation changes do not block access to equipment.",
+      "hardscape": "For Coppell paving, clarify property edges and delivery routes before layout work, with written responsibility for protecting and restoring adjacent surfaces."
+    },
+    "faqs": [
+      {
+        "q": "How should shared access be arranged for a Coppell visit?",
+        "a": "Explain the route and obtain any necessary permission from the person controlling it. The provider needs a confirmed access plan rather than an assumption about adjoining property."
+      },
+      {
+        "q": "Does an Old Town address dictate the installation method?",
+        "a": "No. Ask what applies to the actual property and surface, and check any relevant approval with the responsible body before alterations are agreed."
+      }
+    ]
+  },
+  "carrollton": {
+    "heading": "Carrollton: identify the building, the entrance and the changed spaces.",
+    "intro": "Historic Downtown, the station and grain silos are recognizable Carrollton references. A service visit needs more precision: provide the building or unit, the correct entrance and the location of the equipment, especially where a property has changed use.",
+    "context": "If a room, garage or separate area was converted, describe the current use and provide available records. Coordinate parking and the path through the property so a contractor can inspect the right system without guessing from the street frontage.",
+    "imageAlt": "The historic depot near Downtown Carrollton Station, photographed in 2019.",
+    "checks": [
+      "Building and unit identification",
+      "Converted or added spaces",
+      "Parking and working access"
+    ],
+    "places": [
+      "Historic Downtown Carrollton",
+      "Downtown Carrollton Station",
+      "Downtown grain silos"
+    ],
+    "source": {
+      "label": "City of Carrollton: Historic Downtown",
+      "url": "https://www.cityofcarrollton.com/residents/amenities/historic-downtown-carrollton"
+    },
+    "serviceNotes": {
+      "pool": "For a Carrollton pool, identify equipment shared with a spa or cleaner and note any previous control changes before the technician assesses performance.",
+      "hvac": "For Carrollton HVAC, explain converted rooms and current occupancy patterns so airflow or comfort concerns are assessed against how the space is used now.",
+      "pest": "For Carrollton pests, describe activity by room or unit and share any property-manager coordination needed before discussing treatment boundaries.",
+      "plumbing": "For Carrollton plumbing, list fixtures affected in an addition or converted space and provide records that may clarify how they connect to the original system.",
+      "lighting": "For Carrollton holiday lights, identify the correct frontage, entry route and supply outlets, including which areas are outside the requested display.",
+      "landscape": "For Carrollton landscape work, separate private beds from shared or managed areas and confirm who can approve changes to irrigation or planting.",
+      "hardscape": "For Carrollton hardscape, identify thresholds, paths and parking that must stay usable while work proceeds, with a staged access plan in the proposal."
+    },
+    "faqs": [
+      {
+        "q": "What if the Carrollton work area has changed since earlier service?",
+        "a": "Describe the current use, layout and symptoms and provide alteration records if available. Ask the provider to assess the present arrangement before recommending changes."
+      },
+      {
+        "q": "Can a downtown landmark replace the full service address?",
+        "a": "No. Provide street number, unit and entrance instructions. Landmarks help orientation but do not identify the work area or confirm access."
+      }
+    ]
+  },
+  "grapevine": {
+    "heading": "Grapevine: clarify exterior changes before agreeing to the work.",
+    "intro": "Main Street, the Cotton Belt rail corridor and Original Town are part of Grapevine’s documented historic context. For a home project, first establish the exact property, its existing materials and whether any exterior review applies to the proposed changes.",
+    "context": "Not every Grapevine address has the same status or requirements. Use the city resource to ask the appropriate office about your address, then have the provider separate investigation, approved alterations and restoration in the scope.",
+    "imageAlt": "Historic Main Street in Grapevine, photographed in October 2012.",
+    "checks": [
+      "Address-specific exterior review",
+      "Existing materials and finishes",
+      "Staging and restoration scope"
+    ],
+    "places": [
+      "Historic Main Street",
+      "Cotton Belt Railroad Historic District",
+      "Original Town Historic District"
+    ],
+    "source": {
+      "label": "City of Grapevine: historic places",
+      "url": "https://www.grapevinetexas.gov/1658/National-Register-of-Historic-Places"
+    },
+    "serviceNotes": {
+      "pool": "For a Grapevine pool, show access past established surfaces and clarify whether any exterior equipment changes need address-specific review before installation.",
+      "hvac": "For Grapevine HVAC, identify visible outdoor equipment and proposed wall or roof penetrations so existing materials and any applicable review are considered.",
+      "pest": "For Grapevine pest exclusion, request evidence of entry points and a repair method appropriate to the existing trim, without treating all exterior gaps alike.",
+      "plumbing": "For Grapevine plumbing, ask how access openings and finish restoration will be handled, particularly where original or difficult-to-match materials remain.",
+      "lighting": "For Grapevine holiday lighting, agree on non-damaging, material-compatible attachments and confirm any address-specific exterior conditions before installation.",
+      "landscape": "For Grapevine planting, document existing beds and frontage features so the proposal distinguishes routine maintenance from a change to the exterior setting.",
+      "hardscape": "For Grapevine hardscape, have the quote address existing paving, material transitions and restoration; confirm any required review before altering the frontage."
+    },
+    "faqs": [
+      {
+        "q": "What exterior review should I ask about at a Grapevine property?",
+        "a": "Check the actual address and proposed alteration with the relevant city office or other responsible body. A historic reference point does not establish the status of every nearby home."
+      },
+      {
+        "q": "How should existing materials be included in a quote?",
+        "a": "Photograph accessible surfaces and ask how openings, attachments and restoration will be handled. Agree on materials and exclusions before work starts."
+      }
+    ]
+  },
+  "lewisville": {
+    "heading": "Lewisville: connect the symptom with the property’s current use.",
+    "intro": "Old Town Main Street, the Grand Theater and Lewisville Lake offer local reference points. A useful service request explains the home’s present layout, the affected area and how the work can be reached, rather than assuming the nearby district explains the fault.",
+    "context": "Where a household is coordinating maintenance, outdoor work or a change in room use, share the sequence and available dates. Ask which tasks depend on another trade so a finished surface is not opened again because access was overlooked.",
+    "imageAlt": "West Main Street in Lewisville, photographed in August 2019.",
+    "checks": [
+      "Sequence of planned work",
+      "Current room and outdoor use",
+      "Access before finishes are completed"
+    ],
+    "places": [
+      "Old Town Main Street",
+      "Lewisville Grand Theater",
+      "Lewisville Lake"
+    ],
+    "source": {
+      "label": "City of Lewisville: Old Town discoveries",
+      "url": "https://www.cityoflewisville.com/about-lewisville/our-history/old-town-discoveries"
+    },
+    "serviceNotes": {
+      "pool": "For a Lewisville pool, share other planned yard work and the current equipment schedule so access and circulation checks can be coordinated without conflicting visits.",
+      "hvac": "For Lewisville HVAC, describe comfort by occupied room and any recent change in use before asking whether controls, air delivery or equipment need attention.",
+      "pest": "For Lewisville pests, record actual activity around the home and storage areas; proximity to the lake does not identify the species or prescribe treatment.",
+      "plumbing": "For Lewisville plumbing, tell the provider about upcoming flooring or cabinet work so necessary investigation and access can be considered before finishes are installed.",
+      "lighting": "For Lewisville holiday lights, include the household’s use of entries, driveways and outdoor areas when agreeing on mounting, timers and removal access.",
+      "landscape": "For Lewisville landscape work, distinguish current maintenance needs from future redesign and ask how irrigation checks fit the order of other yard tasks.",
+      "hardscape": "For Lewisville paving, coordinate drainage assessment and any buried-service investigation before agreeing when the final surface will be laid."
+    },
+    "faqs": [
+      {
+        "q": "Does being near Lewisville Lake mean I need a special service plan?",
+        "a": "Not automatically. Describe the conditions at the property and ask how the findings affect the work. A nearby landmark is context rather than a diagnosis."
+      },
+      {
+        "q": "How should I coordinate several Lewisville home projects?",
+        "a": "Share the proposed order, trades and access needs. Ask which inspections or repairs should happen before new finishes, planting or paving are completed."
+      }
+    ]
   }
 }

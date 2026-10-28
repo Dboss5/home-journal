@@ -1,0 +1,38 @@
+{
+  "hvac": {
+    "allen": "https://supremacyservice.com/heating-hvac-allen-tx/",
+    "richardson": "https://supremacyservice.com/heating-hvac-services-in-richardson-tx-supremacy-service/",
+    "rockwall": "https://supremacyservice.com/tankless-water-heaters-dallas-2/",
+    "southlake": "https://supremacyservice.com/heating-hvac-southlake-tx/",
+    "colleyville": "https://supremacyservice.com/heating-hvac-colleyville-tx/",
+    "flower-mound": "https://supremacyservice.com/heating-hvac-flower-mound-tx/",
+    "coppell": "https://supremacyservice.com/heating-hvac-coppell-tx/",
+    "carrollton": "https://supremacyservice.com/air-conditioning/",
+    "grapevine": "https://supremacyservice.com/air-conditioning/",
+    "lewisville": "https://supremacyservice.com/air-conditioning/"
+  },
+  "pest-control": {
+    "allen": "https://supremacyservice.com/locations/pest-control-allen-tx/",
+    "richardson": "https://supremacyservice.com/locations/pest-control-richardson-tx/",
+    "rockwall": "https://supremacyservice.com/locations/pest-control-rockwall-tx/",
+    "southlake": "https://supremacyservice.com/locations/pest-control-southlake-tx/",
+    "colleyville": "https://supremacyservice.com/locations/pest-control-colleyville-tx/",
+    "flower-mound": "https://supremacyservice.com/locations/pest-control-flower-mound-tx/",
+    "coppell": "https://supremacyservice.com/locations/pest-control-coppell-tx/"
+  },
+  "plumbing": {
+    "allen": "https://supremacyservice.com/locations/industrial/",
+    "richardson": "https://supremacyservice.com/locations/residential-plumbing-richardson/",
+    "rockwall": "https://supremacyservice.com/locations/residential-plumbing-rockwall/",
+    "southlake": "https://supremacyservice.com/locations/residential-plumbing-southlake/",
+    "colleyville": "https://supremacyservice.com/locations/residential-plumbing-colleyville/",
+    "flower-mound": "https://supremacyservice.com/locations/residential-plumbing-flower-mound/",
+    "coppell": "https://supremacyservice.com/locations/residential-plumbing-coppell/",
+    "carrollton": "https://supremacyservice.com/",
+    "grapevine": "https://supremacyservice.com/",
+    "lewisville": "https://supremacyservice.com/"
+  },
+  "pool": {
+    "carrollton": "https://poolburg.com/pool-cleaning-carrollton/"
+  }
+}
